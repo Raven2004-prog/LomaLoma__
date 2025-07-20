@@ -7,7 +7,16 @@ import io
 import pytesseract
 from PIL import Image
 from concurrent.futures import ProcessPoolExecutor, as_completed
-import time
+
+
+def get_next_available_filename(folder, base_name="label", extension=".json"):
+    i = 1
+    while True:
+        filename = f"{base_name}{i}{extension}"
+        full_path = folder / filename
+        if not full_path.exists():
+            return full_path
+        i += 1
 
 
 def extract_text_features(pdf_path):
@@ -135,46 +144,38 @@ def main():
     for pdf_path in pdf_files:
         print(f"📄 Extracting from: {pdf_path.name}")
         text_features, ocr_tasks = extract_text_features(pdf_path)
-        for feat in text_features:
-            feat["pdf_name"] = pdf_path.name
         all_features.extend(text_features)
-        
-        # Store PDF name with OCR tasks
+
         for task in ocr_tasks:
             all_ocr_tasks.append({
                 "pdf_path": task[0],
-                "page_num": task[1],
-                "pdf_name": pdf_path.name
+                "page_num": task[1]
             })
 
     if all_ocr_tasks:
         print(f"🔍 Running OCR fallback for {len(all_ocr_tasks)} pages...")
         future_to_task = {}
-        
+
         with ProcessPoolExecutor() as executor:
-            # Submit all OCR tasks with both path and name
             for task in all_ocr_tasks:
                 future = executor.submit(
-                    ocr_page, 
-                    task["pdf_path"], 
+                    ocr_page,
+                    task["pdf_path"],
                     task["page_num"]
                 )
                 future_to_task[future] = task
-            
-            # Process results as they complete
+
             for future in as_completed(future_to_task):
                 task = future_to_task[future]
                 try:
                     lines = future.result()
-                    for line in lines:
-                        # Add PDF name to each extracted line
-                        line["pdf_name"] = task["pdf_name"]
                     all_features.extend(lines)
-                    print(f"  ✓ OCR completed for {task['pdf_name']} page {task['page_num']+1}")
+                    print(f"  ✓ OCR completed for {task['pdf_path']} page {task['page_num']+1}")
                 except Exception as e:
-                    print(f"❌ OCR failed for {task['pdf_name']} page {task['page_num']+1}: {e}")
+                    print(f"❌ OCR failed for {task['pdf_path']} page {task['page_num']+1}: {e}")
 
-    output_path = output_folder / "features.json"
+    output_path = get_next_available_filename(output_folder)
+
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(all_features, f, indent=2, ensure_ascii=False)
 
