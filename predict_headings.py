@@ -1,55 +1,142 @@
-# predict_headings.py
-
 import json
 import joblib
-import numpy as np
 from pathlib import Path
+import os
+from parallel_parsing_pdf import extract_text_features, ocr_page  # Reuse your existing logic
+import spacy
+from concurrent.futures import ProcessPoolExecutor, as_completed
 
-# Load model and label encoder
-model = joblib.load("models/heading_classifier.joblib")
-le = joblib.load("models/label_encoder.joblib")
+# Load SpaCy NLP pipeline
+nlp = spacy.load("en_core_web_sm", disable=["parser", "textcat"])
 
-# Load features from JSON
-with open("output/features.json", "r", encoding="utf-8") as f:
-    features = json.load(f)
+# Model input features
+features_to_use = [
+    "font_size", "line_width", "line_height", "char_count", "y_position",
+    "is_all_caps", "is_title_case", "starts_with_number", "contains_colon",
+    "contains_year", "word_count", "avg_word_len", "named_entity_ratio"
+]
 
-# Convert to feature vectors
-def feature_vector(feat):
-    return [
-        feat["font_size"],
-        feat["line_width"],
-        feat["line_height"],
-        feat["char_count"],
-        feat["y_position"],
-    ]
+def enrich_entry_with_nlp(entry):
+    text = entry.get("text", "").strip()
+    doc = nlp(text)
 
-X = [feature_vector(f) for f in features]
+    is_all_caps = text.isupper()
+    is_title_case = text.istitle()
+    starts_with_number = text[:2].strip().split(" ")[0].isdigit() if text else False
+    contains_colon = ":" in text
+    contains_year = any(str(y) in text for y in range(1990, 2031))
 
-# Predict labels
-preds = model.predict(X)
-labels = le.inverse_transform(preds)
+    words = [token.text for token in doc if token.is_alpha]
+    word_count = len(words)
+    avg_word_len = sum(len(w) for w in words) / word_count if word_count > 0 else 0
+    ner_count = len([ent for ent in doc.ents])
+    named_entity_ratio = ner_count / word_count if word_count > 0 else 0
 
-# Build output JSON
-outline = []
-title = None
+    return {
+        "is_all_caps": is_all_caps,
+        "is_title_case": is_title_case,
+        "starts_with_number": starts_with_number,
+        "contains_colon": contains_colon,
+        "contains_year": contains_year,
+        "word_count": word_count,
+        "avg_word_len": avg_word_len,
+        "named_entity_ratio": named_entity_ratio
+    }
 
-for f, label in zip(features, labels):
-    if label in {"H1", "H2", "H3"}:
-        if title is None and label == "H1":
-            title = f["text"]
-        outline.append({
-            "level": label,
-            "text": f["text"],
-            "page": f["page"]
-        })
+def run_parser_pipeline():
+    input_folder = Path("input")
+    output_folder = Path("output")
+    output_folder.mkdir(exist_ok=True)
 
-result = {
-    "title": title if title else "Untitled Document",
-    "outline": outline
-}
+    pdf_files = list(input_folder.glob("*.pdf"))
+    if not pdf_files:
+        print("❌ No PDFs found in input/")
+        return None
 
-# Save to output.json
-with open("output.json", "w", encoding="utf-8") as out:
-    json.dump(result, out, indent=2, ensure_ascii=False)
+    all_features = []
+    all_ocr_tasks = []
 
-print("✅ Headings extracted to output.json")
+    for pdf_path in pdf_files:
+        print(f"📄 Parsing: {pdf_path.name}")
+        text_features, ocr_tasks = extract_text_features(pdf_path)
+        for feat in text_features:
+            feat["pdf_name"] = pdf_path.name
+        all_features.extend(text_features)
+
+        for task in ocr_tasks:
+            all_ocr_tasks.append({"pdf_path": task[0], "page_num": task[1], "pdf_name": pdf_path.name})
+
+    if all_ocr_tasks:
+        print(f"🔍 Running OCR on {len(all_ocr_tasks)} pages...")
+        with ProcessPoolExecutor() as executor:
+            future_to_task = {
+                executor.submit(ocr_page, task["pdf_path"], task["page_num"]): task
+                for task in all_ocr_tasks
+            }
+            for future in as_completed(future_to_task):
+                task = future_to_task[future]
+                try:
+                    lines = future.result()
+                    for line in lines:
+                        line["pdf_name"] = task["pdf_name"]
+                    all_features.extend(lines)
+                except Exception as e:
+                    print(f"❌ OCR failed for {task['pdf_path']} page {task['page_num']+1}: {e}")
+
+    output_path = output_folder / "features.json"
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(all_features, f, indent=2, ensure_ascii=False)
+    print(f"✅ Features written to {output_path}")
+    return output_path
+
+def run_inference():
+    features_path = run_parser_pipeline()
+    if features_path is None:
+        return
+
+    # Step 2: Add semantic features
+    with open(features_path, "r", encoding="utf-8") as f:
+        parsed_data = json.load(f)
+
+    enriched_data = []
+    for entry in parsed_data:
+        enriched = enrich_entry_with_nlp(entry)
+        entry.update(enriched)
+        enriched_data.append(entry)
+
+    # Step 3: Load model and predict
+    clf = joblib.load("models/heading_classifier.joblib")
+    le = joblib.load("models/label_encoder.joblib")
+
+    outline = []
+    for entry in enriched_data:
+        try:
+            vec = [
+                float(entry.get(f, 0)) if isinstance(entry.get(f), (int, float))
+                else int(entry.get(f, False))
+                for f in features_to_use
+            ]
+            label_idx = clf.predict([vec])[0]
+            label = le.inverse_transform([label_idx])[0]
+
+            if label in ["H1", "H2", "H3"]:
+                outline.append({
+                    "level": label,
+                    "text": entry["text"],
+                    "page": entry["page"]
+                })
+        except Exception as e:
+            print(f"⚠️ Skipping line due to error: {e}")
+
+    final_output = {
+        "title": enriched_data[0].get("pdf_name", "Untitled Document"),
+        "outline": outline
+    }
+
+    output_path = Path("output") / "output.json"
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(final_output, f, indent=2, ensure_ascii=False)
+    print(f"✅ Final predictions saved to {output_path}")
+
+if __name__ == "__main__":
+    run_inference()
