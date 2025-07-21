@@ -7,7 +7,7 @@ from sklearn.metrics import classification_report
 from sklearn.utils.multiclass import unique_labels
 
 # Load enriched feature dataset
-with open("data/labeled_data_with_features.json", "r", encoding="utf-8") as f:
+with open("label_all.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 # Define features to use (layout + semantic)
@@ -29,16 +29,23 @@ features_to_use = [
 
 X = []
 y = []
+
 for item in data:
     try:
+        label = item.get("label")
+        if label is None:
+            continue  # skip unlabeled data
+
         feature_vector = [
             float(item.get(f, 0)) if isinstance(item.get(f), (int, float)) else int(item.get(f, False))
             for f in features_to_use
         ]
         X.append(feature_vector)
-        y.append(item["label"])
+        y.append(label.strip().upper())
+
     except KeyError as e:
-        print(f"Skipping line due to missing feature: {e}")
+        print(f"⚠️ Skipping line due to missing feature: {e}")
+
 
 # Encode labels (e.g., H1 → 0, H2 → 1, etc.)
 le = LabelEncoder()
