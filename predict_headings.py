@@ -1,47 +1,19 @@
 import json
 import joblib
 from pathlib import Path
-import os
-from parallel_parsing_pdf import extract_text_features, ocr_page  # Reuse your existing logic
-import spacy
 from concurrent.futures import ProcessPoolExecutor, as_completed
+from parallel_parsing_pdf import extract_text_features, ocr_page
+import spacy
 
-# Load SpaCy NLP pipeline
+# Load spaCy model
 nlp = spacy.load("en_core_web_sm", disable=["parser", "textcat"])
 
-# Model input features
+# Features expected by the model
 features_to_use = [
     "font_size", "line_width", "line_height", "char_count", "y_position",
     "is_all_caps", "is_title_case", "starts_with_number", "contains_colon",
     "contains_year", "word_count", "avg_word_len", "named_entity_ratio"
 ]
-
-def enrich_entry_with_nlp(entry):
-    text = entry.get("text", "").strip()
-    doc = nlp(text)
-
-    is_all_caps = text.isupper()
-    is_title_case = text.istitle()
-    starts_with_number = text[:2].strip().split(" ")[0].isdigit() if text else False
-    contains_colon = ":" in text
-    contains_year = any(str(y) in text for y in range(1990, 2031))
-
-    words = [token.text for token in doc if token.is_alpha]
-    word_count = len(words)
-    avg_word_len = sum(len(w) for w in words) / word_count if word_count > 0 else 0
-    ner_count = len([ent for ent in doc.ents])
-    named_entity_ratio = ner_count / word_count if word_count > 0 else 0
-
-    return {
-        "is_all_caps": is_all_caps,
-        "is_title_case": is_title_case,
-        "starts_with_number": starts_with_number,
-        "contains_colon": contains_colon,
-        "contains_year": contains_year,
-        "word_count": word_count,
-        "avg_word_len": avg_word_len,
-        "named_entity_ratio": named_entity_ratio
-    }
 
 def run_parser_pipeline():
     input_folder = Path("input")
@@ -81,7 +53,7 @@ def run_parser_pipeline():
                         line["pdf_name"] = task["pdf_name"]
                     all_features.extend(lines)
                 except Exception as e:
-                    print(f"❌ OCR failed for {task['pdf_path']} page {task['page_num']+1}: {e}")
+                    print(f"❌ OCR failed for {task['pdf_path']} page {task['page_num'] + 1}: {e}")
 
     output_path = output_folder / "features.json"
     with open(output_path, "w", encoding="utf-8") as f:
@@ -94,17 +66,42 @@ def run_inference():
     if features_path is None:
         return
 
-    # Step 2: Add semantic features
+    # Load features
     with open(features_path, "r", encoding="utf-8") as f:
         parsed_data = json.load(f)
 
+    # Fast batch NLP feature enrichment
+    texts = [entry.get("text", "") for entry in parsed_data]
+    docs = list(nlp.pipe(texts, batch_size=64))
+
     enriched_data = []
-    for entry in parsed_data:
-        enriched = enrich_entry_with_nlp(entry)
-        entry.update(enriched)
+    for entry, doc in zip(parsed_data, docs):
+        text = entry.get("text", "")
+        is_all_caps = text.isupper()
+        is_title_case = text.istitle()
+        starts_with_number = text[:2].strip().split(" ")[0].isdigit() if text else False
+        contains_colon = ":" in text
+        contains_year = any(str(y) in text for y in range(1990, 2031))
+
+        words = [token.text for token in doc if token.is_alpha]
+        word_count = len(words)
+        avg_word_len = sum(len(w) for w in words) / word_count if word_count > 0 else 0
+        ner_count = len([ent for ent in doc.ents])
+        named_entity_ratio = ner_count / word_count if word_count > 0 else 0
+
+        entry.update({
+            "is_all_caps": is_all_caps,
+            "is_title_case": is_title_case,
+            "starts_with_number": starts_with_number,
+            "contains_colon": contains_colon,
+            "contains_year": contains_year,
+            "word_count": word_count,
+            "avg_word_len": avg_word_len,
+            "named_entity_ratio": named_entity_ratio
+        })
         enriched_data.append(entry)
 
-    # Step 3: Load model and predict
+    # Load model & label encoder
     clf = joblib.load("models/heading_classifier.joblib")
     le = joblib.load("models/label_encoder.joblib")
 
