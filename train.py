@@ -9,7 +9,7 @@ from sklearn.model_selection import train_test_split
 
 # ======== CONFIGURATION =========
 # Path to your labels JSON file
-LABEL_JSON_PATH = "C:\\Users\\lenovo\\Desktop\\loma_final\\LomaLoma__\\output\\label1.json"  # CHANGE THIS TO YOUR JSON PATH
+LABEL_JSON_PATH = r"C:\documents\adobe_1a\LomaLoma__\data\synthetic_combined.json"  # CHANGE THIS TO YOUR JSON PATH
 # =================================
 
 def group_tokens_into_lines(entries):

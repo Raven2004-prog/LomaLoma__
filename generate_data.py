@@ -13,6 +13,7 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import inch
 from reportlab.lib.enums import TA_CENTER, TA_LEFT
+from statistics import mean, stdev
 
 # ─── Setup ───────────────────────────────────────────────────────────────────────
 fake = Faker(); Faker.seed(42)
@@ -57,11 +58,14 @@ def make_style(name, parent, family, size, alignment,
     )
 
 # ─── Feature Extraction ─────────────────────────────────────────────────────────
-def extract_features(item):
+def extract_features(item, mean_fs, std_fs):
     txt = item["text"]
+    raw_size = item["font_size"]
+    rel_fs = (raw_size - mean_fs) / std_fs if std_fs != 0 else 0.0
     return {
         "text": txt,
-        "font_size": item["font_size"],
+        "font_size": raw_size,
+        "relative_font_size": rel_fs,
         "line_width": item.get("line_width"),
         "line_height": item.get("line_height"),
         "char_count": len(txt),
@@ -74,7 +78,7 @@ def extract_features(item):
         "contains_colon": ':' in txt,
         "contains_year": bool(re.search(r'\b19\d{2}\b|\b20\d{2}\b', txt)),
         "word_count": len(txt.split()),
-        "avg_word_len": sum(len(w) for w in txt.split()) / max(len(txt.split()),1),
+        "avg_word_len": sum(len(w) for w in txt.split()) / max(len(txt.split()), 1),
         "named_entity_ratio": 0.0
     }
 
@@ -133,18 +137,18 @@ def generate_document(doc_id):
             records.append({"text":p_txt, "label":"BODY", "font_size":p_st.fontSize})
 
         # optional H2
-        if random.random()>0.5:
+        if random.random() > 0.5:
             h2_txt = fake.bs().title()
             story.append(Paragraph(h2_txt, h2_st))
             records.append({"text":h2_txt, "label":"H2", "font_size":h2_st.fontSize})
 
             # optional H3 under H2
-            if random.random()>0.5:
+            if random.random() > 0.5:
                 h3_txt = fake.catch_phrase()
                 story.append(Paragraph(h3_txt, h3_st))
                 records.append({"text":h3_txt, "label":"H3", "font_size":h3_st.fontSize})
 
-        if i < pages-1:
+        if i < pages - 1:
             story.append(PageBreak())
 
     # Build PDF
@@ -154,10 +158,15 @@ def generate_document(doc_id):
     # Extract layout
     recs = extract_layout_features(pdf_path, records)
 
+    # Compute stats for relative font size
+    font_sizes = [r["font_size"] for r in recs]
+    mean_fs = mean(font_sizes)
+    std_fs = stdev(font_sizes) if len(font_sizes) > 1 else 0
+
     # Write per-file JSON
     json_path = pdf_path.replace('.pdf', '.labels.json')
     with open(json_path, 'w', encoding='utf-8') as f:
-        json.dump([extract_features(r) for r in recs], f, ensure_ascii=False, indent=2)
+        json.dump([extract_features(r, mean_fs, std_fs) for r in recs], f, ensure_ascii=False, indent=2)
     print(f"Wrote {json_path}")
 
     return True
