@@ -1,59 +1,79 @@
-def build_hierarchy(lines, labels):
-    result = {"title": None, "children": []}
-    stack = [result]  # stack[1] = H1, stack[2] = H2, etc.
+# postprocess.py
 
-    title_candidates = []
-    heading_blocks = []
+import sys
+import os
+import json
+import pickle
+from utils.pdf_util import extract_lines_from_pdf
+from utils.feature_utils import document_to_feature_sequence
+
+MODEL_PATH = "models/crf_model.pkl"
+
+def load_model():
+    with open(MODEL_PATH, "rb") as f:
+        return pickle.load(f)
+
+def predict_labels(model, lines):
+    features = document_to_feature_sequence(lines)
+    predictions = model.predict_single(features)
+    return predictions
+
+def build_outline(lines, labels):
+    outline = []
+    stack = []
 
     for line, label in zip(lines, labels):
-        text = line['text'].strip()
-        if not text:
+        if label == "BODY":
             continue
 
-        if label == "Title":
-            title_candidates.append((line['font_size'], line['y0'], text))
+        level = label.upper()
+        entry = {
+            "level": level,
+            "text": line["text"].strip(),
+            "page": line["page"]
+        }
 
-        elif label.startswith("H"):
-            level = int(label[1])
-            if text == "•":
-                continue  # skip bullet headings
+        while stack and stack[-1]["level"] >= level:
+            stack.pop()
 
-            node = {"heading": text, "children": [], "content": []}
-            while len(stack) > level:
-                stack.pop()
-            stack[-1]["children"].append(node)
-            stack.append(node)
-            heading_blocks.append((text, line['font_size'], line['y0']))
+        if not stack:
+            outline.append(entry)
+        else:
+            parent = stack[-1]
+            parent.setdefault("children", []).append(entry)
 
-        elif label == "BODY":
-            if len(stack) > 1:
-                stack[-1]["content"].append(text)
-            else:
-                result.setdefault("content", []).append(text)
+        stack.append(entry)
 
-    # Improved title logic: check first 2 heading blocks
-    if not result["title"] and heading_blocks:
-        for text, size, y in heading_blocks[:2]:
-            if len(text.strip().split()) > 3 and text != "•":
-                result["title"] = text
-                break
+    return outline
 
-    return result
+def main(pdf_path):
+    if not os.path.exists(pdf_path):
+        print(f"File not found: {pdf_path}")
+        return
 
+    basename = os.path.splitext(os.path.basename(pdf_path))[0]
+    model = load_model()
+
+    lines = extract_lines_from_pdf(pdf_path)
+    labels = predict_labels(model, lines)
+
+    title = basename
+    outline = build_outline(lines, labels)
+
+    output = {
+        "title": title,
+        "outline": outline
+    }
+
+    os.makedirs("output", exist_ok=True)
+    output_path = os.path.join("output", f"{basename}.json")
+    with open(output_path, "w") as f:
+        json.dump(output, f, indent=2)
+
+    print(f"Outline written to {output_path}")
 
 if __name__ == "__main__":
-    import sys, json, os
-    from predict import predict_labels
-
     if len(sys.argv) != 2:
         print("Usage: python postprocess.py <path_to_pdf>")
-        sys.exit(1)
-
-    pdf_path = sys.argv[1]
-    lines, labels = predict_labels(pdf_path)
-    hierarchy = build_hierarchy(lines, labels)
-
-    if not hierarchy["title"]:
-        hierarchy["title"] = os.path.splitext(os.path.basename(pdf_path))[0]
-
-    print(json.dumps(hierarchy, indent=2, ensure_ascii=False))
+    else:
+        main(sys.argv[1])

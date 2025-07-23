@@ -1,50 +1,39 @@
-# train.py
 import os
 import json
 import pickle
-from sklearn_crfsuite import CRF
-from sklearn_crfsuite import metrics
+from glob import glob
+from sklearn_crfsuite import CRF, metrics
 from sklearn.model_selection import train_test_split
 
-DATASET_PATH = "dataset.jsonl"
+DATA_DIR = "data/synthetic2"
 
 
-def load_dataset(jsonl_path="dataset.jsonl"):
+def load_dataset():
     X, y = [], []
-    with open(jsonl_path, "r", encoding="utf-8") as f:
-        for line_num, line in enumerate(f, 1):
+    all_files = glob("data/synthetic*/doc_*.json")
+
+    for file_path in all_files:
+        with open(file_path, 'r') as f:
             try:
-                items = json.loads(line)
-
-                if not isinstance(items, list):
-                    print(f"⚠️ Skipping line {line_num}: not a list")
+                lines = json.load(f)
+                if not isinstance(lines, list):
                     continue
-
-                # Synthetic format
-                if "features" in items[0]:
-                    x_seq = [item["features"] for item in items]
-                    y_seq = [item["label"].upper() for item in items]
-
-                # Manual format
-                else:
-                    feature_keys = set(items[0].keys()) - {"text", "label"}
-                    x_seq = [{k: item[k] for k in feature_keys} for item in items]
-                    y_seq = [item["label"].upper() for item in items]
-
-                if len(x_seq) != len(y_seq):
-                    print(f"⚠️ Skipping line {line_num}: X and Y length mismatch")
-                    continue
-
-                X.append(x_seq)
-                y.append(y_seq)
-
-            except Exception as e:
-                print(f"⚠️ Skipping line {line_num} due to error: {e}")
-
+                features_seq = []
+                labels_seq = []
+                for entry in lines:
+                    try:
+                        features = {k: v for k, v in entry.items() if k not in {"label", "text"}}
+                        label = entry["label"].upper()
+                        features_seq.append(features)
+                        labels_seq.append(label)
+                    except:
+                        continue
+                if features_seq and labels_seq and len(features_seq) == len(labels_seq):
+                    X.append(features_seq)
+                    y.append(labels_seq)
+            except:
+                continue
     return X, y
-
-
-
 
 
 def train_crf(X_train, y_train):

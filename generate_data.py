@@ -1,130 +1,177 @@
-# generate_data.py
 import os
 import json
 import random
-import argparse
+import re
+from glob import glob
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.pagesizes import A4
-from reportlab.lib.units import inch
 from reportlab.lib.enums import TA_LEFT, TA_CENTER
-
-from utils.pdf_util import extract_lines_from_pdf
-from utils.feature_utils import document_to_feature_sequence
+from reportlab.lib.units import inch
 
 output_dir = "data/synthetic"
 os.makedirs(output_dir, exist_ok=True)
+OUTPUT_JSONL = os.path.join(output_dir, "synthetic_data.jsonl")
 
-FONT_NAMES = ["Helvetica", "Courier", "Times-Roman"]
+FONT_NAMES = ["Helvetica", "Times-Roman", "Courier"]
 ALIGNMENTS = [TA_LEFT, TA_CENTER]
 
-def make_font_name(base, bold, italic):
-    base = base.lower()
-    if base == "times-roman":
-        if bold and italic:
-            return "Times-BoldItalic"
-        elif bold:
-            return "Times-Bold"
-        elif italic:
-            return "Times-Italic"
-        else:
-            return "Times-Roman"
-    elif base == "courier":
-        if bold and italic:
-            return "Courier-BoldOblique"
-        elif bold:
-            return "Courier-Bold"
-        elif italic:
-            return "Courier-Oblique"
-        else:
-            return "Courier"
-    else:
-        if bold and italic:
-            return "Helvetica-BoldOblique"
-        elif bold:
-            return "Helvetica-Bold"
-        elif italic:
-            return "Helvetica-Oblique"
-        else:
-            return "Helvetica"
+styles = getSampleStyleSheet()
 
-def make_heading_style(base, font_size, font_family, alignment, bold=True, italic=False):
-    font_name = make_font_name(font_family, bold, italic)
+def make_font_name(base, bold, italic):
+    if base == "Times-Roman":
+        return "Times-BoldItalic" if bold and italic else \
+               "Times-Bold" if bold else \
+               "Times-Italic" if italic else "Times-Roman"
+    elif base == "Courier":
+        return "Courier-BoldOblique" if bold and italic else \
+               "Courier-Bold" if bold else \
+               "Courier-Oblique" if italic else "Courier"
+    else:
+        return "Helvetica-BoldOblique" if bold and italic else \
+               "Helvetica-Bold" if bold else \
+               "Helvetica-Oblique" if italic else "Helvetica"
+
+def make_style(base, size, font, align, bold=True, italic=False):
     return ParagraphStyle(
-        name=f"{font_name}_{font_size}_{bold}_{italic}",
+        name=f"{font}_{size}_{bold}_{italic}",
         parent=base,
-        fontName=font_name,
-        fontSize=font_size,
-        spaceAfter=random.randint(6, 14),
-        leftIndent=random.choice([0, 20]),
-        alignment=alignment
+        fontName=make_font_name(font, bold, italic),
+        fontSize=size,
+        alignment=align,
+        spaceAfter=random.uniform(5, 20),
+        leftIndent=random.choice([0, 15, 30])
     )
 
-def generate_document(doc_id):
-    story = []
-    labels = []
+def extract_features(line, page_height, page_width, median_font_size, prev_line=None):
+    text = line["text"]
+    y0 = line["y0"]
+    x0 = line["x0"]
+    width = line["width"]
 
+    features = {
+        "y_position": round(y0, 2),
+        "width_ratio": round(width / page_width, 2),
+        "vertical_gap": round(y0 - prev_line["y1"], 2) if prev_line else 0.0,
+        "font_size_ratio": round(line["font_size"] / median_font_size, 2),
+        "has_numeric_prefix": int(bool(re.match(r'^[0-9]+(\.[0-9]+)*', text))),
+        "word_count": len(text.strip().split()),
+        "center_deviation": round(abs((page_width / 2) - (x0 + width / 2)) / page_width, 2),
+        "size_vs_prev": round(line["font_size"] / prev_line["font_size"], 2) if prev_line else 1.0,
+        "page_top_distance": round(y0 / page_height, 2)
+    }
+    return features
+
+def simulate_pdf_lines(doc_id):
+    styles = getSampleStyleSheet()
     font = random.choice(FONT_NAMES)
     align = random.choice(ALIGNMENTS)
-    use_italic = random.choice([True, False])
+    italic = random.choice([True, False])
+    base_size = 11
 
-    ambiguous_styles = random.random() < 0.3
-    base_size = 11 if ambiguous_styles else None
-
-    styles = getSampleStyleSheet()
     heading_styles = {
-        "Title": make_heading_style(styles['Heading1'], base_size or 24, font, align, bold=True, italic=use_italic),
-        "H1": make_heading_style(styles['Heading2'], base_size or 20, font, align, bold=True, italic=use_italic),
-        "H2": make_heading_style(styles['Heading3'], base_size or 16, font, align, bold=False, italic=use_italic),
-        "H3": make_heading_style(styles['Heading4'], base_size or 14, font, align, bold=False, italic=use_italic),
-        "BODY": make_heading_style(styles['BodyText'], 11, font, TA_LEFT, bold=False, italic=use_italic)
+        "TITLE": make_style(styles["Heading1"], 26, font, align, bold=True, italic=italic),
+        "H1": make_style(styles["Heading2"], 22, font, align, bold=True, italic=italic),
+        "H2": make_style(styles["Heading3"], 18, font, align, bold=False, italic=italic),
+        "H3": make_style(styles["Heading4"], 14, font, align, bold=False, italic=italic),
+        "BODY": make_style(styles["BodyText"], base_size, font, TA_LEFT, bold=False, italic=italic)
     }
 
-    story.append(Paragraph("Sample Document Title", heading_styles["Title"]))
-    labels.append("Title")
-    story.append(Spacer(1, 0.2 * inch))
+    story = []
+    raw_lines = []
+
+    def add_line(text, label, style):
+        para = Paragraph(text, style)
+        story.append(para)
+        story.append(Spacer(1, 0.1 * inch))
+        raw_lines.append((text, label, style.fontSize))
+
+    add_line("Sample Document Title", "TITLE", heading_styles["TITLE"])
 
     for i in range(3):
-        story.append(Paragraph(f"{i+1}. Section {i+1}", heading_styles["H1"]))
-        labels.append("H1")
+        add_line(f"{i+1}. Section {i+1}", "H1", heading_styles["H1"])
         for j in range(2):
-            story.append(Paragraph(f"{i+1}.{j+1} Subsection", heading_styles["H2"]))
-            labels.append("H2")
+            add_line(f"{i+1}.{j+1} Subsection", "H2", heading_styles["H2"])
             for k in range(2):
-                story.append(Paragraph(f"{i+1}.{j+1}.{k+1} Detail Header", heading_styles["H3"]))
-                labels.append("H3")
+                add_line(f"{i+1}.{j+1}.{k+1} Detail Header", "H3", heading_styles["H3"])
                 for _ in range(3):
-                    story.append(Paragraph(
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", heading_styles["BODY"]
-                    ))
-                    labels.append("BODY")
+                    add_line("Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "BODY", heading_styles["BODY"])
+
+    return story, raw_lines
+
+def generate_and_save_features(doc_id):
+    from reportlab.pdfgen import canvas
+    from PyPDF2 import PdfReader
 
     pdf_path = os.path.join(output_dir, f"doc_{doc_id}.pdf")
-    json_path = os.path.join(output_dir, f"doc_{doc_id}.json")
+    json_entries = []
+
+    story, raw_lines = simulate_pdf_lines(doc_id)
 
     doc = SimpleDocTemplate(pdf_path, pagesize=A4)
     doc.build(story)
 
-    # Now extract lines and generate feature-rich json
-    lines = extract_lines_from_pdf(pdf_path)
-    features = document_to_feature_sequence(lines)
-    structured = []
-    for i in range(min(len(features), len(labels))):
-        structured.append({
-            "text": lines[i]["text"],
-            "features": features[i],
-            "label": labels[i]
-        })
+    # Re-parse rendered PDF to extract bbox and page info
+    import fitz  # PyMuPDF
+    pdf = fitz.open(pdf_path)
+    for page_num, page in enumerate(pdf):
+        blocks = page.get_text("dict")["blocks"]
+        lines = []
+        for block in blocks:
+            for line in block.get("lines", []):
+                text = "".join([span["text"] for span in line["spans"]]).strip()
+                if len(re.sub(r'[^A-Za-z0-9]', '', text)) < 3:
+                    continue
+                span = line["spans"][0]
+                lines.append({
+                    "text": text,
+                    "font_size": span["size"],
+                    "x0": span["bbox"][0],
+                    "x1": span["bbox"][2],
+                    "y0": span["bbox"][1],
+                    "y1": span["bbox"][3],
+                    "width": span["bbox"][2] - span["bbox"][0],
+                    "page": page_num,
+                    "page_width": page.rect.width,
+                    "page_height": page.rect.height
+                })
 
-    with open(json_path, "w", encoding="utf-8") as f:
-        json.dump(structured, f, indent=2)
+        font_sizes = [l["font_size"] for l in lines]
+        median = sum(font_sizes) / len(font_sizes) if font_sizes else 12
+        prev = None
+
+        for line in lines:
+            features = extract_features(line, line["page_height"], line["page_width"], median, prev)
+            matched_label = match_label(line["text"], raw_lines)
+            json_entries.append({
+                "text": line["text"],
+                "label": matched_label,
+                **features
+            })
+            prev = line
+
+    # Append to synthetic_data.jsonl
+    with open(OUTPUT_JSONL, "a", encoding="utf-8") as f:
+        for entry in json_entries:
+            json.dump(entry, f)
+            f.write("\n")
+
+def match_label(text, raw_lines):
+    for raw_text, label, _ in raw_lines:
+        if text.strip() in raw_text.strip():
+            return label
+    return "BODY"
 
 if __name__ == "__main__":
+    import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument("--num", type=int, default=10, help="Number of synthetic documents to generate")
+    parser.add_argument("--num", type=int, default=10, help="Number of documents")
     args = parser.parse_args()
 
-    for i in range(args.num):
-        generate_document(i)
+    if os.path.exists(OUTPUT_JSONL):
+        os.remove(OUTPUT_JSONL)
 
-    print(f"{args.num} synthetic documents generated in {output_dir}.")
+    for i in range(args.num):
+        generate_and_save_features(i)
+
+    print(f"{args.num} synthetic PDFs created and saved to {OUTPUT_JSONL}")
