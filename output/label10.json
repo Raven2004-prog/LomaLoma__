@@ -1,0 +1,422 @@
+[
+  {
+    "text": "Section 1: H1 Heading",
+    "font_size": 18.0,
+    "line_width": 190.04400634765625,
+    "line_height": 24.78600311279297,
+    "char_count": 21,
+    "page": 0,
+    "y_position": 76.73999786376953,
+    "label": "H1"
+  },
+  {
+    "text": "This is body text under H1.",
+    "font_size": 10.0,
+    "line_width": 118.93998718261719,
+    "line_height": 13.739997863769531,
+    "char_count": 27,
+    "page": 0,
+    "y_position": 109.25,
+    "label": "BODY"
+  },
+  {
+    "text": "Section 1.1: H2 Subheading",
+    "font_size": 14.0,
+    "line_width": 184.3800048828125,
+    "line_height": 19.277999877929688,
+    "char_count": 26,
+    "page": 0,
+    "y_position": 136.02000427246094,
+    "label": "H2"
+  },
+  {
+    "text": "This is some more body text under H2.",
+    "font_size": 10.0,
+    "line_width": 171.72998046875,
+    "line_height": 13.740005493164062,
+    "char_count": 37,
+    "page": 0,
+    "y_position": 162.25,
+    "label": "BODY"
+  },
+  {
+    "text": "Section 1.1.1: H3 Sub-subheading",
+    "font_size": 12.0,
+    "line_width": 193.3800048828125,
+    "line_height": 16.583999633789062,
+    "char_count": 32,
+    "page": 0,
+    "y_position": 184.12399291992188,
+    "label": "H3"
+  },
+  {
+    "text": "And this is body text under H3.",
+    "font_size": 10.0,
+    "line_width": 136.17999267578125,
+    "line_height": 13.740005493164062,
+    "char_count": 31,
+    "page": 0,
+    "y_position": 204.25,
+    "label": "BODY"
+  },
+  {
+    "text": "Section 1.1.2: H3 Sub-subheading",
+    "font_size": 12.0,
+    "line_width": 193.3800048828125,
+    "line_height": 16.584014892578125,
+    "char_count": 32,
+    "page": 0,
+    "y_position": 240.52395629882812,
+    "label": "H3"
+  },
+  {
+    "text": "And this is body text under H3.",
+    "font_size": 10.0,
+    "line_width": 136.17999267578125,
+    "line_height": 13.739990234375,
+    "char_count": 31,
+    "page": 0,
+    "y_position": 260.64996337890625,
+    "label": "BODY"
+  },
+  {
+    "text": "Section 1.2: H2 Subheading",
+    "font_size": 14.0,
+    "line_width": 184.3800048828125,
+    "line_height": 19.27801513671875,
+    "char_count": 26,
+    "page": 0,
+    "y_position": 301.8199768066406,
+    "label": "H2"
+  },
+  {
+    "text": "This is some more body text under H2.",
+    "font_size": 10.0,
+    "line_width": 171.72998046875,
+    "line_height": 13.739990234375,
+    "char_count": 37,
+    "page": 0,
+    "y_position": 328.0499572753906,
+    "label": "BODY"
+  },
+  {
+    "text": "Section 1.2.1: H3 Sub-subheading",
+    "font_size": 12.0,
+    "line_width": 193.3800048828125,
+    "line_height": 16.584014892578125,
+    "char_count": 32,
+    "page": 0,
+    "y_position": 349.9239501953125,
+    "label": "H3"
+  },
+  {
+    "text": "And this is body text under H3.",
+    "font_size": 10.0,
+    "line_width": 136.17999267578125,
+    "line_height": 13.739990234375,
+    "char_count": 31,
+    "page": 0,
+    "y_position": 370.0499572753906,
+    "label": "BODY"
+  },
+  {
+    "text": "Section 1.2.2: H3 Sub-subheading",
+    "font_size": 12.0,
+    "line_width": 193.3800048828125,
+    "line_height": 16.584014892578125,
+    "char_count": 32,
+    "page": 0,
+    "y_position": 406.323974609375,
+    "label": "H3"
+  },
+  {
+    "text": "And this is body text under H3.",
+    "font_size": 10.0,
+    "line_width": 136.17999267578125,
+    "line_height": 13.739990234375,
+    "char_count": 31,
+    "page": 0,
+    "y_position": 426.4499816894531,
+    "label": "BODY"
+  },
+  {
+    "text": "Section 2: H1 Heading",
+    "font_size": 18.0,
+    "line_width": 190.04400634765625,
+    "line_height": 24.7860107421875,
+    "char_count": 21,
+    "page": 0,
+    "y_position": 472.3399658203125,
+    "label": "H1"
+  },
+  {
+    "text": "This is body text under H1.",
+    "font_size": 10.0,
+    "line_width": 118.93998718261719,
+    "line_height": 13.739990234375,
+    "char_count": 27,
+    "page": 0,
+    "y_position": 504.8499755859375,
+    "label": "BODY"
+  },
+  {
+    "text": "Section 2.1: H2 Subheading",
+    "font_size": 14.0,
+    "line_width": 184.3800048828125,
+    "line_height": 19.2779541015625,
+    "char_count": 26,
+    "page": 0,
+    "y_position": 531.6199951171875,
+    "label": "H2"
+  },
+  {
+    "text": "This is some more body text under H2.",
+    "font_size": 10.0,
+    "line_width": 171.72998046875,
+    "line_height": 13.739990234375,
+    "char_count": 37,
+    "page": 0,
+    "y_position": 557.8499755859375,
+    "label": "BODY"
+  },
+  {
+    "text": "Section 2.1.1: H3 Sub-subheading",
+    "font_size": 12.0,
+    "line_width": 193.3800048828125,
+    "line_height": 16.583984375,
+    "char_count": 32,
+    "page": 0,
+    "y_position": 579.7239990234375,
+    "label": "H3"
+  },
+  {
+    "text": "And this is body text under H3.",
+    "font_size": 10.0,
+    "line_width": 136.17999267578125,
+    "line_height": 13.739990234375,
+    "char_count": 31,
+    "page": 0,
+    "y_position": 599.8499755859375,
+    "label": "BODY"
+  },
+  {
+    "text": "Section 2.1.2: H3 Sub-subheading",
+    "font_size": 12.0,
+    "line_width": 193.3800048828125,
+    "line_height": 16.583984375,
+    "char_count": 32,
+    "page": 0,
+    "y_position": 636.1240234375,
+    "label": "H3"
+  },
+  {
+    "text": "And this is body text under H3.",
+    "font_size": 10.0,
+    "line_width": 136.17999267578125,
+    "line_height": 13.739990234375,
+    "char_count": 31,
+    "page": 0,
+    "y_position": 656.25,
+    "label": "BODY"
+  },
+  {
+    "text": "Section 2.2: H2 Subheading",
+    "font_size": 14.0,
+    "line_width": 184.3800048828125,
+    "line_height": 19.2779541015625,
+    "char_count": 26,
+    "page": 0,
+    "y_position": 697.4199829101562,
+    "label": "H2"
+  },
+  {
+    "text": "This is some more body text under H2.",
+    "font_size": 10.0,
+    "line_width": 171.72998046875,
+    "line_height": 13.739990234375,
+    "char_count": 37,
+    "page": 0,
+    "y_position": 723.6499633789062,
+    "label": "BODY"
+  },
+  {
+    "text": "Section 2.2.1: H3 Sub-subheading",
+    "font_size": 12.0,
+    "line_width": 193.3800048828125,
+    "line_height": 16.583984375,
+    "char_count": 32,
+    "page": 0,
+    "y_position": 745.5240478515625,
+    "label": "H3"
+  },
+  {
+    "text": "And this is body text under H3.",
+    "font_size": 10.0,
+    "line_width": 136.17999267578125,
+    "line_height": 13.739997863769531,
+    "char_count": 31,
+    "page": 1,
+    "y_position": 77.25,
+    "label": "BODY"
+  },
+  {
+    "text": "Section 2.2.2: H3 Sub-subheading",
+    "font_size": 12.0,
+    "line_width": 193.3800048828125,
+    "line_height": 16.58399200439453,
+    "char_count": 32,
+    "page": 1,
+    "y_position": 113.52396392822266,
+    "label": "H3"
+  },
+  {
+    "text": "And this is body text under H3.",
+    "font_size": 10.0,
+    "line_width": 136.17999267578125,
+    "line_height": 13.740005493164062,
+    "char_count": 31,
+    "page": 1,
+    "y_position": 133.64996337890625,
+    "label": "BODY"
+  },
+  {
+    "text": "Section 3: H1 Heading",
+    "font_size": 18.0,
+    "line_width": 190.04400634765625,
+    "line_height": 24.785995483398438,
+    "char_count": 21,
+    "page": 1,
+    "y_position": 179.5399932861328,
+    "label": "H1"
+  },
+  {
+    "text": "This is body text under H1.",
+    "font_size": 10.0,
+    "line_width": 118.93998718261719,
+    "line_height": 13.740005493164062,
+    "char_count": 27,
+    "page": 1,
+    "y_position": 212.04998779296875,
+    "label": "BODY"
+  },
+  {
+    "text": "Section 3.1: H2 Subheading",
+    "font_size": 14.0,
+    "line_width": 184.3800048828125,
+    "line_height": 19.277999877929688,
+    "char_count": 26,
+    "page": 1,
+    "y_position": 238.8199920654297,
+    "label": "H2"
+  },
+  {
+    "text": "This is some more body text under H2.",
+    "font_size": 10.0,
+    "line_width": 171.72998046875,
+    "line_height": 13.739990234375,
+    "char_count": 37,
+    "page": 1,
+    "y_position": 265.04998779296875,
+    "label": "BODY"
+  },
+  {
+    "text": "Section 3.1.1: H3 Sub-subheading",
+    "font_size": 12.0,
+    "line_width": 193.3800048828125,
+    "line_height": 16.584014892578125,
+    "char_count": 32,
+    "page": 1,
+    "y_position": 286.9239807128906,
+    "label": "H3"
+  },
+  {
+    "text": "And this is body text under H3.",
+    "font_size": 10.0,
+    "line_width": 136.17999267578125,
+    "line_height": 13.739990234375,
+    "char_count": 31,
+    "page": 1,
+    "y_position": 307.04998779296875,
+    "label": "BODY"
+  },
+  {
+    "text": "Section 3.1.2: H3 Sub-subheading",
+    "font_size": 12.0,
+    "line_width": 193.3800048828125,
+    "line_height": 16.584014892578125,
+    "char_count": 32,
+    "page": 1,
+    "y_position": 343.323974609375,
+    "label": "H3"
+  },
+  {
+    "text": "And this is body text under H3.",
+    "font_size": 10.0,
+    "line_width": 136.17999267578125,
+    "line_height": 13.739990234375,
+    "char_count": 31,
+    "page": 1,
+    "y_position": 363.4499816894531,
+    "label": "BODY"
+  },
+  {
+    "text": "Section 3.2: H2 Subheading",
+    "font_size": 14.0,
+    "line_width": 184.3800048828125,
+    "line_height": 19.27801513671875,
+    "char_count": 26,
+    "page": 1,
+    "y_position": 404.6199645996094,
+    "label": "H2"
+  },
+  {
+    "text": "This is some more body text under H2.",
+    "font_size": 10.0,
+    "line_width": 171.72998046875,
+    "line_height": 13.739990234375,
+    "char_count": 37,
+    "page": 1,
+    "y_position": 430.8499755859375,
+    "label": "BODY"
+  },
+  {
+    "text": "Section 3.2.1: H3 Sub-subheading",
+    "font_size": 12.0,
+    "line_width": 193.3800048828125,
+    "line_height": 16.584014892578125,
+    "char_count": 32,
+    "page": 1,
+    "y_position": 452.7239685058594,
+    "label": "H3"
+  },
+  {
+    "text": "And this is body text under H3.",
+    "font_size": 10.0,
+    "line_width": 136.17999267578125,
+    "line_height": 13.739990234375,
+    "char_count": 31,
+    "page": 1,
+    "y_position": 472.8499755859375,
+    "label": "BODY"
+  },
+  {
+    "text": "Section 3.2.2: H3 Sub-subheading",
+    "font_size": 12.0,
+    "line_width": 193.3800048828125,
+    "line_height": 16.584014892578125,
+    "char_count": 32,
+    "page": 1,
+    "y_position": 509.1239929199219,
+    "label": "H3"
+  },
+  {
+    "text": "And this is body text under H3.",
+    "font_size": 10.0,
+    "line_width": 136.17999267578125,
+    "line_height": 13.739990234375,
+    "char_count": 31,
+    "page": 1,
+    "y_position": 529.25,
+    "label": "BODY"
+  }
+]

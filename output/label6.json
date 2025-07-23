@@ -1,0 +1,2232 @@
+[
+  {
+    "text": "Page 1",
+    "font_size": 11.0,
+    "line_width": 41.12469482421875,
+    "line_height": 14.89398193359375,
+    "char_count": 6,
+    "page": 0,
+    "y_position": 744.4390258789062,
+    "label": "BODY"
+  },
+  {
+    "text": "Headings in Documents",
+    "font_size": 40.0,
+    "line_width": 340.3999786376953,
+    "line_height": 45.44000244140625,
+    "char_count": 21,
+    "page": 0,
+    "y_position": 146.919921875,
+    "label": "H1"
+  },
+  {
+    "text": "I ntroduction",
+    "font_size": 20.399999618530273,
+    "line_width": 86.27027893066406,
+    "line_height": 27.263992309570312,
+    "char_count": 13,
+    "page": 0,
+    "y_position": 201.84793090820312,
+    "label": "H1"
+  },
+  {
+    "text": "Headings are vital for accessibility because they provide structure, helping users navigate the",
+    "font_size": 11.0,
+    "line_width": 523.029296875,
+    "line_height": 14.894012451171875,
+    "char_count": 95,
+    "page": 0,
+    "y_position": 245.87887573242188,
+    "label": "BODY"
+  },
+  {
+    "text": "document easily. They enable screen readers to identify sections, allowing efficient jumps to",
+    "font_size": 11.0,
+    "line_width": 515.5624389648438,
+    "line_height": 14.894012451171875,
+    "char_count": 93,
+    "page": 0,
+    "y_position": 259.0790100097656,
+    "label": "BODY"
+  },
+  {
+    "text": "specific content. Headings also give context to topics, enhancing comprehension. Properly",
+    "font_size": 11.0,
+    "line_width": 503.14019775390625,
+    "line_height": 14.894012451171875,
+    "char_count": 89,
+    "page": 0,
+    "y_position": 272.2790222167969,
+    "label": "BODY"
+  },
+  {
+    "text": "formatted headings improve visual organization, benefiting all users, including those with",
+    "font_size": 11.0,
+    "line_width": 499.83355712890625,
+    "line_height": 14.894012451171875,
+    "char_count": 90,
+    "page": 0,
+    "y_position": 285.4790344238281,
+    "label": "BODY"
+  },
+  {
+    "text": "cognitive disabilities. Overall, using headings significantly enhances document accessibility and",
+    "font_size": 11.0,
+    "line_width": 530.5047607421875,
+    "line_height": 14.894012451171875,
+    "char_count": 97,
+    "page": 0,
+    "y_position": 298.6790466308594,
+    "label": "BODY"
+  },
+  {
+    "text": "usability.",
+    "font_size": 11.0,
+    "line_width": 48.981895446777344,
+    "line_height": 14.894012451171875,
+    "char_count": 10,
+    "page": 0,
+    "y_position": 311.8790588378906,
+    "label": "BODY"
+  },
+  {
+    "text": "T able of C ontents",
+    "font_size": 16.799999237060547,
+    "line_width": 123.33428955078125,
+    "line_height": 27.264007568359375,
+    "char_count": 19,
+    "page": 0,
+    "y_position": 347.00799560546875,
+    "label": "H1"
+  },
+  {
+    "text": "Introduction............................................................................................................. 1",
+    "font_size": 11.0,
+    "line_width": 523.0006713867188,
+    "line_height": 15.125,
+    "char_count": 123,
+    "page": 0,
+    "y_position": 387.8080139160156,
+    "label": "BODY"
+  },
+  {
+    "text": "Setting Up the Document Properties ..........................................................................2",
+    "font_size": 11.0,
+    "line_width": 523.0059814453125,
+    "line_height": 15.12799072265625,
+    "char_count": 110,
+    "page": 0,
+    "y_position": 409.0050048828125,
+    "label": "BODY"
+  },
+  {
+    "text": "Document Title.........................................................................................................2",
+    "font_size": 11.0,
+    "line_width": 511.0070495605469,
+    "line_height": 14.899017333984375,
+    "char_count": 120,
+    "page": 0,
+    "y_position": 428.4339904785156,
+    "label": "BODY"
+  },
+  {
+    "text": "Setting the Document Title......................................................................................2",
+    "font_size": 11.0,
+    "line_width": 499.00396728515625,
+    "line_height": 14.899017333984375,
+    "char_count": 113,
+    "page": 0,
+    "y_position": 447.6340026855469,
+    "label": "BODY"
+  },
+  {
+    "text": "Setting PDF Metadata to Use the Document Title.............................................................. 4",
+    "font_size": 11.0,
+    "line_width": 511.0049743652344,
+    "line_height": 14.89898681640625,
+    "char_count": 110,
+    "page": 0,
+    "y_position": 466.8340148925781,
+    "label": "BODY"
+  },
+  {
+    "text": "Setting the Language in PDF........................................................................................... 5",
+    "font_size": 11.0,
+    "line_width": 511.0049743652344,
+    "line_height": 14.899017333984375,
+    "char_count": 120,
+    "page": 0,
+    "y_position": 486.03399658203125,
+    "label": "BODY"
+  },
+  {
+    "text": "Full Accessibility Check on Document ...................................................................... 6",
+    "font_size": 11.0,
+    "line_width": 523.00390625,
+    "line_height": 15.12799072265625,
+    "char_count": 109,
+    "page": 0,
+    "y_position": 507.0050048828125,
+    "label": "BODY"
+  },
+  {
+    "text": "Full Accessibility Check - Newer Versions of Adobe ........................................................6",
+    "font_size": 11.0,
+    "line_width": 511.0070495605469,
+    "line_height": 14.89898681640625,
+    "char_count": 108,
+    "page": 0,
+    "y_position": 526.4340209960938,
+    "label": "BODY"
+  },
+  {
+    "text": "Full Accessibility Check Older Versions of Adobe Acrobat.................................................8",
+    "font_size": 11.0,
+    "line_width": 511.0049743652344,
+    "line_height": 14.89898681640625,
+    "char_count": 106,
+    "page": 0,
+    "y_position": 545.634033203125,
+    "label": "BODY"
+  },
+  {
+    "text": "Headings................................................................................................................. 10",
+    "font_size": 11.0,
+    "line_width": 523.0045776367188,
+    "line_height": 15.1280517578125,
+    "char_count": 124,
+    "page": 0,
+    "y_position": 566.60498046875,
+    "label": "BODY"
+  },
+  {
+    "text": "Level 1 Headings....................................................................................................10",
+    "font_size": 11.0,
+    "line_width": 511.0092468261719,
+    "line_height": 14.89898681640625,
+    "char_count": 118,
+    "page": 0,
+    "y_position": 586.0339965820312,
+    "label": "BODY"
+  },
+  {
+    "text": "Level 2 Headings....................................................................................................13",
+    "font_size": 11.0,
+    "line_width": 511.00494384765625,
+    "line_height": 14.89892578125,
+    "char_count": 118,
+    "page": 0,
+    "y_position": 605.2340698242188,
+    "label": "BODY"
+  },
+  {
+    "text": "Level 3-6 Headings.................................................................................................15",
+    "font_size": 11.0,
+    "line_width": 511.00494384765625,
+    "line_height": 14.89898681640625,
+    "char_count": 117,
+    "page": 0,
+    "y_position": 624.4340209960938,
+    "label": "BODY"
+  },
+  {
+    "text": "Incorrect Heading Issues.........................................................................................16",
+    "font_size": 11.0,
+    "line_width": 511.00494384765625,
+    "line_height": 14.89898681640625,
+    "char_count": 115,
+    "page": 0,
+    "y_position": 643.634033203125,
+    "label": "BODY"
+  },
+  {
+    "text": "Cause of Incorrect Heading Issues..........................................................................16",
+    "font_size": 11.0,
+    "line_width": 499.0039367675781,
+    "line_height": 14.89898681640625,
+    "char_count": 109,
+    "page": 0,
+    "y_position": 662.8340454101562,
+    "label": "BODY"
+  },
+  {
+    "text": "Examples of Incorrect Headings.............................................................................16",
+    "font_size": 11.0,
+    "line_width": 499.0039367675781,
+    "line_height": 14.89898681640625,
+    "char_count": 109,
+    "page": 0,
+    "y_position": 682.0339965820312,
+    "label": "BODY"
+  },
+  {
+    "text": "Revised 1/17/2025",
+    "font_size": 11.0,
+    "line_width": 105.43392944335938,
+    "line_height": 14.89398193359375,
+    "char_count": 17,
+    "page": 0,
+    "y_position": 744.4530029296875,
+    "label": "BODY"
+  },
+  {
+    "text": "Page 2",
+    "font_size": 11.0,
+    "line_width": 41.12469482421875,
+    "line_height": 14.89398193359375,
+    "char_count": 6,
+    "page": 1,
+    "y_position": 744.4390258789062,
+    "label": "BODY"
+  },
+  {
+    "text": "S etting U p the D ocument P roperties",
+    "font_size": 16.799999237060547,
+    "line_width": 244.8525390625,
+    "line_height": 27.263999938964844,
+    "char_count": 38,
+    "page": 1,
+    "y_position": 38.608001708984375,
+    "label": "H1"
+  },
+  {
+    "text": "There are three parts to setting the basic document properites:",
+    "font_size": 11.0,
+    "line_width": 355.79498291015625,
+    "line_height": 14.893997192382812,
+    "char_count": 63,
+    "page": 1,
+    "y_position": 82.6390151977539,
+    "label": "BODY"
+  },
+  {
+    "text": "1.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.893997192382812,
+    "char_count": 2,
+    "page": 1,
+    "y_position": 112.83902740478516,
+    "label": "BODY"
+  },
+  {
+    "text": "Setting the Document Title",
+    "font_size": 11.0,
+    "line_width": 149.1490020751953,
+    "line_height": 14.893997192382812,
+    "char_count": 26,
+    "page": 1,
+    "y_position": 112.83902740478516,
+    "label": "BODY"
+  },
+  {
+    "text": "2.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.893989562988281,
+    "char_count": 2,
+    "page": 1,
+    "y_position": 126.03897857666016,
+    "label": "BODY"
+  },
+  {
+    "text": "Setting PDF Metadata to Use the Document Title",
+    "font_size": 11.0,
+    "line_width": 268.6090087890625,
+    "line_height": 14.893989562988281,
+    "char_count": 46,
+    "page": 1,
+    "y_position": 126.03897857666016,
+    "label": "BODY"
+  },
+  {
+    "text": "3.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.893997192382812,
+    "char_count": 2,
+    "page": 1,
+    "y_position": 139.23898315429688,
+    "label": "BODY"
+  },
+  {
+    "text": "Setting the Language in PDF",
+    "font_size": 11.0,
+    "line_width": 157.87196350097656,
+    "line_height": 14.893997192382812,
+    "char_count": 27,
+    "page": 1,
+    "y_position": 139.23898315429688,
+    "label": "H2"
+  },
+  {
+    "text": "Performing these steps first when opening any PDF document will help resolve the most",
+    "font_size": 11.0,
+    "line_width": 491.4119415283203,
+    "line_height": 14.893997192382812,
+    "char_count": 85,
+    "page": 1,
+    "y_position": 165.44100952148438,
+    "label": "BODY"
+  },
+  {
+    "text": "common errors before you start the remediation process.",
+    "font_size": 11.0,
+    "line_width": 318.34327697753906,
+    "line_height": 14.893997192382812,
+    "char_count": 55,
+    "page": 1,
+    "y_position": 178.64102172851562,
+    "label": "BODY"
+  },
+  {
+    "text": "D ocument T itle",
+    "font_size": 15.300000190734863,
+    "line_width": 78.8584976196289,
+    "line_height": 20.448013305664062,
+    "char_count": 16,
+    "page": 1,
+    "y_position": 213.0059814453125,
+    "label": "BODY"
+  },
+  {
+    "text": "Setting the Document Title",
+    "font_size": 12.0,
+    "line_width": 189.77882385253906,
+    "line_height": 16.499984741210938,
+    "char_count": 26,
+    "page": 1,
+    "y_position": 254.3360137939453,
+    "label": "BODY"
+  },
+  {
+    "text": "First check if the document has a document title. If it doesn’t add the title. If the source",
+    "font_size": 11.0,
+    "line_width": 492.93017578125,
+    "line_height": 14.894012451171875,
+    "char_count": 92,
+    "page": 1,
+    "y_position": 281.8389892578125,
+    "label": "BODY"
+  },
+  {
+    "text": "document (such as Word, Excel, or PowerPoint) includes a title, the PDF will typically carry it",
+    "font_size": 11.0,
+    "line_width": 516.7802124023438,
+    "line_height": 14.894012451171875,
+    "char_count": 95,
+    "page": 1,
+    "y_position": 295.03900146484375,
+    "label": "BODY"
+  },
+  {
+    "text": "over. Otherwise, you will need to add a title to the PDF. Follow the steps below to determine if",
+    "font_size": 11.0,
+    "line_width": 522.8960571289062,
+    "line_height": 14.894012451171875,
+    "char_count": 96,
+    "page": 1,
+    "y_position": 308.239013671875,
+    "label": "BODY"
+  },
+  {
+    "text": "the document title has been set properly .",
+    "font_size": 11.0,
+    "line_width": 228.5360107421875,
+    "line_height": 14.993011474609375,
+    "char_count": 42,
+    "page": 1,
+    "y_position": 321.43902587890625,
+    "label": "BODY"
+  },
+  {
+    "text": "Older Versions of Adobe Acrobat",
+    "font_size": 11.0,
+    "line_width": 201.04698181152344,
+    "line_height": 15.125,
+    "char_count": 31,
+    "page": 1,
+    "y_position": 357.4090270996094,
+    "label": "H3"
+  },
+  {
+    "text": "1.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.894012451171875,
+    "char_count": 2,
+    "page": 1,
+    "y_position": 376.8389892578125,
+    "label": "BODY"
+  },
+  {
+    "text": "Click on “File” at the top of the menu bar.",
+    "font_size": 11.0,
+    "line_width": 230.22891235351562,
+    "line_height": 14.894012451171875,
+    "char_count": 43,
+    "page": 1,
+    "y_position": 376.8389892578125,
+    "label": "BODY"
+  },
+  {
+    "text": "2.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.894012451171875,
+    "char_count": 2,
+    "page": 1,
+    "y_position": 468.6390075683594,
+    "label": "BODY"
+  },
+  {
+    "text": "Select “Properties” to open the Document Properties window.",
+    "font_size": 11.0,
+    "line_width": 339.7944030761719,
+    "line_height": 14.894012451171875,
+    "char_count": 59,
+    "page": 1,
+    "y_position": 468.6390075683594,
+    "label": "BODY"
+  },
+  {
+    "text": "Page 3",
+    "font_size": 11.0,
+    "line_width": 41.12469482421875,
+    "line_height": 14.89398193359375,
+    "char_count": 6,
+    "page": 2,
+    "y_position": 744.4390258789062,
+    "label": "BODY"
+  },
+  {
+    "text": "Newer Versions of Adobe Acrobat",
+    "font_size": 11.0,
+    "line_width": 207.635986328125,
+    "line_height": 15.125,
+    "char_count": 31,
+    "page": 2,
+    "y_position": 32.61797332763672,
+    "label": "H3"
+  },
+  {
+    "text": "1.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.894001007080078,
+    "char_count": 2,
+    "page": 2,
+    "y_position": 52.05008316040039,
+    "label": "BODY"
+  },
+  {
+    "text": "Click on “Menu” at the top left of the window.",
+    "font_size": 11.0,
+    "line_width": 252.20248413085938,
+    "line_height": 14.894001007080078,
+    "char_count": 46,
+    "page": 2,
+    "y_position": 52.05008316040039,
+    "label": "BODY"
+  },
+  {
+    "text": "2.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.893997192382812,
+    "char_count": 2,
+    "page": 2,
+    "y_position": 156.63900756835938,
+    "label": "BODY"
+  },
+  {
+    "text": "Select “Document Properties” to open the Document Properties window.",
+    "font_size": 11.0,
+    "line_width": 400.0524597167969,
+    "line_height": 14.893997192382812,
+    "char_count": 68,
+    "page": 2,
+    "y_position": 156.63900756835938,
+    "label": "BODY"
+  },
+  {
+    "text": "3.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.894012451171875,
+    "char_count": 2,
+    "page": 2,
+    "y_position": 372.6390075683594,
+    "label": "BODY"
+  },
+  {
+    "text": "View the Description tab to determine if the document has a title and/or if the title is an",
+    "font_size": 11.0,
+    "line_width": 492.5252685546875,
+    "line_height": 14.894012451171875,
+    "char_count": 91,
+    "page": 2,
+    "y_position": 372.6390075683594,
+    "label": "BODY"
+  },
+  {
+    "text": "appropriate description of the document. If the title is accurate, proceed to next section. If",
+    "font_size": 11.0,
+    "line_width": 507.56884765625,
+    "line_height": 14.894012451171875,
+    "char_count": 94,
+    "page": 2,
+    "y_position": 385.8390197753906,
+    "label": "BODY"
+  },
+  {
+    "text": "the title is not there or is not accurate, proceed to step 4.",
+    "font_size": 11.0,
+    "line_width": 319.8844299316406,
+    "line_height": 14.894012451171875,
+    "char_count": 61,
+    "page": 2,
+    "y_position": 399.0390319824219,
+    "label": "BODY"
+  },
+  {
+    "text": "Note: Steps 3 and 4 are the same in both older and newer versions of Adobe Acrobat",
+    "font_size": 11.0,
+    "line_width": 523.9300727844238,
+    "line_height": 15.125,
+    "char_count": 82,
+    "page": 2,
+    "y_position": 426.01104736328125,
+    "label": "BODY"
+  },
+  {
+    "text": "4.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.89398193359375,
+    "char_count": 2,
+    "page": 2,
+    "y_position": 564.6390380859375,
+    "label": "BODY"
+  },
+  {
+    "text": "If there is no title, or if the title does not provide an accurate description of the document",
+    "font_size": 11.0,
+    "line_width": 501.30322265625,
+    "line_height": 14.89398193359375,
+    "char_count": 94,
+    "page": 2,
+    "y_position": 564.6390380859375,
+    "label": "BODY"
+  },
+  {
+    "text": "click in the Title field and select any text in it. Type in the new accurate document title.",
+    "font_size": 11.0,
+    "line_width": 482.99810791015625,
+    "line_height": 14.89398193359375,
+    "char_count": 92,
+    "page": 2,
+    "y_position": 577.8390502929688,
+    "label": "BODY"
+  },
+  {
+    "text": "Page 4",
+    "font_size": 11.0,
+    "line_width": 41.12469482421875,
+    "line_height": 14.89398193359375,
+    "char_count": 6,
+    "page": 3,
+    "y_position": 744.4390258789062,
+    "label": "BODY"
+  },
+  {
+    "text": "S etting PDF M etadata to U se the D ocument T itle",
+    "font_size": 12.600000381469727,
+    "line_width": 247.09353637695312,
+    "line_height": 20.447998046875,
+    "char_count": 51,
+    "page": 3,
+    "y_position": 38.00598907470703,
+    "label": "H2"
+  },
+  {
+    "text": "When adding a title to the document, the metadata must be updated to reflect the new",
+    "font_size": 11.0,
+    "line_width": 488.74114990234375,
+    "line_height": 14.893997192382812,
+    "char_count": 84,
+    "page": 3,
+    "y_position": 76.43900299072266,
+    "label": "BODY"
+  },
+  {
+    "text": "document title instead of the file name.",
+    "font_size": 11.0,
+    "line_width": 219.00997924804688,
+    "line_height": 14.893997192382812,
+    "char_count": 40,
+    "page": 3,
+    "y_position": 89.6390151977539,
+    "label": "BODY"
+  },
+  {
+    "text": "Note: These steps are the same in both older and newer versions of Adobe Acrobat.",
+    "font_size": 11.0,
+    "line_width": 517.0440063476562,
+    "line_height": 15.124992370605469,
+    "char_count": 81,
+    "page": 3,
+    "y_position": 125.60900115966797,
+    "label": "BODY"
+  },
+  {
+    "text": "1.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.893997192382812,
+    "char_count": 2,
+    "page": 3,
+    "y_position": 145.03897094726562,
+    "label": "BODY"
+  },
+  {
+    "text": "Make sure you are still in the Document Properties. See last section for guidance.",
+    "font_size": 11.0,
+    "line_width": 452.2376708984375,
+    "line_height": 14.893997192382812,
+    "char_count": 82,
+    "page": 3,
+    "y_position": 145.03897094726562,
+    "label": "BODY"
+  },
+  {
+    "text": "2.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.893997192382812,
+    "char_count": 2,
+    "page": 3,
+    "y_position": 158.23898315429688,
+    "label": "BODY"
+  },
+  {
+    "text": "Click on the “Initial View” tab.",
+    "font_size": 11.0,
+    "line_width": 166.24850463867188,
+    "line_height": 14.893997192382812,
+    "char_count": 32,
+    "page": 3,
+    "y_position": 158.23898315429688,
+    "label": "BODY"
+  },
+  {
+    "text": "3.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.894012451171875,
+    "char_count": 2,
+    "page": 3,
+    "y_position": 264.6390075683594,
+    "label": "BODY"
+  },
+  {
+    "text": "If the “Show” dropdown menu is set to “File Name” change this to “Document Title”",
+    "font_size": 11.0,
+    "line_width": 464.9921875,
+    "line_height": 14.894012451171875,
+    "char_count": 81,
+    "page": 3,
+    "y_position": 264.6390075683594,
+    "label": "BODY"
+  },
+  {
+    "text": "Page 5",
+    "font_size": 11.0,
+    "line_width": 41.12469482421875,
+    "line_height": 14.89398193359375,
+    "char_count": 6,
+    "page": 4,
+    "y_position": 744.4390258789062,
+    "label": "BODY"
+  },
+  {
+    "text": "S etting the L anguage in PDF",
+    "font_size": 12.600000381469727,
+    "line_width": 144.45208740234375,
+    "line_height": 20.447998046875,
+    "char_count": 29,
+    "page": 4,
+    "y_position": 38.20600128173828,
+    "label": "H2"
+  },
+  {
+    "text": "Screen reader technology will read the document to the user in the language set for the document.",
+    "font_size": 11.0,
+    "line_width": 530.7122802734375,
+    "line_height": 14.893997192382812,
+    "char_count": 97,
+    "page": 4,
+    "y_position": 76.6390151977539,
+    "label": "BODY"
+  },
+  {
+    "text": "A document can only have one language setting. The steps to set the correct language in a PDF",
+    "font_size": 11.0,
+    "line_width": 535.1480102539062,
+    "line_height": 14.893997192382812,
+    "char_count": 93,
+    "page": 4,
+    "y_position": 89.83902740478516,
+    "label": "BODY"
+  },
+  {
+    "text": "are:",
+    "font_size": 11.0,
+    "line_width": 22.85799789428711,
+    "line_height": 14.893997192382812,
+    "char_count": 4,
+    "page": 4,
+    "y_position": 103.0390396118164,
+    "label": "BODY"
+  },
+  {
+    "text": "Note: These steps are the same in both older and newer versions of Adobe Acrobat.",
+    "font_size": 11.0,
+    "line_width": 517.0440063476562,
+    "line_height": 15.124984741210938,
+    "char_count": 81,
+    "page": 4,
+    "y_position": 139.009033203125,
+    "label": "BODY"
+  },
+  {
+    "text": "1.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.893997192382812,
+    "char_count": 2,
+    "page": 4,
+    "y_position": 158.43899536132812,
+    "label": "BODY"
+  },
+  {
+    "text": "Click on the “Advanced” tab in the Document Properties window.",
+    "font_size": 11.0,
+    "line_width": 358.0774841308594,
+    "line_height": 14.893997192382812,
+    "char_count": 62,
+    "page": 4,
+    "y_position": 158.43899536132812,
+    "label": "BODY"
+  },
+  {
+    "text": "2.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.893997192382812,
+    "char_count": 2,
+    "page": 4,
+    "y_position": 228.63900756835938,
+    "label": "BODY"
+  },
+  {
+    "text": "Choose the “Language dropdown” and change it to the correct language. In this case",
+    "font_size": 11.0,
+    "line_width": 475.98126220703125,
+    "line_height": 14.893997192382812,
+    "char_count": 82,
+    "page": 4,
+    "y_position": 228.63900756835938,
+    "label": "BODY"
+  },
+  {
+    "text": "“English.”",
+    "font_size": 11.0,
+    "line_width": 52.470001220703125,
+    "line_height": 14.894012451171875,
+    "char_count": 10,
+    "page": 4,
+    "y_position": 241.83901977539062,
+    "label": "BODY"
+  },
+  {
+    "text": "3.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.89398193359375,
+    "char_count": 2,
+    "page": 4,
+    "y_position": 552.6390380859375,
+    "label": "BODY"
+  },
+  {
+    "text": "Click the “OK button to save any changes to the PDF title or language.",
+    "font_size": 11.0,
+    "line_width": 390.527587890625,
+    "line_height": 14.89398193359375,
+    "char_count": 70,
+    "page": 4,
+    "y_position": 552.6390380859375,
+    "label": "BODY"
+  },
+  {
+    "text": "Page 6",
+    "font_size": 11.0,
+    "line_width": 41.12469482421875,
+    "line_height": 14.89398193359375,
+    "char_count": 6,
+    "page": 5,
+    "y_position": 744.4390258789062,
+    "label": "BODY"
+  },
+  {
+    "text": "F ull A ccessibility C heck on D ocument",
+    "font_size": 16.799999237060547,
+    "line_width": 255.78662109375,
+    "line_height": 27.263999938964844,
+    "char_count": 40,
+    "page": 5,
+    "y_position": 38.608001708984375,
+    "label": "H1"
+  },
+  {
+    "text": "F ull A ccessibility C heck - N ewer V ersions of A dobe",
+    "font_size": 12.600000381469727,
+    "line_width": 264.4136962890625,
+    "line_height": 20.447998046875,
+    "char_count": 56,
+    "page": 5,
+    "y_position": 81.80597686767578,
+    "label": "H2"
+  },
+  {
+    "text": "The first step is to conduct a comprehensive (full) Accessibility Check to identify any errors",
+    "font_size": 11.0,
+    "line_width": 508.53240966796875,
+    "line_height": 14.893989562988281,
+    "char_count": 94,
+    "page": 5,
+    "y_position": 120.2389907836914,
+    "label": "BODY"
+  },
+  {
+    "text": "that need to be addressed in the Content Tool in the All Tools Menu on the left. This menu is",
+    "font_size": 11.0,
+    "line_width": 515.2018432617188,
+    "line_height": 14.893997192382812,
+    "char_count": 93,
+    "page": 5,
+    "y_position": 133.43899536132812,
+    "label": "BODY"
+  },
+  {
+    "text": "displayed by default on the left side of the page.",
+    "font_size": 11.0,
+    "line_width": 268.901611328125,
+    "line_height": 14.893997192382812,
+    "char_count": 50,
+    "page": 5,
+    "y_position": 146.63900756835938,
+    "label": "BODY"
+  },
+  {
+    "text": "1.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.893997192382812,
+    "char_count": 2,
+    "page": 5,
+    "y_position": 176.83901977539062,
+    "label": "BODY"
+  },
+  {
+    "text": "Locate the All Tools menu on the left and click the Prepare for accessibility button.",
+    "font_size": 11.0,
+    "line_width": 455.739990234375,
+    "line_height": 14.893997192382812,
+    "char_count": 85,
+    "page": 5,
+    "y_position": 176.83901977539062,
+    "label": "BODY"
+  },
+  {
+    "text": "2.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.894012451171875,
+    "char_count": 2,
+    "page": 5,
+    "y_position": 432.6390075683594,
+    "label": "BODY"
+  },
+  {
+    "text": "Click on Check for accessibility",
+    "font_size": 11.0,
+    "line_width": 169.5408172607422,
+    "line_height": 14.894012451171875,
+    "char_count": 32,
+    "page": 5,
+    "y_position": 432.6390075683594,
+    "label": "BODY"
+  },
+  {
+    "text": "Page 7",
+    "font_size": 11.0,
+    "line_width": 41.12469482421875,
+    "line_height": 14.89398193359375,
+    "char_count": 6,
+    "page": 6,
+    "y_position": 744.4390258789062,
+    "label": "BODY"
+  },
+  {
+    "text": "3.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.894001007080078,
+    "char_count": 2,
+    "page": 6,
+    "y_position": 36.45010757446289,
+    "label": "BODY"
+  },
+  {
+    "text": "Verify that the Category drop-down is set to “Forms, Tables and Lists”.",
+    "font_size": 11.0,
+    "line_width": 390.48687744140625,
+    "line_height": 14.894001007080078,
+    "char_count": 71,
+    "page": 6,
+    "y_position": 36.45010757446289,
+    "label": "BODY"
+  },
+  {
+    "text": "4.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.893997192382812,
+    "char_count": 2,
+    "page": 6,
+    "y_position": 144.63900756835938,
+    "label": "BODY"
+  },
+  {
+    "text": "In the Accessibility Checker Options dialog box, under Checking Options, verify that it",
+    "font_size": 11.0,
+    "line_width": 479.32843017578125,
+    "line_height": 14.893997192382812,
+    "char_count": 87,
+    "page": 6,
+    "y_position": 144.63900756835938,
+    "label": "BODY"
+  },
+  {
+    "text": "shows (32 of 32 in all categories). Then click on Start Checking.",
+    "font_size": 11.0,
+    "line_width": 355.26708984375,
+    "line_height": 14.893997192382812,
+    "char_count": 65,
+    "page": 6,
+    "y_position": 157.83901977539062,
+    "label": "BODY"
+  },
+  {
+    "text": "5.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.894012451171875,
+    "char_count": 2,
+    "page": 6,
+    "y_position": 432.6390075683594,
+    "label": "BODY"
+  },
+  {
+    "text": "The Accessibility Checker panel will appear on the right side of the document. Expand the",
+    "font_size": 11.0,
+    "line_width": 501.16693115234375,
+    "line_height": 14.894012451171875,
+    "char_count": 89,
+    "page": 6,
+    "y_position": 432.6390075683594,
+    "label": "BODY"
+  },
+  {
+    "text": "arrows to see the accessibility issues.",
+    "font_size": 11.0,
+    "line_width": 207.97369384765625,
+    "line_height": 14.894012451171875,
+    "char_count": 39,
+    "page": 6,
+    "y_position": 445.8390197753906,
+    "label": "BODY"
+  },
+  {
+    "text": "Page 8",
+    "font_size": 11.0,
+    "line_width": 41.12469482421875,
+    "line_height": 14.89398193359375,
+    "char_count": 6,
+    "page": 7,
+    "y_position": 744.4390258789062,
+    "label": "BODY"
+  },
+  {
+    "text": "F ull A ccessibility C heck O lder V ersions of A dobe A crobat",
+    "font_size": 12.600000381469727,
+    "line_width": 296.7934875488281,
+    "line_height": 20.447998046875,
+    "char_count": 63,
+    "page": 7,
+    "y_position": 38.20600128173828,
+    "label": "H2"
+  },
+  {
+    "text": "The first step is to conduct a comprehensive (full) Accessibility Check to identify any errors that",
+    "font_size": 11.0,
+    "line_width": 534.6464233398438,
+    "line_height": 14.893997192382812,
+    "char_count": 99,
+    "page": 7,
+    "y_position": 76.6390151977539,
+    "label": "BODY"
+  },
+  {
+    "text": "need to be addressed in the Content Tool on the left tool menu.",
+    "font_size": 11.0,
+    "line_width": 352.6491394042969,
+    "line_height": 14.893997192382812,
+    "char_count": 63,
+    "page": 7,
+    "y_position": 89.83902740478516,
+    "label": "BODY"
+  },
+  {
+    "text": "1.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.893989562988281,
+    "char_count": 2,
+    "page": 7,
+    "y_position": 120.03897857666016,
+    "label": "BODY"
+  },
+  {
+    "text": "Use the Accessibility Tool on the right side of the document tool menu.",
+    "font_size": 11.0,
+    "line_width": 391.892822265625,
+    "line_height": 14.893989562988281,
+    "char_count": 71,
+    "page": 7,
+    "y_position": 120.03897857666016,
+    "label": "BODY"
+  },
+  {
+    "text": "2.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.894012451171875,
+    "char_count": 2,
+    "page": 7,
+    "y_position": 384.6390075683594,
+    "label": "BODY"
+  },
+  {
+    "text": "Select the Accessibility Check tool in the Accessibility tool to see if there are any errors.",
+    "font_size": 11.0,
+    "line_width": 486.3851318359375,
+    "line_height": 14.894012451171875,
+    "char_count": 93,
+    "page": 7,
+    "y_position": 384.6390075683594,
+    "label": "BODY"
+  },
+  {
+    "text": "Page 9",
+    "font_size": 11.0,
+    "line_width": 41.12469482421875,
+    "line_height": 14.89398193359375,
+    "char_count": 6,
+    "page": 8,
+    "y_position": 744.4390258789062,
+    "label": "BODY"
+  },
+  {
+    "text": "3.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.894001007080078,
+    "char_count": 2,
+    "page": 8,
+    "y_position": 32.85007095336914,
+    "label": "BODY"
+  },
+  {
+    "text": "Verify that the Category drop-down is set to “Forms, Tables and Lists”.",
+    "font_size": 11.0,
+    "line_width": 394.35888671875,
+    "line_height": 14.894001007080078,
+    "char_count": 71,
+    "page": 8,
+    "y_position": 32.85007095336914,
+    "label": "BODY"
+  },
+  {
+    "text": "4.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.893997192382812,
+    "char_count": 2,
+    "page": 8,
+    "y_position": 132.63900756835938,
+    "label": "BODY"
+  },
+  {
+    "text": "In the Accessibility Checker Options dialog box, under Checking Options, verify that it",
+    "font_size": 11.0,
+    "line_width": 479.32843017578125,
+    "line_height": 14.893997192382812,
+    "char_count": 87,
+    "page": 8,
+    "y_position": 132.63900756835938,
+    "label": "BODY"
+  },
+  {
+    "text": "shows (32 of 32 in all categories). Then click on Start Checking.",
+    "font_size": 11.0,
+    "line_width": 355.26708984375,
+    "line_height": 14.893997192382812,
+    "char_count": 65,
+    "page": 8,
+    "y_position": 145.83901977539062,
+    "label": "BODY"
+  },
+  {
+    "text": "5.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.894012451171875,
+    "char_count": 2,
+    "page": 8,
+    "y_position": 420.6390075683594,
+    "label": "BODY"
+  },
+  {
+    "text": "The Accessibility Checker panel will appear on the left side of the document. Expand the",
+    "font_size": 11.0,
+    "line_width": 493.0819091796875,
+    "line_height": 14.894012451171875,
+    "char_count": 88,
+    "page": 8,
+    "y_position": 420.6390075683594,
+    "label": "BODY"
+  },
+  {
+    "text": "arrows to see the accessibility issues.",
+    "font_size": 11.0,
+    "line_width": 207.97369384765625,
+    "line_height": 14.894012451171875,
+    "char_count": 39,
+    "page": 8,
+    "y_position": 433.8390197753906,
+    "label": "BODY"
+  },
+  {
+    "text": "Page 10",
+    "font_size": 11.0,
+    "line_width": 48.12066650390625,
+    "line_height": 14.89398193359375,
+    "char_count": 7,
+    "page": 9,
+    "y_position": 744.4390258789062,
+    "label": "BODY"
+  },
+  {
+    "text": "H eadings",
+    "font_size": 20.399999618530273,
+    "line_width": 59.83909606933594,
+    "line_height": 27.263999938964844,
+    "char_count": 9,
+    "page": 9,
+    "y_position": 42.207977294921875,
+    "label": "H1"
+  },
+  {
+    "text": "L evel 1 H eadings",
+    "font_size": 15.300000190734863,
+    "line_width": 86.63259887695312,
+    "line_height": 20.447998046875,
+    "char_count": 18,
+    "page": 9,
+    "y_position": 85.40601348876953,
+    "label": "H2"
+  },
+  {
+    "text": "Using a heading level 1 (H1) is essential for accessibility as it establishes a clear document",
+    "font_size": 11.0,
+    "line_width": 507.816162109375,
+    "line_height": 14.893989562988281,
+    "char_count": 94,
+    "page": 9,
+    "y_position": 123.83902740478516,
+    "label": "BODY"
+  },
+  {
+    "text": "hierarchy, indicating the main topic or title of the document. This helps users, especially those",
+    "font_size": 11.0,
+    "line_width": 526.5426635742188,
+    "line_height": 14.893997192382812,
+    "char_count": 97,
+    "page": 9,
+    "y_position": 137.03897094726562,
+    "label": "BODY"
+  },
+  {
+    "text": "using screen readers, understand the layout and flow of content. Setting an H1 gives users",
+    "font_size": 11.0,
+    "line_width": 509.46417236328125,
+    "line_height": 14.893997192382812,
+    "char_count": 90,
+    "page": 9,
+    "y_position": 150.23898315429688,
+    "label": "BODY"
+  },
+  {
+    "text": "immediate context about the content, making it easier to grasp the purpose of the document at",
+    "font_size": 11.0,
+    "line_width": 535.2029418945312,
+    "line_height": 14.893997192382812,
+    "char_count": 93,
+    "page": 9,
+    "y_position": 163.43899536132812,
+    "label": "BODY"
+  },
+  {
+    "text": "a glance.",
+    "font_size": 11.0,
+    "line_width": 54.086997985839844,
+    "line_height": 14.893997192382812,
+    "char_count": 9,
+    "page": 9,
+    "y_position": 176.63900756835938,
+    "label": "BODY"
+  },
+  {
+    "text": "Please note that the Accessibility Checker may not always detect if a document is",
+    "font_size": 11.0,
+    "line_width": 508.13385009765625,
+    "line_height": 15.124984741210938,
+    "char_count": 81,
+    "page": 9,
+    "y_position": 211.6080322265625,
+    "label": "BODY"
+  },
+  {
+    "text": "missing a level 1 heading, but it is essential for every document to include one.",
+    "font_size": 11.0,
+    "line_width": 494.2847900390625,
+    "line_height": 15.124984741210938,
+    "char_count": 81,
+    "page": 9,
+    "y_position": 224.80804443359375,
+    "label": "BODY"
+  },
+  {
+    "text": "This is a manual review item, as automated checks cannot identify all accessibility",
+    "font_size": 11.0,
+    "line_width": 513.6008911132812,
+    "line_height": 15.124984741210938,
+    "char_count": 83,
+    "page": 9,
+    "y_position": 238.008056640625,
+    "label": "BODY"
+  },
+  {
+    "text": "issues; some must be assessed by a person. If your document does not have a level 1",
+    "font_size": 11.0,
+    "line_width": 533.7091064453125,
+    "line_height": 15.125,
+    "char_count": 83,
+    "page": 9,
+    "y_position": 251.20806884765625,
+    "label": "BODY"
+  },
+  {
+    "text": "heading, identify one at the top of the first page.",
+    "font_size": 11.0,
+    "line_width": 301.28997802734375,
+    "line_height": 15.125,
+    "char_count": 51,
+    "page": 9,
+    "y_position": 264.4080810546875,
+    "label": "BODY"
+  },
+  {
+    "text": "To add a Level 1 Heading to a page:",
+    "font_size": 11.0,
+    "line_width": 200.4089813232422,
+    "line_height": 14.894012451171875,
+    "char_count": 35,
+    "page": 9,
+    "y_position": 299.8390808105469,
+    "label": "BODY"
+  },
+  {
+    "text": "1.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.894012451171875,
+    "char_count": 2,
+    "page": 9,
+    "y_position": 330.03900146484375,
+    "label": "BODY"
+  },
+  {
+    "text": "Click on “Prepare for accessibility” or Accessibility depending on the version of adobe you",
+    "font_size": 11.0,
+    "line_width": 498.6820068359375,
+    "line_height": 14.894012451171875,
+    "char_count": 91,
+    "page": 9,
+    "y_position": 330.03900146484375,
+    "label": "BODY"
+  },
+  {
+    "text": "are using.",
+    "font_size": 11.0,
+    "line_width": 55.26399230957031,
+    "line_height": 14.894012451171875,
+    "char_count": 10,
+    "page": 9,
+    "y_position": 343.239013671875,
+    "label": "BODY"
+  },
+  {
+    "text": "Newer Versions of Adobe Acrobat",
+    "font_size": 11.0,
+    "line_width": 207.63597106933594,
+    "line_height": 15.125,
+    "char_count": 31,
+    "page": 9,
+    "y_position": 370.2110290527344,
+    "label": "BODY"
+  },
+  {
+    "text": "Appears on the left side of the screen",
+    "font_size": 11.0,
+    "line_width": 207.98812866210938,
+    "line_height": 14.894012451171875,
+    "char_count": 38,
+    "page": 9,
+    "y_position": 429.03900146484375,
+    "label": "BODY"
+  },
+  {
+    "text": "Older Versions of Adobe",
+    "font_size": 11.0,
+    "line_width": 149.2039794921875,
+    "line_height": 15.125,
+    "char_count": 23,
+    "page": 9,
+    "y_position": 454.0090026855469,
+    "label": "BODY"
+  },
+  {
+    "text": "Appears on the left side of the screen",
+    "font_size": 11.0,
+    "line_width": 207.98812866210938,
+    "line_height": 14.89398193359375,
+    "char_count": 38,
+    "page": 9,
+    "y_position": 586.6390380859375,
+    "label": "BODY"
+  },
+  {
+    "text": "Page 11",
+    "font_size": 11.0,
+    "line_width": 48.12066650390625,
+    "line_height": 14.89398193359375,
+    "char_count": 7,
+    "page": 10,
+    "y_position": 744.4390258789062,
+    "label": "BODY"
+  },
+  {
+    "text": "2.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.894001007080078,
+    "char_count": 2,
+    "page": 10,
+    "y_position": 32.85007095336914,
+    "label": "BODY"
+  },
+  {
+    "text": "Select the Reading Order tool",
+    "font_size": 11.0,
+    "line_width": 163.42701721191406,
+    "line_height": 14.894001007080078,
+    "char_count": 29,
+    "page": 10,
+    "y_position": 32.85007095336914,
+    "label": "BODY"
+  },
+  {
+    "text": "Newer Versions of Adobe Acrobat",
+    "font_size": 11.0,
+    "line_width": 207.63597106933594,
+    "line_height": 15.125,
+    "char_count": 31,
+    "page": 10,
+    "y_position": 59.82207489013672,
+    "label": "BODY"
+  },
+  {
+    "text": "Older Versions of Adobe Acrobat",
+    "font_size": 11.0,
+    "line_width": 201.04696655273438,
+    "line_height": 15.124984741210938,
+    "char_count": 31,
+    "page": 10,
+    "y_position": 222.40802001953125,
+    "label": "BODY"
+  },
+  {
+    "text": "Page 12",
+    "font_size": 11.0,
+    "line_width": 48.12066650390625,
+    "line_height": 14.89398193359375,
+    "char_count": 7,
+    "page": 11,
+    "y_position": 744.4390258789062,
+    "label": "BODY"
+  },
+  {
+    "text": "3.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.894001007080078,
+    "char_count": 2,
+    "page": 11,
+    "y_position": 36.45010757446289,
+    "label": "BODY"
+  },
+  {
+    "text": "In the Reading Order dialog box make sure that Structure types are selected. This will",
+    "font_size": 11.0,
+    "line_width": 481.98260498046875,
+    "line_height": 14.894001007080078,
+    "char_count": 86,
+    "page": 11,
+    "y_position": 36.45010757446289,
+    "label": "BODY"
+  },
+  {
+    "text": "allow you to see the structure of the document.",
+    "font_size": 11.0,
+    "line_width": 264.2453308105469,
+    "line_height": 14.894001007080078,
+    "char_count": 47,
+    "page": 11,
+    "y_position": 49.65011978149414,
+    "label": "BODY"
+  },
+  {
+    "text": "Page 13",
+    "font_size": 11.0,
+    "line_width": 48.12066650390625,
+    "line_height": 14.89398193359375,
+    "char_count": 7,
+    "page": 12,
+    "y_position": 744.4390258789062,
+    "label": "BODY"
+  },
+  {
+    "text": "4.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.894001007080078,
+    "char_count": 2,
+    "page": 12,
+    "y_position": 32.85007095336914,
+    "label": "BODY"
+  },
+  {
+    "text": "Right-click the text that should be the level 1 heading and choose “Tag as heading 1” from",
+    "font_size": 11.0,
+    "line_width": 505.89788818359375,
+    "line_height": 14.894001007080078,
+    "char_count": 90,
+    "page": 12,
+    "y_position": 32.85007095336914,
+    "label": "BODY"
+  },
+  {
+    "text": "the pop-up menu.",
+    "font_size": 11.0,
+    "line_width": 99.97898864746094,
+    "line_height": 14.894001007080078,
+    "char_count": 16,
+    "page": 12,
+    "y_position": 46.05008316040039,
+    "label": "BODY"
+  },
+  {
+    "text": "5.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.894012451171875,
+    "char_count": 2,
+    "page": 12,
+    "y_position": 348.6390075683594,
+    "label": "BODY"
+  },
+  {
+    "text": "Run full accessibility check to see if issue has been resolved.",
+    "font_size": 11.0,
+    "line_width": 335.7310485839844,
+    "line_height": 14.894012451171875,
+    "char_count": 63,
+    "page": 12,
+    "y_position": 348.6390075683594,
+    "label": "BODY"
+  },
+  {
+    "text": "L evel 2 H eadings",
+    "font_size": 15.300000190734863,
+    "line_width": 86.75869750976562,
+    "line_height": 20.447998046875,
+    "char_count": 18,
+    "page": 12,
+    "y_position": 374.0059814453125,
+    "label": "H2"
+  },
+  {
+    "text": "For longer documents, adding level 2 headings provides key benefits for accessibility and",
+    "font_size": 11.0,
+    "line_width": 497.8006591796875,
+    "line_height": 14.894012451171875,
+    "char_count": 89,
+    "page": 12,
+    "y_position": 412.4389953613281,
+    "label": "BODY"
+  },
+  {
+    "text": "usability. They create clear sub-sections, helping users understand the information hierarchy.",
+    "font_size": 11.0,
+    "line_width": 520.8482055664062,
+    "line_height": 14.894012451171875,
+    "char_count": 94,
+    "page": 12,
+    "y_position": 425.6390075683594,
+    "label": "BODY"
+  },
+  {
+    "text": "Screen readers can easily identify these headings, allowing efficient navigation. Level 2",
+    "font_size": 11.0,
+    "line_width": 487.65869140625,
+    "line_height": 14.894012451171875,
+    "char_count": 89,
+    "page": 12,
+    "y_position": 438.8390197753906,
+    "label": "BODY"
+  },
+  {
+    "text": "headings break content into manageable sections, enhancing comprehension and retention.",
+    "font_size": 11.0,
+    "line_width": 513.337158203125,
+    "line_height": 14.894012451171875,
+    "char_count": 87,
+    "page": 12,
+    "y_position": 452.0390319824219,
+    "label": "BODY"
+  },
+  {
+    "text": "They also improve visual layout, making it easier for all users, including those with cognitive",
+    "font_size": 11.0,
+    "line_width": 516.6646728515625,
+    "line_height": 14.894012451171875,
+    "char_count": 95,
+    "page": 12,
+    "y_position": 465.2390441894531,
+    "label": "BODY"
+  },
+  {
+    "text": "disabilities, to follow the content. Consistent heading structures promote better readability and",
+    "font_size": 11.0,
+    "line_width": 530.6071166992188,
+    "line_height": 14.894012451171875,
+    "char_count": 97,
+    "page": 12,
+    "y_position": 478.4390563964844,
+    "label": "BODY"
+  },
+  {
+    "text": "accessibility.",
+    "font_size": 11.0,
+    "line_width": 68.78520202636719,
+    "line_height": 14.894012451171875,
+    "char_count": 14,
+    "page": 12,
+    "y_position": 491.6390686035156,
+    "label": "BODY"
+  },
+  {
+    "text": "To add a Level 2 Heading to a page:",
+    "font_size": 11.0,
+    "line_width": 200.4089813232422,
+    "line_height": 14.89398193359375,
+    "char_count": 35,
+    "page": 12,
+    "y_position": 526.839111328125,
+    "label": "BODY"
+  },
+  {
+    "text": "1.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.89398193359375,
+    "char_count": 2,
+    "page": 12,
+    "y_position": 557.0390014648438,
+    "label": "BODY"
+  },
+  {
+    "text": "Click on “Prepare for accessibility”",
+    "font_size": 11.0,
+    "line_width": 188.79086303710938,
+    "line_height": 14.89398193359375,
+    "char_count": 36,
+    "page": 12,
+    "y_position": 557.0390014648438,
+    "label": "BODY"
+  },
+  {
+    "text": "2.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.89398193359375,
+    "char_count": 2,
+    "page": 12,
+    "y_position": 624.6390380859375,
+    "label": "BODY"
+  },
+  {
+    "text": "Select the Reading Order tool",
+    "font_size": 11.0,
+    "line_width": 163.42701721191406,
+    "line_height": 14.89398193359375,
+    "char_count": 29,
+    "page": 12,
+    "y_position": 624.6390380859375,
+    "label": "BODY"
+  },
+  {
+    "text": "Page 14",
+    "font_size": 11.0,
+    "line_width": 48.12066650390625,
+    "line_height": 14.89398193359375,
+    "char_count": 7,
+    "page": 13,
+    "y_position": 744.4390258789062,
+    "label": "BODY"
+  },
+  {
+    "text": "3.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.894001007080078,
+    "char_count": 2,
+    "page": 13,
+    "y_position": 33.45010757446289,
+    "label": "BODY"
+  },
+  {
+    "text": "In the Reading Order dialog box make sure that Structure types are selected. This will",
+    "font_size": 11.0,
+    "line_width": 481.98260498046875,
+    "line_height": 14.894001007080078,
+    "char_count": 86,
+    "page": 13,
+    "y_position": 33.45010757446289,
+    "label": "BODY"
+  },
+  {
+    "text": "allow you to see the structure of the document.",
+    "font_size": 11.0,
+    "line_width": 264.2453308105469,
+    "line_height": 14.894001007080078,
+    "char_count": 47,
+    "page": 13,
+    "y_position": 46.65011978149414,
+    "label": "BODY"
+  },
+  {
+    "text": "Page 15",
+    "font_size": 11.0,
+    "line_width": 48.12066650390625,
+    "line_height": 14.89398193359375,
+    "char_count": 7,
+    "page": 14,
+    "y_position": 744.4390258789062,
+    "label": "BODY"
+  },
+  {
+    "text": "4.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.894001007080078,
+    "char_count": 2,
+    "page": 14,
+    "y_position": 32.85007095336914,
+    "label": "BODY"
+  },
+  {
+    "text": "Right-click the text that should be the level 1 heading and choose “Tag as heading 1” from",
+    "font_size": 11.0,
+    "line_width": 505.89788818359375,
+    "line_height": 14.894001007080078,
+    "char_count": 90,
+    "page": 14,
+    "y_position": 32.85007095336914,
+    "label": "BODY"
+  },
+  {
+    "text": "the pop-up menu.",
+    "font_size": 11.0,
+    "line_width": 99.97898864746094,
+    "line_height": 14.894001007080078,
+    "char_count": 16,
+    "page": 14,
+    "y_position": 46.05008316040039,
+    "label": "BODY"
+  },
+  {
+    "text": "5.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.894012451171875,
+    "char_count": 2,
+    "page": 14,
+    "y_position": 312.6390075683594,
+    "label": "BODY"
+  },
+  {
+    "text": "Run full accessibility check to see if issue has been resolved.",
+    "font_size": 11.0,
+    "line_width": 335.7310485839844,
+    "line_height": 14.894012451171875,
+    "char_count": 63,
+    "page": 14,
+    "y_position": 312.6390075683594,
+    "label": "BODY"
+  },
+  {
+    "text": "L evel 3-6 H eadings",
+    "font_size": 15.300000190734863,
+    "line_width": 101.4822998046875,
+    "line_height": 20.447998046875,
+    "char_count": 20,
+    "page": 14,
+    "y_position": 338.0059814453125,
+    "label": "H2"
+  },
+  {
+    "text": "Adding level 3 to level 6 headings is not recommended due to accessibility challenges. Too",
+    "font_size": 11.0,
+    "line_width": 505.383056640625,
+    "line_height": 14.894012451171875,
+    "char_count": 90,
+    "page": 14,
+    "y_position": 376.4389953613281,
+    "label": "BODY"
+  },
+  {
+    "text": "many heading levels can complicate the document structure, making navigation harder. Some",
+    "font_size": 11.0,
+    "line_width": 525.6880493164062,
+    "line_height": 14.894012451171875,
+    "char_count": 89,
+    "page": 14,
+    "y_position": 389.6390075683594,
+    "label": "BODY"
+  },
+  {
+    "text": "screen readers may misinterpret these headings, causing confusion. Additionally, excessive",
+    "font_size": 11.0,
+    "line_width": 509.93487548828125,
+    "line_height": 14.894012451171875,
+    "char_count": 90,
+    "page": 14,
+    "y_position": 402.8390197753906,
+    "label": "BODY"
+  },
+  {
+    "text": "levels can clutter the layout, hindering focus, especially for users with cognitive disabilities.",
+    "font_size": 11.0,
+    "line_width": 510.23175048828125,
+    "line_height": 14.894012451171875,
+    "char_count": 97,
+    "page": 14,
+    "y_position": 416.0390319824219,
+    "label": "BODY"
+  },
+  {
+    "text": "Inconsistent use of headings can disrupt the reading experience. To enhance accessibility, it’s",
+    "font_size": 11.0,
+    "line_width": 521.4990234375,
+    "line_height": 14.894073486328125,
+    "char_count": 95,
+    "page": 14,
+    "y_position": 429.2389831542969,
+    "label": "BODY"
+  },
+  {
+    "text": "best to limit heading levels to 1 and 2 for clarity and effective navigation.",
+    "font_size": 11.0,
+    "line_width": 407.22772216796875,
+    "line_height": 14.894012451171875,
+    "char_count": 77,
+    "page": 14,
+    "y_position": 442.4389953613281,
+    "label": "BODY"
+  },
+  {
+    "text": "Page 16",
+    "font_size": 11.0,
+    "line_width": 48.12066650390625,
+    "line_height": 14.89398193359375,
+    "char_count": 7,
+    "page": 15,
+    "y_position": 744.4390258789062,
+    "label": "BODY"
+  },
+  {
+    "text": "I ncorrect H eading I ssues",
+    "font_size": 15.300000190734863,
+    "line_width": 126.2174072265625,
+    "line_height": 20.447998046875,
+    "char_count": 27,
+    "page": 15,
+    "y_position": 38.20600128173828,
+    "label": "H2"
+  },
+  {
+    "text": "Cause of Incorrect Heading Issues",
+    "font_size": 12.0,
+    "line_width": 240.5592041015625,
+    "line_height": 16.5,
+    "char_count": 33,
+    "page": 15,
+    "y_position": 79.53602600097656,
+    "label": "BODY"
+  },
+  {
+    "text": "This is often caused by heading levels being used out of order, formatted without the correct",
+    "font_size": 11.0,
+    "line_width": 517.3611450195312,
+    "line_height": 14.893997192382812,
+    "char_count": 93,
+    "page": 15,
+    "y_position": 107.03897857666016,
+    "label": "BODY"
+  },
+  {
+    "text": "styles leading to a lack of or confusion about the content structural hierarchy.",
+    "font_size": 11.0,
+    "line_width": 434.06121826171875,
+    "line_height": 14.893989562988281,
+    "char_count": 80,
+    "page": 15,
+    "y_position": 120.2389907836914,
+    "label": "BODY"
+  },
+  {
+    "text": "Examples of Incorrect Headings",
+    "font_size": 12.0,
+    "line_width": 223.51678466796875,
+    "line_height": 16.5,
+    "char_count": 30,
+    "page": 15,
+    "y_position": 158.3360137939453,
+    "label": "BODY"
+  },
+  {
+    "text": "The examples below illustrate a level <H3> heading used immediately after a level <H1>",
+    "font_size": 11.0,
+    "line_width": 501.80908203125,
+    "line_height": 14.893997192382812,
+    "char_count": 86,
+    "page": 15,
+    "y_position": 185.83901977539062,
+    "label": "BODY"
+  },
+  {
+    "text": "heading, without an intervening level <H2> heading, and a level <H4> heading following a",
+    "font_size": 11.0,
+    "line_width": 511.1162109375,
+    "line_height": 14.893997192382812,
+    "char_count": 88,
+    "page": 15,
+    "y_position": 199.03903198242188,
+    "label": "BODY"
+  },
+  {
+    "text": "level <H2> heading, without a level <H3> heading in between. Headings must follow a proper",
+    "font_size": 11.0,
+    "line_width": 529.7636108398438,
+    "line_height": 14.893997192382812,
+    "char_count": 90,
+    "page": 15,
+    "y_position": 212.23904418945312,
+    "label": "BODY"
+  },
+  {
+    "text": "order, which is often the source of these issues. To meet ADA requirements, headings cannot be",
+    "font_size": 11.0,
+    "line_width": 537.0454711914062,
+    "line_height": 14.893997192382812,
+    "char_count": 94,
+    "page": 15,
+    "y_position": 225.43905639648438,
+    "label": "BODY"
+  },
+  {
+    "text": "used out of order.",
+    "font_size": 11.0,
+    "line_width": 102.00410461425781,
+    "line_height": 14.893997192382812,
+    "char_count": 18,
+    "page": 15,
+    "y_position": 238.63906860351562,
+    "label": "BODY"
+  },
+  {
+    "text": "Page 17",
+    "font_size": 11.0,
+    "line_width": 48.12066650390625,
+    "line_height": 14.89398193359375,
+    "char_count": 7,
+    "page": 16,
+    "y_position": 744.4390258789062,
+    "label": "BODY"
+  },
+  {
+    "text": "Fixing Incorrect Heading Issues",
+    "font_size": 12.0,
+    "line_width": 226.29119873046875,
+    "line_height": 16.5,
+    "char_count": 31,
+    "page": 16,
+    "y_position": 42.13600158691406,
+    "label": "H2"
+  },
+  {
+    "text": "To fix this problem, change the structure of the element:",
+    "font_size": 11.0,
+    "line_width": 315.5218811035156,
+    "line_height": 14.893997192382812,
+    "char_count": 57,
+    "page": 16,
+    "y_position": 80.6390151977539,
+    "label": "BODY"
+  },
+  {
+    "text": "1.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.893997192382812,
+    "char_count": 2,
+    "page": 16,
+    "y_position": 110.83902740478516,
+    "label": "BODY"
+  },
+  {
+    "text": "Right-click on the element under the Appropriate Nesting – Failed message and choose",
+    "font_size": 11.0,
+    "line_width": 486.5906982421875,
+    "line_height": 14.893997192382812,
+    "char_count": 84,
+    "page": 16,
+    "y_position": 110.83902740478516,
+    "label": "BODY"
+  },
+  {
+    "text": "“Show in Tags Panel” from the drop-down menu. This will highlight the problem element in",
+    "font_size": 11.0,
+    "line_width": 507.4071044921875,
+    "line_height": 14.893989562988281,
+    "char_count": 88,
+    "page": 16,
+    "y_position": 124.0390396118164,
+    "label": "BODY"
+  },
+  {
+    "text": "the tags panel.",
+    "font_size": 11.0,
+    "line_width": 83.12699890136719,
+    "line_height": 14.893997192382812,
+    "char_count": 15,
+    "page": 16,
+    "y_position": 137.23904418945312,
+    "label": "BODY"
+  },
+  {
+    "text": "Page 18",
+    "font_size": 11.0,
+    "line_width": 48.12066650390625,
+    "line_height": 14.89398193359375,
+    "char_count": 7,
+    "page": 17,
+    "y_position": 744.4390258789062,
+    "label": "BODY"
+  },
+  {
+    "text": "2.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.894001007080078,
+    "char_count": 2,
+    "page": 17,
+    "y_position": 36.45010757446289,
+    "label": "BODY"
+  },
+  {
+    "text": "Review the content of the tag and its surrounding elements to determine if the tag should",
+    "font_size": 11.0,
+    "line_width": 502.85321044921875,
+    "line_height": 14.894001007080078,
+    "char_count": 89,
+    "page": 17,
+    "y_position": 36.45010757446289,
+    "label": "BODY"
+  },
+  {
+    "text": "be changed to a paragraph <P> tag, or if another type would be more appropriate.",
+    "font_size": 11.0,
+    "line_width": 469.72198486328125,
+    "line_height": 14.894001007080078,
+    "char_count": 80,
+    "page": 17,
+    "y_position": 49.65011978149414,
+    "label": "BODY"
+  },
+  {
+    "text": "In this case, the word “Important” should not be a heading, so we would change it to a",
+    "font_size": 11.0,
+    "line_width": 488.12518310546875,
+    "line_height": 14.893997192382812,
+    "char_count": 86,
+    "page": 17,
+    "y_position": 76.0501480102539,
+    "label": "BODY"
+  },
+  {
+    "text": "<P> tag by following the steps below.",
+    "font_size": 11.0,
+    "line_width": 214.7166748046875,
+    "line_height": 14.893997192382812,
+    "char_count": 37,
+    "page": 17,
+    "y_position": 89.25016021728516,
+    "label": "BODY"
+  },
+  {
+    "text": "a.\t Right-click the element’s tag and choose Properties from the pop-up menu",
+    "font_size": 11.0,
+    "line_width": 431.7397766113281,
+    "line_height": 14.894012451171875,
+    "char_count": 76,
+    "page": 17,
+    "y_position": 265.8390197753906,
+    "label": "BODY"
+  },
+  {
+    "text": "Page 19",
+    "font_size": 11.0,
+    "line_width": 48.12066650390625,
+    "line_height": 14.89398193359375,
+    "char_count": 7,
+    "page": 18,
+    "y_position": 744.4390258789062,
+    "label": "BODY"
+  },
+  {
+    "text": "b.\t Change the tag to a <P> tag by clicking on the Type field drop-down menu and select",
+    "font_size": 11.0,
+    "line_width": 498.7640380859375,
+    "line_height": 14.894001007080078,
+    "char_count": 87,
+    "page": 18,
+    "y_position": 32.85007095336914,
+    "label": "BODY"
+  },
+  {
+    "text": "the appropriate tag from the list. Then click the close button.",
+    "font_size": 11.0,
+    "line_width": 338.9761047363281,
+    "line_height": 14.894001007080078,
+    "char_count": 63,
+    "page": 18,
+    "y_position": 46.05008316040039,
+    "label": "BODY"
+  },
+  {
+    "text": "3.",
+    "font_size": 11.0,
+    "line_width": 14.872001647949219,
+    "line_height": 14.894012451171875,
+    "char_count": 2,
+    "page": 18,
+    "y_position": 372.6390075683594,
+    "label": "BODY"
+  },
+  {
+    "text": "Perform a complete accessibility check to determine if the issue has been resolved. Please",
+    "font_size": 11.0,
+    "line_width": 503.78717041015625,
+    "line_height": 14.894012451171875,
+    "char_count": 90,
+    "page": 18,
+    "y_position": 372.6390075683594,
+    "label": "BODY"
+  },
+  {
+    "text": "note that fixing one issue can sometimes result in the total number of issues remaining",
+    "font_size": 11.0,
+    "line_width": 489.0491943359375,
+    "line_height": 14.894012451171875,
+    "char_count": 87,
+    "page": 18,
+    "y_position": 385.8390197753906,
+    "label": "BODY"
+  },
+  {
+    "text": "the same or even increasing, as this may disrupt the order of other elements. Continue",
+    "font_size": 11.0,
+    "line_width": 488.69610595703125,
+    "line_height": 14.894012451171875,
+    "char_count": 86,
+    "page": 18,
+    "y_position": 399.0390319824219,
+    "label": "BODY"
+  },
+  {
+    "text": "addressing each issue until the total decreases and remember to run a full accessibility",
+    "font_size": 11.0,
+    "line_width": 486.58502197265625,
+    "line_height": 14.894012451171875,
+    "char_count": 88,
+    "page": 18,
+    "y_position": 412.2390441894531,
+    "label": "BODY"
+  },
+  {
+    "text": "check after each fix.",
+    "font_size": 11.0,
+    "line_width": 112.43098449707031,
+    "line_height": 14.894012451171875,
+    "char_count": 21,
+    "page": 18,
+    "y_position": 425.4390563964844,
+    "label": "BODY"
+  }
+]

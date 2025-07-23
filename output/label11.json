@@ -1,0 +1,492 @@
+[
+  {
+    "text": "1. H1 Heading Example",
+    "font_size": 18.0,
+    "line_width": 173.9700164794922,
+    "line_height": 24.011993408203125,
+    "char_count": 21,
+    "page": 0,
+    "y_position": 77.04600524902344,
+    "label": "H1"
+  },
+  {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor.",
+    "font_size": 10.0,
+    "line_width": 386.37005615234375,
+    "line_height": 13.339996337890625,
+    "char_count": 98,
+    "page": 0,
+    "y_position": 109.47000122070312,
+    "label": "BODY"
+  },
+  {
+    "text": "1.1. H2 Subheading",
+    "font_size": 14.0,
+    "line_width": 111.21600341796875,
+    "line_height": 18.676010131835938,
+    "char_count": 18,
+    "page": 0,
+    "y_position": 133.25799560546875,
+    "label": "H2"
+  },
+  {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor.",
+    "font_size": 10.0,
+    "line_width": 386.37005615234375,
+    "line_height": 13.339996337890625,
+    "char_count": 98,
+    "page": 0,
+    "y_position": 161.47000122070312,
+    "label": "BODY"
+  },
+  {
+    "text": "1.1.1. H3 Sub-subheading",
+    "font_size": 11.0,
+    "line_width": 114.57600402832031,
+    "line_height": 14.67401123046875,
+    "char_count": 24,
+    "page": 0,
+    "y_position": 185.4169921875,
+    "label": "H3"
+  },
+  {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.",
+    "font_size": 10.0,
+    "line_width": 426.0,
+    "line_height": 12.490005493164062,
+    "char_count": 71,
+    "page": 0,
+    "y_position": 211.67999267578125,
+    "label": "BODY"
+  },
+  {
+    "text": "Suspendisse lectus tortor.",
+    "font_size": 10.0,
+    "line_width": 156.0,
+    "line_height": 12.490005493164062,
+    "char_count": 26,
+    "page": 0,
+    "y_position": 225.67999267578125,
+    "label": "BODY"
+  },
+  {
+    "text": "1.1.2. H3 Sub-subheading",
+    "font_size": 11.0,
+    "line_width": 158.40000915527344,
+    "line_height": 13.739013671875,
+    "char_count": 24,
+    "page": 0,
+    "y_position": 265.74798583984375,
+    "label": "H3"
+  },
+  {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor.",
+    "font_size": 10.0,
+    "line_width": 427.94989013671875,
+    "line_height": 13.739990234375,
+    "char_count": 98,
+    "page": 0,
+    "y_position": 289.25,
+    "label": "BODY"
+  },
+  {
+    "text": "1.2. H2 Subheading",
+    "font_size": 14.0,
+    "line_width": 151.1999969482422,
+    "line_height": 17.485992431640625,
+    "char_count": 18,
+    "page": 0,
+    "y_position": 330.95196533203125,
+    "label": "H2"
+  },
+  {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.",
+    "font_size": 10.0,
+    "line_width": 426.0,
+    "line_height": 12.490020751953125,
+    "char_count": 71,
+    "page": 0,
+    "y_position": 358.6799621582031,
+    "label": "BODY"
+  },
+  {
+    "text": "Suspendisse lectus tortor.",
+    "font_size": 10.0,
+    "line_width": 156.0,
+    "line_height": 12.490020751953125,
+    "char_count": 26,
+    "page": 0,
+    "y_position": 372.6799621582031,
+    "label": "BODY"
+  },
+  {
+    "text": "1.2.1. H3 Sub-subheading",
+    "font_size": 11.0,
+    "line_width": 158.40000915527344,
+    "line_height": 13.739013671875,
+    "char_count": 24,
+    "page": 0,
+    "y_position": 396.7479553222656,
+    "label": "H3"
+  },
+  {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor.",
+    "font_size": 10.0,
+    "line_width": 386.37005615234375,
+    "line_height": 13.339996337890625,
+    "char_count": 98,
+    "page": 0,
+    "y_position": 420.469970703125,
+    "label": "BODY"
+  },
+  {
+    "text": "1.2.2. H3 Sub-subheading",
+    "font_size": 11.0,
+    "line_width": 114.57600402832031,
+    "line_height": 14.67401123046875,
+    "char_count": 24,
+    "page": 0,
+    "y_position": 460.4169616699219,
+    "label": "H3"
+  },
+  {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor.",
+    "font_size": 10.0,
+    "line_width": 386.37005615234375,
+    "line_height": 13.339996337890625,
+    "char_count": 98,
+    "page": 0,
+    "y_position": 485.469970703125,
+    "label": "BODY"
+  },
+  {
+    "text": "2. H1 Heading Example",
+    "font_size": 18.0,
+    "line_width": 226.800048828125,
+    "line_height": 22.48199462890625,
+    "char_count": 21,
+    "page": 0,
+    "y_position": 527.2239990234375,
+    "label": "BODY"
+  },
+  {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor.",
+    "font_size": 10.0,
+    "line_width": 427.94989013671875,
+    "line_height": 13.739990234375,
+    "char_count": 98,
+    "page": 0,
+    "y_position": 557.25,
+    "label": "BODY"
+  },
+  {
+    "text": "2.1. H2 Subheading",
+    "font_size": 14.0,
+    "line_width": 123.74603271484375,
+    "line_height": 19.2359619140625,
+    "char_count": 18,
+    "page": 0,
+    "y_position": 580.9500122070312,
+    "label": "H2"
+  },
+  {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor.",
+    "font_size": 10.0,
+    "line_width": 427.94989013671875,
+    "line_height": 13.739990234375,
+    "char_count": 98,
+    "page": 0,
+    "y_position": 609.25,
+    "label": "BODY"
+  },
+  {
+    "text": "2.1.1. H3 Sub-subheading",
+    "font_size": 11.0,
+    "line_width": 158.40000915527344,
+    "line_height": 13.739013671875,
+    "char_count": 24,
+    "page": 0,
+    "y_position": 634.7479858398438,
+    "label": "H3"
+  },
+  {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor.",
+    "font_size": 10.0,
+    "line_width": 386.37005615234375,
+    "line_height": 13.34002685546875,
+    "char_count": 98,
+    "page": 0,
+    "y_position": 658.469970703125,
+    "label": "BODY"
+  },
+  {
+    "text": "2.1.2. H3 Sub-subheading",
+    "font_size": 11.0,
+    "line_width": 127.79798889160156,
+    "line_height": 15.114013671875,
+    "char_count": 24,
+    "page": 0,
+    "y_position": 698.1749877929688,
+    "label": "H3"
+  },
+  {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor.",
+    "font_size": 10.0,
+    "line_width": 386.37005615234375,
+    "line_height": 13.34002685546875,
+    "char_count": 98,
+    "page": 0,
+    "y_position": 723.469970703125,
+    "label": "BODY"
+  },
+  {
+    "text": "2.2. H2 Subheading",
+    "font_size": 14.0,
+    "line_width": 111.21600341796875,
+    "line_height": 18.675994873046875,
+    "char_count": 18,
+    "page": 1,
+    "y_position": 77.25800323486328,
+    "label": "H2"
+  },
+  {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.",
+    "font_size": 10.0,
+    "line_width": 426.0,
+    "line_height": 12.489997863769531,
+    "char_count": 71,
+    "page": 1,
+    "y_position": 106.68000030517578,
+    "label": "BODY"
+  },
+  {
+    "text": "Suspendisse lectus tortor.",
+    "font_size": 10.0,
+    "line_width": 156.0,
+    "line_height": 12.489997863769531,
+    "char_count": 26,
+    "page": 1,
+    "y_position": 120.68000030517578,
+    "label": "BODY"
+  },
+  {
+    "text": "2.2.1. H3 Sub-subheading",
+    "font_size": 11.0,
+    "line_width": 127.79798889160156,
+    "line_height": 15.113998413085938,
+    "char_count": 24,
+    "page": 1,
+    "y_position": 143.1750030517578,
+    "label": "H3"
+  },
+  {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.",
+    "font_size": 10.0,
+    "line_width": 426.0,
+    "line_height": 12.490005493164062,
+    "char_count": 71,
+    "page": 1,
+    "y_position": 169.67999267578125,
+    "label": "BODY"
+  },
+  {
+    "text": "Suspendisse lectus tortor.",
+    "font_size": 10.0,
+    "line_width": 156.0,
+    "line_height": 12.490005493164062,
+    "char_count": 26,
+    "page": 1,
+    "y_position": 183.67999267578125,
+    "label": "BODY"
+  },
+  {
+    "text": "2.2.2. H3 Sub-subheading",
+    "font_size": 11.0,
+    "line_width": 158.40000915527344,
+    "line_height": 13.738998413085938,
+    "char_count": 24,
+    "page": 1,
+    "y_position": 223.7480010986328,
+    "label": "H3"
+  },
+  {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.",
+    "font_size": 10.0,
+    "line_width": 426.0,
+    "line_height": 12.490020751953125,
+    "char_count": 71,
+    "page": 1,
+    "y_position": 248.67999267578125,
+    "label": "BODY"
+  },
+  {
+    "text": "Suspendisse lectus tortor.",
+    "font_size": 10.0,
+    "line_width": 156.0,
+    "line_height": 12.490020751953125,
+    "char_count": 26,
+    "page": 1,
+    "y_position": 262.67999267578125,
+    "label": "BODY"
+  },
+  {
+    "text": "3. H1 Heading Example",
+    "font_size": 18.0,
+    "line_width": 173.9700164794922,
+    "line_height": 24.011993408203125,
+    "char_count": 21,
+    "page": 2,
+    "y_position": 77.04600524902344,
+    "label": "H1"
+  },
+  {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor.",
+    "font_size": 10.0,
+    "line_width": 386.37005615234375,
+    "line_height": 13.339996337890625,
+    "char_count": 98,
+    "page": 2,
+    "y_position": 109.47000122070312,
+    "label": "BODY"
+  },
+  {
+    "text": "3.1. H2 Subheading",
+    "font_size": 14.0,
+    "line_width": 151.1999969482422,
+    "line_height": 17.486007690429688,
+    "char_count": 18,
+    "page": 2,
+    "y_position": 134.95199584960938,
+    "label": "H2"
+  },
+  {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.",
+    "font_size": 10.0,
+    "line_width": 426.0,
+    "line_height": 12.490005493164062,
+    "char_count": 71,
+    "page": 2,
+    "y_position": 162.67999267578125,
+    "label": "BODY"
+  },
+  {
+    "text": "Suspendisse lectus tortor.",
+    "font_size": 10.0,
+    "line_width": 156.0,
+    "line_height": 12.490005493164062,
+    "char_count": 26,
+    "page": 2,
+    "y_position": 176.67999267578125,
+    "label": "BODY"
+  },
+  {
+    "text": "3.1.1. H3 Sub-subheading",
+    "font_size": 11.0,
+    "line_width": 158.40000915527344,
+    "line_height": 13.738998413085938,
+    "char_count": 24,
+    "page": 2,
+    "y_position": 200.7480010986328,
+    "label": "H3"
+  },
+  {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor.",
+    "font_size": 10.0,
+    "line_width": 386.37005615234375,
+    "line_height": 13.339996337890625,
+    "char_count": 98,
+    "page": 2,
+    "y_position": 224.47000122070312,
+    "label": "BODY"
+  },
+  {
+    "text": "3.1.2. H3 Sub-subheading",
+    "font_size": 11.0,
+    "line_width": 158.40000915527344,
+    "line_height": 13.739013671875,
+    "char_count": 24,
+    "page": 2,
+    "y_position": 265.74798583984375,
+    "label": "H3"
+  },
+  {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor.",
+    "font_size": 10.0,
+    "line_width": 427.94989013671875,
+    "line_height": 13.739990234375,
+    "char_count": 98,
+    "page": 2,
+    "y_position": 289.25,
+    "label": "BODY"
+  },
+  {
+    "text": "3.2. H2 Subheading",
+    "font_size": 14.0,
+    "line_width": 151.1999969482422,
+    "line_height": 17.485992431640625,
+    "char_count": 18,
+    "page": 2,
+    "y_position": 330.95196533203125,
+    "label": "H2"
+  },
+  {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor.",
+    "font_size": 10.0,
+    "line_width": 386.37005615234375,
+    "line_height": 13.339996337890625,
+    "char_count": 98,
+    "page": 2,
+    "y_position": 357.469970703125,
+    "label": "BODY"
+  },
+  {
+    "text": "3.2.1. H3 Sub-subheading",
+    "font_size": 11.0,
+    "line_width": 158.40000915527344,
+    "line_height": 13.739013671875,
+    "char_count": 24,
+    "page": 2,
+    "y_position": 382.7479553222656,
+    "label": "H3"
+  },
+  {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor.",
+    "font_size": 10.0,
+    "line_width": 386.37005615234375,
+    "line_height": 13.339996337890625,
+    "char_count": 98,
+    "page": 2,
+    "y_position": 406.469970703125,
+    "label": "BODY"
+  },
+  {
+    "text": "3.2.2. H3 Sub-subheading",
+    "font_size": 11.0,
+    "line_width": 127.79798889160156,
+    "line_height": 15.114013671875,
+    "char_count": 24,
+    "page": 2,
+    "y_position": 446.1749572753906,
+    "label": "H3"
+  },
+  {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.",
+    "font_size": 10.0,
+    "line_width": 426.0,
+    "line_height": 12.490020751953125,
+    "char_count": 71,
+    "page": 2,
+    "y_position": 472.6799621582031,
+    "label": "BODY"
+  },
+  {
+    "text": "Suspendisse lectus tortor.",
+    "font_size": 10.0,
+    "line_width": 156.0,
+    "line_height": 12.490020751953125,
+    "char_count": 26,
+    "page": 2,
+    "y_position": 486.6799621582031,
+    "label": "BODY"
+  }
+]

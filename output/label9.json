@@ -1,0 +1,6186 @@
+[
+  {
+ "text": "2022-2025",
+ "font_size": 34.00279998779297,
+ "line_width": 184.46518325805664,
+ "line_height": 34.0028076171875,
+ "char_count": 9,
+ "page": 0,
+ "y_position": 291.4687805175781,
+ "label": "BODY"
+ },
+ {
+ "text": "Tunisia",
+ "font_size": 94.0,
+ "line_width": 332.9480209350586,
+ "line_height": 94.00001525878906,
+ "char_count": 7,
+ "page": 0,
+ "y_position": 184.95457458496094,
+ "label": "H1"
+ },
+ {
+ "text": "STRATEGIC NOTE",
+ "font_size": 13.0,
+ "line_width": 141.9600067138672,
+ "line_height": 13.0,
+ "char_count": 14,
+ "page": 0,
+ "y_position": 151.8877410888672,
+ "label": "BODY"
+ },
+ {
+ "text": "2023 UN Women. All rights reserved.",
+ "font_size": 9.0,
+ "line_width": 139.33982849121094,
+ "line_height": 9.0,
+ "char_count": 35,
+ "page": 1,
+ "y_position": 751.1931762695312,
+ "label": "BODY"
+ },
+ {
+ "text": "Cover Photo: UN Women/Severine Sajous",
+ "font_size": 9.0,
+ "line_width": 159.61680603027344,
+ "line_height": 9.0,
+ "char_count": 37,
+ "page": 1,
+ "y_position": 771.6969604492188,
+ "label": "BODY"
+ },
+ {
+ "text": "3",
+ "font_size": 8.0,
+ "line_width": 4.9439697265625,
+ "line_height": 8.0,
+ "char_count": 1,
+ "page": 2,
+ "y_position": 788.5336303710938,
+ "label": "BODY"
+ },
+ {
+ "text": "STRATEGIC NOTE 2022-2025: TUNISIA",
+ "font_size": 8.0,
+ "line_width": 155.78961181640625,
+ "line_height": 8.0,
+ "char_count": 33,
+ "page": 2,
+ "y_position": 788.5336303710938,
+ "label": "BODY"
+ },
+ {
+ "text": "INTRODUCTION",
+ "font_size": 36.0,
+ "line_width": 294.4800338745117,
+ "line_height": 36.0,
+ "char_count": 12,
+ "page": 2,
+ "y_position": 392.9210205078125,
+ "label": "H1"
+ },
+ {
+ "text": "Photo: UN Women",
+ "font_size": 7.0,
+ "line_width": 61.656494140625,
+ "line_height": 7.0,
+ "char_count": 15,
+ "page": 2,
+ "y_position": 374.6884765625,
+ "label": "BODY"
+ },
+ {
+ "text": "TUNISIA’S GENDER EQUALITY LANDSCAPE",
+ "font_size": 17.0,
+ "line_width": 366.2820510864258,
+ "line_height": 17.0,
+ "char_count": 35,
+ "page": 2,
+ "y_position": 472.4995422363281,
+ "label": "H2"
+ },
+ {
+ "text": "COUNTRY DEVELOPMENT CONTEXT",
+ "font_size": 10.0,
+ "line_width": 187.76897430419922,
+ "line_height": 10.0,
+ "char_count": 27,
+ "page": 2,
+ "y_position": 511.23907470703125,
+ "label": "H3"
+ },
+ {
+ "text": "At the time of writing, Tunisia continues to face a deli-",
+ "font_size": 9.089554786682129,
+ "line_width": 220.37792205810547,
+ "line_height": 9.08953857421875,
+ "char_count": 57,
+ "page": 2,
+ "y_position": 531.8820190429688,
+ "label": "BODY"
+ },
+ {
+ "text": "cate political and economic moment. Hopes were high",
+ "font_size": 9.062234878540039,
+ "line_width": 219.76224517822266,
+ "line_height": 9.06219482421875,
+ "char_count": 51,
+ "page": 2,
+ "y_position": 545.4022216796875,
+ "label": "BODY"
+ },
+ {
+ "text": "for human rights and gender equality after Tunisia’s",
+ "font_size": 9.089554786682129,
+ "line_width": 219.82427978515625,
+ "line_height": 9.08953857421875,
+ "char_count": 52,
+ "page": 2,
+ "y_position": 558.8820190429688,
+ "label": "BODY"
+ },
+ {
+ "text": "democratic transition ignited the 2011 revolution in the",
+ "font_size": 9.042946815490723,
+ "line_width": 219.56289672851562,
+ "line_height": 9.04296875,
+ "char_count": 56,
+ "page": 2,
+ "y_position": 572.4164428710938,
+ "label": "BODY"
+ },
+ {
+ "text": "region. However, the foundation of new institutions and",
+ "font_size": 9.0,
+ "line_width": 219.77005004882812,
+ "line_height": 9.0,
+ "char_count": 55,
+ "page": 2,
+ "y_position": 585.9481811523438,
+ "label": "BODY"
+ },
+ {
+ "text": "norms for the country has been undercut by limited social",
+ "font_size": 8.973259925842285,
+ "line_width": 219.7535400390625,
+ "line_height": 8.97320556640625,
+ "char_count": 57,
+ "page": 2,
+ "y_position": 599.4679565429688,
+ "label": "BODY"
+ },
+ {
+ "text": "dialogue and economic struggles, exacerbated by the",
+ "font_size": 9.089554786682129,
+ "line_width": 219.51950073242188,
+ "line_height": 9.08953857421875,
+ "char_count": 51,
+ "page": 2,
+ "y_position": 612.8820190429688,
+ "label": "BODY"
+ },
+ {
+ "text": "COVID-19 pandemic. Some optimism followed the 2019",
+ "font_size": 9.030299186706543,
+ "line_width": 219.6304931640625,
+ "line_height": 9.03033447265625,
+ "char_count": 50,
+ "page": 2,
+ "y_position": 626.42578125,
+ "label": "BODY"
+ },
+ {
+ "text": "elections, but since then concerns have deepened due to",
+ "font_size": 9.0,
+ "line_width": 219.58832550048828,
+ "line_height": 9.0,
+ "char_count": 55,
+ "page": 2,
+ "y_position": 639.9481811523438,
+ "label": "BODY"
+ },
+ {
+ "text": "the slow response to economic challenges and the revela-",
+ "font_size": 9.0,
+ "line_width": 219.93844604492188,
+ "line_height": 9.0,
+ "char_count": 56,
+ "page": 2,
+ "y_position": 653.4481811523438,
+ "label": "BODY"
+ },
+ {
+ "text": "tion of deep political cleavages. The President suspended",
+ "font_size": 9.0,
+ "line_width": 219.6162109375,
+ "line_height": 9.0,
+ "char_count": 57,
+ "page": 2,
+ "y_position": 666.9481811523438,
+ "label": "BODY"
+ },
+ {
+ "text": "parliament in July 2021, paving the way for parliamentary",
+ "font_size": 9.0,
+ "line_width": 219.81060791015625,
+ "line_height": 9.0,
+ "char_count": 57,
+ "page": 2,
+ "y_position": 531.9481811523438,
+ "label": "BODY"
+ },
+ {
+ "text": "elections in December 2023. In July 2022, a public refer-",
+ "font_size": 9.06362533569336,
+ "line_width": 220.03765869140625,
+ "line_height": 9.0635986328125,
+ "char_count": 57,
+ "page": 2,
+ "y_position": 545.4011840820312,
+ "label": "BODY"
+ },
+ {
+ "text": "endum led to the adoption of a new constitution. The",
+ "font_size": 9.089554786682129,
+ "line_width": 219.62481689453125,
+ "line_height": 9.08953857421875,
+ "char_count": 52,
+ "page": 2,
+ "y_position": 558.8820190429688,
+ "label": "BODY"
+ },
+ {
+ "text": "President’s appointment of a woman as head of govern-",
+ "font_size": 9.011642456054688,
+ "line_width": 219.91378784179688,
+ "line_height": 9.01165771484375,
+ "char_count": 53,
+ "page": 2,
+ "y_position": 572.4395751953125,
+ "label": "BODY"
+ },
+ {
+ "text": "ment in 2021 – the first ever in the region – was welcomed",
+ "font_size": 8.980278015136719,
+ "line_width": 219.74392700195312,
+ "line_height": 8.980224609375,
+ "char_count": 58,
+ "page": 2,
+ "y_position": 585.9627685546875,
+ "label": "BODY"
+ },
+ {
+ "text": "as a positive step. But other signals, such as the President’s",
+ "font_size": 8.944127082824707,
+ "line_width": 219.81146240234375,
+ "line_height": 8.94415283203125,
+ "char_count": 62,
+ "page": 2,
+ "y_position": 599.4894409179688,
+ "label": "BODY"
+ },
+ {
+ "text": "dissolution of all municipal councils in March 2023, put",
+ "font_size": 9.038119316101074,
+ "line_width": 220.193359375,
+ "line_height": 9.0380859375,
+ "char_count": 56,
+ "page": 2,
+ "y_position": 612.9200439453125,
+ "label": "BODY"
+ },
+ {
+ "text": "into question how recent political shifts will translate to",
+ "font_size": 9.0,
+ "line_width": 219.46417236328125,
+ "line_height": 9.0,
+ "char_count": 59,
+ "page": 2,
+ "y_position": 626.4481811523438,
+ "label": "BODY"
+ },
+ {
+ "text": "safeguarding individual and public freedoms and address-",
+ "font_size": 8.976118087768555,
+ "line_width": 220.1031494140625,
+ "line_height": 8.97613525390625,
+ "char_count": 56,
+ "page": 2,
+ "y_position": 639.9658203125,
+ "label": "BODY"
+ },
+ {
+ "text": "ing the country’s pressing social and economic hardships.",
+ "font_size": 9.0,
+ "line_width": 219.0980224609375,
+ "line_height": 9.0,
+ "char_count": 57,
+ "page": 2,
+ "y_position": 653.4481811523438,
+ "label": "BODY"
+ },
+ {
+"text": "4",
+"font_size": 8.0,
+"line_width": 5.448001861572266,
+"line_height": 8.0,
+"char_count": 1,
+"page": 3,
+"y_position": 788.5336303710938,
+"label": "BODY"
+},
+{
+"text": "STRATEGIC NOTE 2022-2025: TUNISIA",
+"font_size": 8.0,
+"line_width": 155.78961181640625,
+"line_height": 8.0,
+"char_count": 33,
+"page": 3,
+"y_position": 788.5336303710938,
+"label": "BODY"
+},
+{
+"text": "Photo: UN Women/Severine Sajous",
+"font_size": 7.0,
+"line_width": 117.11007690429688,
+"line_height": 7.0,
+"char_count": 31,
+"page": 3,
+"y_position": 298.53546142578125,
+"label": "BODY"
+},
+{
+"text": "GENDER EQUALITY SNAPSHOT",
+"font_size": 10.0,
+"line_width": 161.3429718017578,
+"line_height": 10.0,
+"char_count": 24,
+"page": 3,
+"y_position": 323.7310791015625,
+"label": "H3"
+},
+{
+"text": "1.",
+"font_size": 7.0,
+"line_width": 5.89959716796875,
+"line_height": 7.0,
+"char_count": 2,
+"page": 3,
+"y_position": 688.0447998046875,
+"label": "BODY"
+},
+{
+"text": "The Convention to End Discrimination Against Women (CEDAW) was ratified by Tunisia in 1985; reservations were lifted 2011 but the lifting",
+"font_size": 7.0,
+"line_width": 431.81673431396484,
+"line_height": 7.0,
+"char_count": 137,
+"page": 3,
+"y_position": 688.0447998046875,
+"label": "BODY"
+},
+{
+"text": "was formally registered in 2014 with notification by the Government to the UN.",
+"font_size": 7.0,
+"line_width": 246.08358764648438,
+"line_height": 7.0,
+"char_count": 78,
+"page": 3,
+"y_position": 696.4447631835938,
+"label": "BODY"
+},
+{
+"text": "2.",
+"font_size": 7.0,
+"line_width": 6.8376007080078125,
+"line_height": 7.0,
+"char_count": 2,
+"page": 3,
+"y_position": 704.8447875976562,
+"label": "BODY"
+},
+{
+"text": "The National Action Plan was approved by Tunisia’s Ministerial Council on 8 October 2018.",
+"font_size": 7.0,
+"line_width": 279.47289276123047,
+"line_height": 7.0,
+"char_count": 89,
+"page": 3,
+"y_position": 704.8447875976562,
+"label": "BODY"
+},
+{
+"text": "Following the 2011 uprisings, Tunisia promulgated a new",
+"font_size": 9.0,
+"line_width": 219.638671875,
+"line_height": 9.0,
+"char_count": 55,
+"page": 3,
+"y_position": 344.440185546875,
+"label": "BODY"
+},
+{
+"text": "constitution in 2014 that enshrined equality between",
+"font_size": 9.089554786682129,
+"line_width": 219.9079360961914,
+"line_height": 9.089569091796875,
+"char_count": 52,
+"page": 3,
+"y_position": 357.8740234375,
+"label": "BODY"
+},
+{
+"text": "women and men, transparency, inclusion, parity and",
+"font_size": 9.089554786682129,
+"line_width": 219.47816467285156,
+"line_height": 9.089569091796875,
+"char_count": 50,
+"page": 3,
+"y_position": 371.3740234375,
+"label": "BODY"
+},
+{
+"text": "non-discrimination, and explicitly addressed ending",
+"font_size": 9.089554786682129,
+"line_width": 219.9078140258789,
+"line_height": 9.089569091796875,
+"char_count": 51,
+"page": 3,
+"y_position": 384.8740234375,
+"label": "BODY"
+},
+{
+"text": "violence against women (EVAW). This led to advances in",
+"font_size": 9.002899169921875,
+"line_width": 219.4551239013672,
+"line_height": 9.002899169921875,
+"char_count": 54,
+"page": 3,
+"y_position": 398.43804931640625,
+"label": "BODY"
+},
+{
+"text": "governance, political and human rights, and social reform",
+"font_size": 8.98288345336914,
+"line_width": 219.73931121826172,
+"line_height": 8.982879638671875,
+"char_count": 57,
+"page": 3,
+"y_position": 411.95281982421875,
+"label": "BODY"
+},
+{
+"text": "that favoured gender equality, specifically the passage of",
+"font_size": 9.0,
+"line_width": 219.93209075927734,
+"line_height": 9.0,
+"char_count": 58,
+"page": 3,
+"y_position": 425.440185546875,
+"label": "BODY"
+},
+{
+"text": "two laws, one on EVAW and another on gender-sensitive",
+"font_size": 9.0,
+"line_width": 219.5927963256836,
+"line_height": 9.0,
+"char_count": 53,
+"page": 3,
+"y_position": 438.940185546875,
+"label": "BODY"
+},
+{
+"text": "budgeting. The new constitution adopted in July 2022,",
+"font_size": 9.086038589477539,
+"line_width": 220.89627075195312,
+"line_height": 9.0860595703125,
+"char_count": 53,
+"page": 3,
+"y_position": 452.3766174316406,
+"label": "BODY"
+},
+{
+"text": "criticized by some for expanding presidential powers, rein-",
+"font_size": 8.972758293151855,
+"line_width": 220.00531768798828,
+"line_height": 8.9727783203125,
+"char_count": 59,
+"page": 3,
+"y_position": 465.9602966308594,
+"label": "BODY"
+},
+{
+"text": "forces these same rights of non-discrimination that are the",
+"font_size": 8.909544944763184,
+"line_width": 219.41088104248047,
+"line_height": 8.9095458984375,
+"char_count": 59,
+"page": 3,
+"y_position": 479.5069885253906,
+"label": "BODY"
+},
+{
+"text": "foundation for advancing gender equality. Since 2014, the",
+"font_size": 8.998250007629395,
+"line_width": 219.5326156616211,
+"line_height": 8.998260498046875,
+"char_count": 57,
+"page": 3,
+"y_position": 492.94146728515625,
+"label": "BODY"
+},
+{
+"text": "country has hosted six consecutive free and fair elections,",
+"font_size": 9.0,
+"line_width": 221.04181671142578,
+"line_height": 9.0,
+"char_count": 59,
+"page": 3,
+"y_position": 506.440185546875,
+"label": "BODY"
+},
+{
+"text": "including the recent parliamentary elections in 2022-2023.",
+"font_size": 8.962270736694336,
+"line_width": 220.98631286621094,
+"line_height": 8.96221923828125,
+"char_count": 58,
+"page": 3,
+"y_position": 519.9680786132812,
+"label": "BODY"
+},
+{
+"text": "The impressive gains women made in representation at",
+"font_size": 9.025314331054688,
+"line_width": 220.5610809326172,
+"line_height": 9.0252685546875,
+"char_count": 52,
+"page": 3,
+"y_position": 533.4215087890625,
+"label": "BODY"
+},
+{
+"text": "the local level – primarily due to the 2018 elections that",
+"font_size": 9.02322006225586,
+"line_width": 219.89147186279297,
+"line_height": 9.023193359375,
+"char_count": 58,
+"page": 3,
+"y_position": 546.9230346679688,
+"label": "BODY"
+},
+{
+"text": "saw unprecedented participation and resulted in women",
+"font_size": 9.0,
+"line_width": 219.7971420288086,
+"line_height": 9.0,
+"char_count": 53,
+"page": 3,
+"y_position": 560.440185546875,
+"label": "BODY"
+},
+{
+"text": "winning 47 per cent of local council positions – were largely",
+"font_size": 8.909544944763184,
+"line_width": 219.38075256347656,
+"line_height": 8.9095458984375,
+"char_count": 61,
+"page": 3,
+"y_position": 574.0070190429688,
+"label": "BODY"
+},
+{
+"text": "lost upon the president’s dissolution of municipal councils",
+"font_size": 8.941057205200195,
+"line_width": 219.56919860839844,
+"line_height": 8.94110107421875,
+"char_count": 59,
+"page": 3,
+"y_position": 587.4837036132812,
+"label": "BODY"
+},
+{
+"text": "in March 2023 and the amendment of the electoral law.",
+"font_size": 9.0,
+"line_width": 212.54307556152344,
+"line_height": 9.0,
+"char_count": 53,
+"page": 3,
+"y_position": 600.940185546875,
+"label": "BODY"
+},
+{
+"text": "Tunisia’s commitment to women’s rights is evident in its",
+"font_size": 9.0,
+"line_width": 220.50989532470703,
+"line_height": 9.0,
+"char_count": 56,
+"page": 3,
+"y_position": 622.9442749023438,
+"label": "BODY"
+},
+{
+"text": "ratification of the Convention on the Elimination of All",
+"font_size": 9.061092376708984,
+"line_width": 219.74153900146484,
+"line_height": 9.06109619140625,
+"char_count": 56,
+"page": 3,
+"y_position": 636.3991088867188,
+"label": "BODY"
+},
+{
+"text": "Forms of Discrimination Against Women (CEDAW) in 1985,",
+"font_size": 8.961467742919922,
+"line_width": 220.86102294921875,
+"line_height": 8.96148681640625,
+"char_count": 54,
+"page": 3,
+"y_position": 649.97265625,
+"label": "BODY"
+},
+{
+"text": "and lifting of all reservations in 2014. 1 The government also",
+"font_size": 8.942718505859375,
+"line_width": 219.57000732421875,
+"line_height": 9.185211181640625,
+"char_count": 62,
+"page": 3,
+"y_position": 344.239990234375,
+"label": "BODY"
+},
+{
+"text": "aligned its national Development Plan 2016-2020 with",
+"font_size": 9.069779396057129,
+"line_width": 219.93194580078125,
+"line_height": 9.06976318359375,
+"char_count": 52,
+"page": 3,
+"y_position": 357.8886413574219,
+"label": "BODY"
+},
+{
+"text": "the Sustainable Development Goals (SDGs) of the UN’s",
+"font_size": 9.049215316772461,
+"line_width": 219.89935302734375,
+"line_height": 9.0491943359375,
+"char_count": 52,
+"page": 3,
+"y_position": 371.4038391113281,
+"label": "BODY"
+},
+{
+"text": "Agenda 2030, and issued its second Voluntary National",
+"font_size": 9.050010681152344,
+"line_width": 220.03070068359375,
+"line_height": 9.050018310546875,
+"char_count": 53,
+"page": 3,
+"y_position": 384.9032287597656,
+"label": "BODY"
+},
+{
+"text": "Review on SDG implementation in 2021, which positioned",
+"font_size": 8.9701509475708,
+"line_width": 219.66476440429688,
+"line_height": 8.97015380859375,
+"char_count": 54,
+"page": 3,
+"y_position": 398.46221923828125,
+"label": "BODY"
+},
+{
+"text": "gender equality as a top priority. Additionally, the adoption",
+"font_size": 8.93607234954834,
+"line_width": 219.86126708984375,
+"line_height": 8.936065673828125,
+"char_count": 61,
+"page": 3,
+"y_position": 411.9873962402344,
+"label": "BODY"
+},
+{
+"text": "of Tunisia’s first National Action Plan (NAP) 2018-2022 for",
+"font_size": 9.0,
+"line_width": 220.09249877929688,
+"line_height": 9.0,
+"char_count": 59,
+"page": 3,
+"y_position": 425.440185546875,
+"label": "BODY"
+},
+{
+"text": "implementing United Nations Security Council Resolution",
+"font_size": 8.949760437011719,
+"line_width": 219.665771484375,
+"line_height": 8.94976806640625,
+"char_count": 55,
+"page": 3,
+"y_position": 438.977294921875,
+"label": "BODY"
+},
+{
+"text": "(UNSCR) 1325 on women, peace, and security highlighted",
+"font_size": 9.0,
+"line_width": 219.923095703125,
+"line_height": 9.0,
+"char_count": 54,
+"page": 3,
+"y_position": 452.440185546875,
+"label": "BODY"
+},
+{
+"text": "its commitment to support women’s roles in peacebuild-",
+"font_size": 9.0,
+"line_width": 219.98516845703125,
+"line_height": 9.0,
+"char_count": 54,
+"page": 3,
+"y_position": 465.940185546875,
+"label": "BODY"
+},
+{
+"text": "ing and security. 2",
+"font_size": 7.123500108718872,
+"line_width": 64.8255615234375,
+"line_height": 9.224853515625,
+"char_count": 19,
+"page": 3,
+"y_position": 479.21533203125,
+"label": "BODY"
+},
+{
+"text": "While these frameworks provide a strong foundation, they",
+"font_size": 8.939093589782715,
+"line_width": 219.86532592773438,
+"line_height": 8.9390869140625,
+"char_count": 56,
+"page": 3,
+"y_position": 501.4891662597656,
+"label": "BODY"
+},
+{
+"text": "have not directly alleviated discrimination and inequalities",
+"font_size": 8.91918659210205,
+"line_width": 219.72164916992188,
+"line_height": 8.919189453125,
+"char_count": 60,
+"page": 3,
+"y_position": 515.00390625,
+"label": "BODY"
+},
+{
+"text": "for women in Tunisia. Various factors including regional",
+"font_size": 9.015037536621094,
+"line_width": 219.57830810546875,
+"line_height": 9.0150146484375,
+"char_count": 56,
+"page": 3,
+"y_position": 528.43310546875,
+"label": "BODY"
+},
+{
+"text": "instability and the COVID-19 pandemic have exacerbated",
+"font_size": 9.0,
+"line_width": 219.62158203125,
+"line_height": 9.0,
+"char_count": 54,
+"page": 3,
+"y_position": 541.9442138671875,
+"label": "BODY"
+},
+{
+"text": "inequalities, poverty and discrimination for women and",
+"font_size": 9.012840270996094,
+"line_width": 219.5445556640625,
+"line_height": 9.0128173828125,
+"char_count": 54,
+"page": 3,
+"y_position": 555.4347534179688,
+"label": "BODY"
+},
+{
+"text": "girls. Primary challenges for women include: harmful",
+"font_size": 9.089554786682129,
+"line_width": 219.85455322265625,
+"line_height": 9.08953857421875,
+"char_count": 52,
+"page": 3,
+"y_position": 568.8780517578125,
+"label": "BODY"
+},
+{
+"text": "social norms that remain embedded in institutions and",
+"font_size": 9.02486515045166,
+"line_width": 219.69134521484375,
+"line_height": 9.02484130859375,
+"char_count": 53,
+"page": 3,
+"y_position": 582.4258422851562,
+"label": "BODY"
+},
+{
+"text": "legal frameworks; high unemployment, especially for",
+"font_size": 9.089554786682129,
+"line_width": 219.90155029296875,
+"line_height": 9.08953857421875,
+"char_count": 51,
+"page": 3,
+"y_position": 595.8780517578125,
+"label": "BODY"
+},
+{
+"text": "young women; increasing incidence of both economic",
+"font_size": 9.089059829711914,
+"line_width": 220.17218017578125,
+"line_height": 9.08905029296875,
+"char_count": 50,
+"page": 3,
+"y_position": 609.37841796875,
+"label": "BODY"
+},
+{
+"text": "and political violence, including online; despite parity laws,",
+"font_size": 8.934612274169922,
+"line_width": 221.17681884765625,
+"line_height": 8.93463134765625,
+"char_count": 62,
+"page": 3,
+"y_position": 622.9924926757812,
+"label": "BODY"
+},
+{
+"text": "low rates of women in governance; and the rising tide of",
+"font_size": 9.0,
+"line_width": 219.7811279296875,
+"line_height": 9.0,
+"char_count": 56,
+"page": 3,
+"y_position": 636.4442138671875,
+"label": "BODY"
+},
+{
+"text": "violent extremism.",
+"font_size": 9.0,
+"line_width": 72.21340942382812,
+"line_height": 9.0,
+"char_count": 18,
+"page": 3,
+"y_position": 649.9442138671875,
+"label": "BODY"
+},
+{
+"text": "5",
+"font_size": 8.0,
+"line_width": 4.97601318359375,
+"line_height": 8.0,
+"char_count": 1,
+"page": 4,
+"y_position": 788.5336303710938,
+"label": "BODY"
+},
+{
+"text": "STRATEGIC NOTE 2022-2025: TUNISIA",
+"font_size": 8.0,
+"line_width": 155.78961181640625,
+"line_height": 8.0,
+"char_count": 33,
+"page": 4,
+"y_position": 788.5336303710938,
+"label": "BODY"
+},
+{
+"text": "TUNISIA’S GENDER EQUALITY SNAPSHOT",
+"font_size": 17.0,
+"line_width": 354.2290344238281,
+"line_height": 17.0,
+"char_count": 34,
+"page": 4,
+"y_position": 59.415557861328125,
+"label": "H2"
+},
+{
+"text": "0.259",
+"font_size": 18.0,
+"line_width": 52.2882080078125,
+"line_height": 18.0,
+"char_count": 5,
+"page": 4,
+"y_position": 132.68203735351562,
+"label": "BODY"
+},
+{
+"text": "ﬁgure 1",
+"font_size": 10.0,
+"line_width": 37.196006774902344,
+"line_height": 10.0,
+"char_count": 7,
+"page": 4,
+"y_position": 96.47107696533203,
+"label": "BODY"
+},
+{
+"text": "Gender Inequality Index",
+"font_size": 9.0,
+"line_width": 109.87108612060547,
+"line_height": 9.0,
+"char_count": 23,
+"page": 4,
+"y_position": 110.92488098144531,
+"label": "H3"
+},
+{
+"text": "0",
+"font_size": 7.0,
+"line_width": 5.068000793457031,
+"line_height": 7.0,
+"char_count": 1,
+"page": 4,
+"y_position": 165.57247924804688,
+"label": "BODY"
+},
+{
+"text": "1",
+"font_size": 7.0,
+"line_width": 2.772003173828125,
+"line_height": 7.0,
+"char_count": 1,
+"page": 4,
+"y_position": 165.58645629882812,
+"label": "BODY"
+},
+{
+"text": "UNDP (2022). Human Development Report. (Note: Figure provided is for 2021)",
+"font_size": 5.0,
+"line_width": 171.09040069580078,
+"line_height": 5.0,
+"char_count": 74,
+"page": 4,
+"y_position": 193.62257385253906,
+"label": "BODY"
+},
+{
+"text": "15.5%",
+"font_size": 6.841000080108643,
+"line_width": 18.86749267578125,
+"line_height": 6.8409881591796875,
+"char_count": 5,
+"page": 4,
+"y_position": 155.68069458007812,
+"label": "BODY"
+},
+{
+"text": "49%",
+"font_size": 6.841000080108643,
+"line_width": 14.886016845703125,
+"line_height": 6.8409881591796875,
+"char_count": 3,
+"page": 4,
+"y_position": 164.52542114257812,
+"label": "BODY"
+},
+{
+"text": "National Parliaments",
+"font_size": 7.0,
+"line_width": 71.69961547851562,
+"line_height": 7.0,
+"char_count": 20,
+"page": 4,
+"y_position": 191.05050659179688,
+"label": "BODY"
+},
+{
+"text": "Local Governments",
+"font_size": 7.0,
+"line_width": 67.19241333007812,
+"line_height": 7.0,
+"char_count": 17,
+"page": 4,
+"y_position": 203.76742553710938,
+"label": "BODY"
+},
+{
+"text": "ﬁgure 2",
+"font_size": 10.0,
+"line_width": 39.20599365234375,
+"line_height": 10.0,
+"char_count": 7,
+"page": 4,
+"y_position": 96.47107696533203,
+"label": "BODY"
+},
+{
+"text": "Proportion of seats held by women in national",
+"font_size": 9.0,
+"line_width": 213.6834716796875,
+"line_height": 9.0,
+"char_count": 45,
+"page": 4,
+"y_position": 110.92488098144531,
+"label": "H3"
+},
+{
+"text": "parliaments and local governments",
+"font_size": 9.0,
+"line_width": 163.27447509765625,
+"line_height": 9.0,
+"char_count": 33,
+"page": 4,
+"y_position": 121.72486877441406,
+"label": "H3"
+},
+{
+"text": "Governance and Participation in Public Life",
+"font_size": 7.0,
+"line_width": 146.94415283203125,
+"line_height": 7.0,
+"char_count": 43,
+"page": 4,
+"y_position": 134.19747924804688,
+"label": "BODY"
+},
+{
+"text": "UNDESA (2022). SDG Indicator Global database. Extracted on Dec 2022. (Note: Lower Chamber or",
+"font_size": 5.0,
+"line_width": 215.7431640625,
+"line_height": 5.0,
+"char_count": 92,
+"page": 4,
+"y_position": 249.2715606689453,
+"label": "BODY"
+},
+{
+"text": "Unicameral, Data valid as of 1 Jan of given year based on the number of seats filled in parliament",
+"font_size": 5.0,
+"line_width": 216.678466796875,
+"line_height": 4.9999847412109375,
+"char_count": 98,
+"page": 4,
+"y_position": 255.2715606689453,
+"label": "BODY"
+},
+{
+"text": "at the time). The formal website of the national parliament registers 130 male and 24 female",
+"font_size": 5.0,
+"line_width": 206.85101318359375,
+"line_height": 5.0,
+"char_count": 92,
+"page": 4,
+"y_position": 261.27154541015625,
+"label": "BODY"
+},
+{
+"text": "representatives of the total 154: https://www.arp.tn/ar_SY/deputies . The figure 15.5% stands as",
+"font_size": 5.0,
+"line_width": 210.63052368164062,
+"line_height": 5.0,
+"char_count": 96,
+"page": 4,
+"y_position": 267.27154541015625,
+"label": "BODY"
+},
+{
+"text": "of the Dec 2022-Jan 2023 elections. In 2021, it had been 23% under the parity law. The current",
+"font_size": 5.0,
+"line_width": 206.70559692382812,
+"line_height": 5.0,
+"char_count": 94,
+"page": 4,
+"y_position": 273.27154541015625,
+"label": "BODY"
+},
+{
+"text": "figure of 15.5% was the result of elections that had 11% voter turnout due to non-participation",
+"font_size": 5.0,
+"line_width": 208.89395141601562,
+"line_height": 5.0,
+"char_count": 95,
+"page": 4,
+"y_position": 279.27154541015625,
+"label": "BODY"
+},
+{
+"text": "by opposition parties. In 2022, the President removed the parity requirement to support women’s",
+"font_size": 5.0,
+"line_width": 215.37530517578125,
+"line_height": 5.0,
+"char_count": 95,
+"page": 4,
+"y_position": 285.27154541015625,
+"label": "BODY"
+},
+{
+"text": "participation and enacted a new electoral law by executive decree with requirements that create",
+"font_size": 5.0,
+"line_width": 215.22940063476562,
+"line_height": 5.0,
+"char_count": 95,
+"page": 4,
+"y_position": 291.27154541015625,
+"label": "BODY"
+},
+{
+"text": "some barriers for women participants.",
+"font_size": 5.0,
+"line_width": 84.90890502929688,
+"line_height": 5.0,
+"char_count": 37,
+"page": 4,
+"y_position": 297.27154541015625,
+"label": "BODY"
+},
+{
+"text": "UNDESA (2022). SDG Indicator Global database. Extracted on Dec 2022. (Note: Refers to",
+"font_size": 5.0,
+"line_width": 194.384765625,
+"line_height": 5.0,
+"char_count": 85,
+"page": 4,
+"y_position": 308.9405517578125,
+"label": "BODY"
+},
+{
+"text": "administrative data on most recent election results at municipal level, 2018). The local elections",
+"font_size": 5.0,
+"line_width": 212.5435791015625,
+"line_height": 5.0,
+"char_count": 98,
+"page": 4,
+"y_position": 314.9405517578125,
+"label": "BODY"
+},
+{
+"text": "of 2018 yielded unprecedented participation of women. The next local election cycle, scheduled for",
+"font_size": 5.0,
+"line_width": 218.43804931640625,
+"line_height": 5.0,
+"char_count": 98,
+"page": 4,
+"y_position": 320.9405517578125,
+"label": "BODY"
+},
+{
+"text": "2023, was indefinitely postponed when the President announced in March 2023 the dissolution of",
+"font_size": 5.0,
+"line_width": 216.7210693359375,
+"line_height": 5.0,
+"char_count": 94,
+"page": 4,
+"y_position": 326.9405517578125,
+"label": "BODY"
+},
+{
+"text": "all municipal councils.",
+"font_size": 5.0,
+"line_width": 49.2401123046875,
+"line_height": 5.0,
+"char_count": 23,
+"page": 4,
+"y_position": 332.9405517578125,
+"label": "BODY"
+},
+{
+"text": "24.3%",
+"font_size": 23.0,
+"line_width": 70.47200012207031,
+"line_height": 23.0,
+"char_count": 5,
+"page": 4,
+"y_position": 649.1777954101562,
+"label": "BODY"
+},
+{
+"text": "47.2%",
+"font_size": 23.0,
+"line_width": 67.781005859375,
+"line_height": 23.0,
+"char_count": 5,
+"page": 4,
+"y_position": 649.1777954101562,
+"label": "BODY"
+},
+{
+"text": "in last 12",
+"font_size": 9.0,
+"line_width": 40.231788635253906,
+"line_height": 9.0,
+"char_count": 10,
+"page": 4,
+"y_position": 678.0328369140625,
+"label": "BODY"
+},
+{
+"text": "months",
+"font_size": 9.0,
+"line_width": 33.58350372314453,
+"line_height": 9.0,
+"char_count": 6,
+"page": 4,
+"y_position": 688.8328857421875,
+"label": "BODY"
+},
+{
+"text": "in lifetime",
+"font_size": 9.0,
+"line_width": 43.779632568359375,
+"line_height": 9.0,
+"char_count": 11,
+"page": 4,
+"y_position": 678.0328369140625,
+"label": "BODY"
+},
+{
+"text": "ﬁgure 6",
+"font_size": 10.0,
+"line_width": 39.59600067138672,
+"line_height": 10.0,
+"char_count": 7,
+"page": 4,
+"y_position": 551.3870849609375,
+"label": "BODY"
+},
+{
+"text": "Proportion of ever-partnered women and",
+"font_size": 9.0,
+"line_width": 191.17523956298828,
+"line_height": 9.0,
+"char_count": 38,
+"page": 4,
+"y_position": 565.8408813476562,
+"label": "H3"
+},
+{
+"text": "girls aged 18 and older subjected to any",
+"font_size": 9.0,
+"line_width": 185.4503631591797,
+"line_height": 9.0,
+"char_count": 40,
+"page": 4,
+"y_position": 576.640869140625,
+"label": "H3"
+},
+{
+"text": "form of violence by a current or former",
+"font_size": 9.0,
+"line_width": 181.32925415039062,
+"line_height": 9.0,
+"char_count": 39,
+"page": 4,
+"y_position": 587.4408569335938,
+"label": "H3"
+},
+{
+"text": "partner, including physical, psychological",
+"font_size": 9.0,
+"line_width": 191.34181213378906,
+"line_height": 9.0,
+"char_count": 42,
+"page": 4,
+"y_position": 598.2408447265625,
+"label": "H3"
+},
+{
+"text": "and/or sexual violence",
+"font_size": 9.0,
+"line_width": 106.02898406982422,
+"line_height": 9.0,
+"char_count": 22,
+"page": 4,
+"y_position": 609.0408935546875,
+"label": "H3"
+},
+{
+"text": "Ending Violence against Women",
+"font_size": 7.0,
+"line_width": 110.8974838256836,
+"line_height": 7.0,
+"char_count": 29,
+"page": 4,
+"y_position": 621.512451171875,
+"label": "BODY"
+},
+{
+"text": "UN Women (2022) “Understanding Masculinities in Tunisia: Results from the International Men",
+"font_size": 5.0,
+"line_width": 212.4103775024414,
+"line_height": 5.0,
+"char_count": 91,
+"page": 4,
+"y_position": 719.99853515625,
+"label": "BODY"
+},
+{
+"text": "and Gender Equality Survey (IMAGES) in Tunisia.",
+"font_size": 5.0,
+"line_width": 106.91993713378906,
+"line_height": 5.0,
+"char_count": 47,
+"page": 4,
+"y_position": 725.99853515625,
+"label": "BODY"
+},
+{
+"text": "ﬁgure 3",
+"font_size": 10.0,
+"line_width": 39.185997009277344,
+"line_height": 10.000015258789062,
+"char_count": 7,
+"page": 4,
+"y_position": 224.47607421875,
+"label": "H3"
+},
+{
+"text": "Proportions of seats held by women in",
+"font_size": 9.0,
+"line_width": 178.5302505493164,
+"line_height": 9.0,
+"char_count": 37,
+"page": 4,
+"y_position": 238.9289093017578,
+"label": "H3"
+},
+{
+"text": "executive positions/ministers (cabinets)",
+"font_size": 9.0,
+"line_width": 188.12435150146484,
+"line_height": 8.999984741210938,
+"char_count": 40,
+"page": 4,
+"y_position": 249.72889709472656,
+"label": "H3"
+},
+{
+"text": "Governance and Participation in Public Life",
+"font_size": 7.0,
+"line_width": 146.94400024414062,
+"line_height": 7.0,
+"char_count": 43,
+"page": 4,
+"y_position": 262.2015075683594,
+"label": "BODY"
+},
+{
+"text": "The official government website confirms that as of October 2023, eight woman ministers",
+"font_size": 5.0,
+"line_width": 199.55047607421875,
+"line_height": 5.0,
+"char_count": 87,
+"page": 4,
+"y_position": 348.612548828125,
+"label": "BODY"
+},
+{
+"text": "are part of the 16-minister cabinet: Membres de gouvernement - Portail du Gouvernement",
+"font_size": 5.0,
+"line_width": 201.0245590209961,
+"line_height": 5.0,
+"char_count": 86,
+"page": 4,
+"y_position": 354.612548828125,
+"label": "BODY"
+},
+{
+"text": "Tunisien",
+"font_size": 5.0,
+"line_width": 18.316497802734375,
+"line_height": 5.0,
+"char_count": 8,
+"page": 4,
+"y_position": 360.612548828125,
+"label": "BODY"
+},
+{
+"text": "50%",
+"font_size": 15.0,
+"line_width": 33.29998779296875,
+"line_height": 15.0,
+"char_count": 3,
+"page": 4,
+"y_position": 304.9041442871094,
+"label": "BODY"
+},
+{
+"text": "29.7%",
+"font_size": 23.000001907348633,
+"line_width": 69.85086059570312,
+"line_height": 24.20880126953125,
+"char_count": 5,
+"page": 4,
+"y_position": 659.5833740234375,
+"label": "BODY"
+},
+{
+"text": "59.7%",
+"font_size": 23.0,
+"line_width": 69.5059814453125,
+"line_height": 23.0,
+"char_count": 5,
+"page": 4,
+"y_position": 711.0057983398438,
+"label": "BODY"
+},
+{
+"text": "in last 12 months",
+"font_size": 9.0,
+"line_width": 73.81622314453125,
+"line_height": 9.0,
+"char_count": 17,
+"page": 4,
+"y_position": 687.4228515625,
+"label": "BODY"
+},
+{
+"text": "in lifetime",
+"font_size": 9.0,
+"line_width": 43.772430419921875,
+"line_height": 9.0,
+"char_count": 11,
+"page": 4,
+"y_position": 738.504150390625,
+"label": "BODY"
+},
+{
+"text": "ﬁgure 7",
+"font_size": 10.0,
+"line_width": 39.1669921875,
+"line_height": 10.0,
+"char_count": 7,
+"page": 4,
+"y_position": 580.5310668945312,
+"label": "H3"
+},
+{
+"text": "Proportion of women and girls aged 18 and",
+"font_size": 9.0,
+"line_width": 199.92523193359375,
+"line_height": 9.0,
+"char_count": 41,
+"page": 4,
+"y_position": 594.98486328125,
+"label": "H3"
+},
+{
+"text": "older subjected to sexual harassment (on a",
+"font_size": 9.0,
+"line_width": 198.77142333984375,
+"line_height": 9.0,
+"char_count": 42,
+"page": 4,
+"y_position": 605.784912109375,
+"label": "H3"
+},
+{
+"text": "spectrum from ogling to rape) by persons",
+"font_size": 9.0,
+"line_width": 193.5577392578125,
+"line_height": 9.0,
+"char_count": 40,
+"page": 4,
+"y_position": 616.5848999023438,
+"label": "H3"
+},
+{
+"text": "other than an intimate partner",
+"font_size": 9.0,
+"line_width": 138.12765502929688,
+"line_height": 9.0,
+"char_count": 30,
+"page": 4,
+"y_position": 627.3848876953125,
+"label": "H3"
+},
+{
+"text": "Ending Violence against Women",
+"font_size": 7.0,
+"line_width": 110.89764404296875,
+"line_height": 7.0,
+"char_count": 29,
+"page": 4,
+"y_position": 639.8564453125,
+"label": "BODY"
+},
+{
+"text": "Ibid.",
+"font_size": 5.0,
+"line_width": 9.4749755859375,
+"line_height": 5.0,
+"char_count": 5,
+"page": 4,
+"y_position": 755.8455810546875,
+"label": "BODY"
+},
+{
+"text": "Agriculture",
+"font_size": 9.0,
+"line_width": 49.88427734375,
+"line_height": 9.0,
+"char_count": 11,
+"page": 4,
+"y_position": 417.535888671875,
+"label": "BODY"
+},
+{
+"text": "Non-agriculture",
+"font_size": 9.0,
+"line_width": 70.343994140625,
+"line_height": 9.0,
+"char_count": 15,
+"page": 4,
+"y_position": 417.535888671875,
+"label": "BODY"
+},
+{
+"text": "Women",
+"font_size": 6.0,
+"line_width": 23.082000732421875,
+"line_height": 6.0,
+"char_count": 5,
+"page": 4,
+"y_position": 505.54425048828125,
+"label": "BODY"
+},
+{
+"text": "Men",
+"font_size": 6.0,
+"line_width": 12.45361328125,
+"line_height": 6.0,
+"char_count": 3,
+"page": 4,
+"y_position": 517.3324584960938,
+"label": "BODY"
+},
+{
+"text": "ﬁgure 5",
+"font_size": 10.0,
+"line_width": 39.275970458984375,
+"line_height": 10.0,
+"char_count": 7,
+"page": 4,
+"y_position": 361.9380798339844,
+"label": "H3"
+},
+{
+"text": "Proportion of informal employment in total",
+"font_size": 9.0,
+"line_width": 200.13833618164062,
+"line_height": 9.0,
+"char_count": 42,
+"page": 4,
+"y_position": 376.3918762207031,
+"label": "H3"
+},
+{
+"text": "employment, by sector and sex",
+"font_size": 9.0,
+"line_width": 147.94122314453125,
+"line_height": 9.0,
+"char_count": 29,
+"page": 4,
+"y_position": 387.1918640136719,
+"label": "H3"
+},
+{
+"text": "Women’s Economic Empowerment",
+"font_size": 7.0,
+"line_width": 120.13970947265625,
+"line_height": 7.0,
+"char_count": 28,
+"page": 4,
+"y_position": 399.6634826660156,
+"label": "BODY"
+},
+{
+"text": "ILO (2022). ILOSTAT (ILO Database for labor statistics). Extracted on Dec 2022. (Note: Figure",
+"font_size": 5.0,
+"line_width": 201.199951171875,
+"line_height": 5.0,
+"char_count": 93,
+"page": 4,
+"y_position": 537.8075561523438,
+"label": "BODY"
+},
+{
+"text": "provided is for 2014)",
+"font_size": 5.0,
+"line_width": 44.475006103515625,
+"line_height": 5.0,
+"char_count": 21,
+"page": 4,
+"y_position": 543.8075561523438,
+"label": "BODY"
+},
+{
+"text": "97%",
+"font_size": 8.0,
+"line_width": 16.7919921875,
+"line_height": 8.0,
+"char_count": 3,
+"page": 4,
+"y_position": 436.1136779785156,
+"label": "BODY"
+},
+{
+"text": "86%",
+"font_size": 8.0,
+"line_width": 17.0767822265625,
+"line_height": 8.0,
+"char_count": 3,
+"page": 4,
+"y_position": 445.41607666015625,
+"label": "BODY"
+},
+{
+"text": "54%",
+"font_size": 8.0,
+"line_width": 17.212799072265625,
+"line_height": 8.0,
+"char_count": 3,
+"page": 4,
+"y_position": 436.1136779785156,
+"label": "BODY"
+},
+{
+"text": "57%",
+"font_size": 8.0,
+"line_width": 16.399993896484375,
+"line_height": 8.0,
+"char_count": 3,
+"page": 4,
+"y_position": 445.41607666015625,
+"label": "BODY"
+},
+{
+"text": "women",
+"font_size": 9.0,
+"line_width": 32.77171325683594,
+"line_height": 9.0,
+"char_count": 5,
+"page": 4,
+"y_position": 499.2188720703125,
+"label": "BODY"
+},
+{
+"text": "men",
+"font_size": 9.0,
+"line_width": 19.432815551757812,
+"line_height": 9.0,
+"char_count": 3,
+"page": 4,
+"y_position": 499.2188720703125,
+"label": "BODY"
+},
+{
+"text": "ﬁgure 4",
+"font_size": 10.0,
+"line_width": 39.866004943847656,
+"line_height": 10.0,
+"char_count": 7,
+"page": 4,
+"y_position": 389.23309326171875,
+"label": "H3"
+},
+{
+"text": "Labor force participation rate by sex",
+"font_size": 9.0,
+"line_width": 166.75376892089844,
+"line_height": 9.0,
+"char_count": 37,
+"page": 4,
+"y_position": 403.6868591308594,
+"label": "H3"
+},
+{
+"text": "Women’s Economic Empowerment",
+"font_size": 7.0,
+"line_width": 120.13957214355469,
+"line_height": 7.0,
+"char_count": 28,
+"page": 4,
+"y_position": 416.1584777832031,
+"label": "BODY"
+},
+{
+"text": "ILO (2022). ILOSTAT (ILO Database for labor statistics). Extracted on Dec 2022. (Note:",
+"font_size": 5.0,
+"line_width": 186.130126953125,
+"line_height": 5.0,
+"char_count": 86,
+"page": 4,
+"y_position": 516.424560546875,
+"label": "BODY"
+},
+{
+"text": "Figure provided is for 2019 and refers to individuals aged 15+)",
+"font_size": 5.0,
+"line_width": 135.14584350585938,
+"line_height": 5.0,
+"char_count": 63,
+"page": 4,
+"y_position": 522.424560546875,
+"label": "BODY"
+},
+{
+"text": "27%",
+"font_size": 15.0,
+"line_width": 31.5,
+"line_height": 15.0,
+"char_count": 3,
+"page": 4,
+"y_position": 455.87811279296875,
+"label": "BODY"
+},
+{
+"text": "68%",
+"font_size": 15.0,
+"line_width": 32.25,
+"line_height": 15.0,
+"char_count": 3,
+"page": 4,
+"y_position": 455.87811279296875,
+"label": "BODY"
+}
+,
+ {
+  "text": "6",
+  "font_size": 8.0,
+  "line_width": 5.2480010986328125,
+  "line_height": 8.0,
+  "char_count": 1,
+  "page": 5,
+  "y_position": 788.5336303710938,
+  "label": "BODY"
+ },
+ {
+  "text": "STRATEGIC NOTE 2022-2025: TUNISIA",
+  "font_size": 8.0,
+  "line_width": 155.78961181640625,
+  "line_height": 8.0,
+  "char_count": 33,
+  "page": 5,
+  "y_position": 788.5336303710938,
+  "label": "BODY"
+ },
+ {
+  "text": "UN WOMEN’S CONTRIBUTIONS",
+  "font_size": 17.0,
+  "line_width": 265.5740280151367,
+  "line_height": 17.0,
+  "char_count": 24,
+  "page": 5,
+  "y_position": 270.1055603027344,
+  "label": "H2"
+ },
+ {
+  "text": "Since 2009, UN Women has contributed to progress on",
+  "font_size": 9.048320770263672,
+  "line_width": 220.12226104736328,
+  "line_height": 9.04833984375,
+  "char_count": 51,
+  "page": 5,
+  "y_position": 307.8494873046875,
+  "label": "BODY"
+ },
+ {
+  "text": "issues of equality and women’s empowerment in Tunisia.",
+  "font_size": 9.0,
+  "line_width": 221.0895233154297,
+  "line_height": 9.0,
+  "char_count": 54,
+  "page": 5,
+  "y_position": 321.38519287109375,
+  "label": "BODY"
+ },
+ {
+  "text": "Its integration into the national UN Country Team (UNCT)",
+  "font_size": 8.990344047546387,
+  "line_width": 219.7370834350586,
+  "line_height": 8.990325927734375,
+  "char_count": 56,
+  "page": 5,
+  "y_position": 334.892333984375,
+  "label": "BODY"
+ },
+ {
+  "text": "in 2019 allowed it to deepen its support to women’s issues",
+  "font_size": 8.964680671691895,
+  "line_width": 219.7085418701172,
+  "line_height": 8.96466064453125,
+  "char_count": 58,
+  "page": 5,
+  "y_position": 348.4112854003906,
+  "label": "BODY"
+ },
+ {
+  "text": "in Tunisia across its triple mandate.",
+  "font_size": 9.0,
+  "line_width": 134.7399139404297,
+  "line_height": 9.0,
+  "char_count": 37,
+  "page": 5,
+  "y_position": 361.88519287109375,
+  "label": "BODY"
+ },
+ {
+  "text": "Despite challenges, UN Women has led groundbreaking",
+  "font_size": 9.011242866516113,
+  "line_width": 219.70687866210938,
+  "line_height": 9.01123046875,
+  "char_count": 51,
+  "page": 5,
+  "y_position": 383.8808898925781,
+  "label": "BODY"
+ },
+ {
+  "text": "research on issues such as women’s political participa-",
+  "font_size": 9.085840225219727,
+  "line_width": 220.1006088256836,
+  "line_height": 9.085845947265625,
+  "char_count": 55,
+  "page": 5,
+  "y_position": 397.3257751464844,
+  "label": "BODY"
+ },
+ {
+  "text": "tion and parity, which underlies its normative work . The",
+  "font_size": 9.002999305725098,
+  "line_width": 219.52666473388672,
+  "line_height": 9.0367431640625,
+  "char_count": 57,
+  "page": 5,
+  "y_position": 410.8532409667969,
+  "label": "BODY"
+ },
+ {
+  "text": "results from this research stand ready to support updates",
+  "font_size": 8.992496490478516,
+  "line_width": 220.02911376953125,
+  "line_height": 8.992523193359375,
+  "char_count": 57,
+  "page": 5,
+  "y_position": 424.39471435546875,
+  "label": "BODY"
+ },
+ {
+  "text": "to the legal framework. In its coordination efforts, UN",
+  "font_size": 9.089554786682129,
+  "line_width": 219.67462158203125,
+  "line_height": 9.12359619140625,
+  "char_count": 55,
+  "page": 5,
+  "y_position": 437.78900146484375,
+  "label": "BODY"
+ },
+ {
+  "text": "Women consolidated a strong gender perspective in",
+  "font_size": 9.089554786682129,
+  "line_width": 219.75811767578125,
+  "line_height": 9.089569091796875,
+  "char_count": 49,
+  "page": 5,
+  "y_position": 451.3230285644531,
+  "label": "BODY"
+ },
+ {
+  "text": "the most recently approved United Nations Sustainable",
+  "font_size": 9.01803207397461,
+  "line_width": 219.6348876953125,
+  "line_height": 9.018035888671875,
+  "char_count": 53,
+  "page": 5,
+  "y_position": 307.8718566894531,
+  "label": "BODY"
+ },
+ {
+  "text": "Development Cooperation Framework (UNSDCF), which",
+  "font_size": 9.011792182922363,
+  "line_width": 219.58773803710938,
+  "line_height": 9.011810302734375,
+  "char_count": 49,
+  "page": 5,
+  "y_position": 321.37646484375,
+  "label": "BODY"
+ },
+ {
+  "text": "guides the UN system’s efforts through 2025. UN Women’s",
+  "font_size": 8.945686340332031,
+  "line_width": 219.8658447265625,
+  "line_height": 8.945709228515625,
+  "char_count": 55,
+  "page": 5,
+  "y_position": 334.92529296875,
+  "label": "BODY"
+ },
+ {
+  "text": "direct support to women’s groups and national institutions",
+  "font_size": 8.909544944763184,
+  "line_width": 219.6998291015625,
+  "line_height": 8.942901611328125,
+  "char_count": 58,
+  "page": 5,
+  "y_position": 348.41864013671875,
+  "label": "BODY"
+ },
+ {
+  "text": "made possible the initial implementation of the National",
+  "font_size": 9.0,
+  "line_width": 219.65701293945312,
+  "line_height": 9.0,
+  "char_count": 56,
+  "page": 5,
+  "y_position": 361.88519287109375,
+  "label": "BODY"
+ },
+ {
+  "text": "Observatory on EVAW. To increase economic empower-",
+  "font_size": 9.084850311279297,
+  "line_width": 219.93896484375,
+  "line_height": 9.084869384765625,
+  "char_count": 50,
+  "page": 5,
+  "y_position": 375.322509765625,
+  "label": "BODY"
+ },
+ {
+  "text": "ment and improve social cohesion, UN Women built up",
+  "font_size": 9.027109146118164,
+  "line_width": 219.74606323242188,
+  "line_height": 9.027099609375,
+  "char_count": 51,
+  "page": 5,
+  "y_position": 388.86517333984375,
+  "label": "BODY"
+ },
+ {
+  "text": "the expertise of local ministries and civil society groups on",
+  "font_size": 8.952675819396973,
+  "line_width": 219.74359130859375,
+  "line_height": 8.95269775390625,
+  "char_count": 61,
+  "page": 5,
+  "y_position": 402.4201354980469,
+  "label": "BODY"
+ },
+ {
+  "text": "gender norms, security and women’s employment oppor-",
+  "font_size": 9.0,
+  "line_width": 220.131103515625,
+  "line_height": 9.0,
+  "char_count": 52,
+  "page": 5,
+  "y_position": 415.88519287109375,
+  "label": "BODY"
+ },
+ {
+  "text": "tunities. UN Women advanced women’s political participa-",
+  "font_size": 8.936979293823242,
+  "line_width": 219.93072509765625,
+  "line_height": 8.936981201171875,
+  "char_count": 56,
+  "page": 5,
+  "y_position": 429.4317321777344,
+  "label": "BODY"
+ },
+ {
+  "text": "tion and leadership by sharpening its expertise on issues",
+  "font_size": 9.0,
+  "line_width": 219.83782958984375,
+  "line_height": 9.0,
+  "char_count": 57,
+  "page": 5,
+  "y_position": 442.88519287109375,
+  "label": "BODY"
+ },
+ {
+  "text": "related to women, elections and the electoral process.",
+  "font_size": 9.0,
+  "line_width": 206.13668823242188,
+  "line_height": 9.0,
+  "char_count": 54,
+  "page": 5,
+  "y_position": 456.38519287109375,
+  "label": "BODY"
+ },
+ {
+  "text": "UN WOMEN STRATEGIC NOTE: A roadmap to gender equality",
+  "font_size": 10.0,
+  "line_width": 314.4218978881836,
+  "line_height": 10.0,
+  "char_count": 53,
+  "page": 5,
+  "y_position": 64.12610626220703,
+  "label": "H3"
+ },
+ {
+  "text": "The Strategic Note (SN) articulates the multi-year strategy, rationale, envisioned results, targets, and resource require-",
+  "font_size": 9.012640953063965,
+  "line_width": 458.67735290527344,
+  "line_height": 9.012641906738281,
+  "char_count": 122,
+  "page": 5,
+  "y_position": 84.82586669921875,
+  "label": "BODY"
+ },
+ {
+  "text": "ments for a UN Women Office. In essence, the SN provides a roadmap for improving the lives of women and girls in the",
+  "font_size": 9.0,
+  "line_width": 457.6445846557617,
+  "line_height": 9.0,
+  "char_count": 116,
+  "page": 5,
+  "y_position": 98.335205078125,
+  "label": "BODY"
+ },
+ {
+  "text": "context where UN Women operates. It is developed in consultation with key partners and in alignment with the United",
+  "font_size": 9.0,
+  "line_width": 457.69427490234375,
+  "line_height": 9.0,
+  "char_count": 115,
+  "page": 5,
+  "y_position": 111.835205078125,
+  "label": "BODY"
+ },
+ {
+  "text": "Nations Sustainable Development Cooperation Framework, UN Women’s Strategic Plan and key national, regional, and",
+  "font_size": 9.0,
+  "line_width": 457.6544494628906,
+  "line_height": 9.0,
+  "char_count": 112,
+  "page": 5,
+  "y_position": 125.335205078125,
+  "label": "BODY"
+ },
+ {
+  "text": "global gender equality priorities. SNs are funded by a combination of core and non-core resources.",
+  "font_size": 9.0,
+  "line_width": 373.6483612060547,
+  "line_height": 9.0,
+  "char_count": 98,
+  "page": 5,
+  "y_position": 138.835205078125,
+  "label": "BODY"
+ },
+ {
+  "text": "UN Women’s SN is similar to a Country Programme Document (CPD) used by other UN entities.",
+  "font_size": 7.0,
+  "line_width": 293.53592681884766,
+  "line_height": 7.0,
+  "char_count": 89,
+  "page": 5,
+  "y_position": 164.91075134277344,
+  "label": "BODY"
+ },
+ {
+  "text": "To learn more about the work and results of UN Women Tunisia, visit our Transparency Portal .",
+  "font_size": 7.0,
+  "line_width": 290.94091033935547,
+  "line_height": 7.0,
+  "char_count": 93,
+  "page": 5,
+  "y_position": 757.1928100585938,
+  "label": "BODY"
+ },
+ {
+  "text": "UN WOMEN TUNISIA KEY ACHIEVEMENTS (2021-2022)",
+  "font_size": 10.0,
+  "line_width": 282.6109619140625,
+  "line_height": 10.0,
+  "char_count": 45,
+  "page": 5,
+  "y_position": 497.85107421875,
+  "label": "H3"
+ },
+ {
+  "text": "197 PEOPLE",
+  "font_size": 10.0,
+  "line_width": 64.37999725341797,
+  "line_height": 10.0,
+  "char_count": 10,
+  "page": 5,
+  "y_position": 522.4480590820312,
+  "label": "BODY"
+ },
+ {
+  "text": "actively contributed",
+  "font_size": 8.0,
+  "line_width": 81.88001251220703,
+  "line_height": 8.0,
+  "char_count": 20,
+  "page": 5,
+  "y_position": 535.0856323242188,
+  "label": "BODY"
+ },
+ {
+  "text": "to participatory",
+  "font_size": 8.0,
+  "line_width": 64.42320251464844,
+  "line_height": 8.0,
+  "char_count": 16,
+  "page": 5,
+  "y_position": 546.0856323242188,
+  "label": "BODY"
+ },
+ {
+  "text": "research to",
+  "font_size": 8.0,
+  "line_width": 46.79198455810547,
+  "line_height": 8.0,
+  "char_count": 11,
+  "page": 5,
+  "y_position": 557.0856323242188,
+  "label": "BODY"
+ },
+ {
+  "text": "promote women’s",
+  "font_size": 8.0,
+  "line_width": 73.8311767578125,
+  "line_height": 8.0,
+  "char_count": 15,
+  "page": 5,
+  "y_position": 568.0856323242188,
+  "label": "BODY"
+ },
+ {
+  "text": "empowerment for",
+  "font_size": 8.0,
+  "line_width": 73.85037994384766,
+  "line_height": 8.0,
+  "char_count": 15,
+  "page": 5,
+  "y_position": 579.0856323242188,
+  "label": "BODY"
+ },
+ {
+  "text": "resilient, peaceful",
+  "font_size": 8.0,
+  "line_width": 71.58316802978516,
+  "line_height": 8.0,
+  "char_count": 19,
+  "page": 5,
+  "y_position": 590.0856323242188,
+  "label": "BODY"
+ },
+ {
+  "text": "communities in",
+  "font_size": 8.0,
+  "line_width": 62.67998504638672,
+  "line_height": 8.0,
+  "char_count": 14,
+  "page": 5,
+  "y_position": 601.0856323242188,
+  "label": "BODY"
+ },
+ {
+  "text": "southern Tunisia.",
+  "font_size": 8.0,
+  "line_width": 69.06717681884766,
+  "line_height": 8.0,
+  "char_count": 17,
+  "page": 5,
+  "y_position": 612.0856323242188,
+  "label": "BODY"
+ },
+ {
+  "text": "The research",
+  "font_size": 8.0,
+  "line_width": 53.23200225830078,
+  "line_height": 8.0,
+  "char_count": 12,
+  "page": 5,
+  "y_position": 623.0856323242188,
+  "label": "BODY"
+ },
+ {
+  "text": "led to concrete",
+  "font_size": 8.0,
+  "line_width": 62.391197204589844,
+  "line_height": 8.0,
+  "char_count": 15,
+  "page": 5,
+  "y_position": 634.0856323242188,
+  "label": "BODY"
+ },
+ {
+  "text": "recommendations",
+  "font_size": 8.0,
+  "line_width": 74.01761627197266,
+  "line_height": 8.0,
+  "char_count": 15,
+  "page": 5,
+  "y_position": 645.0856323242188,
+  "label": "BODY"
+ },
+ {
+  "text": "for local CSOs and",
+  "font_size": 8.0,
+  "line_width": 76.1199722290039,
+  "line_height": 8.0,
+  "char_count": 18,
+  "page": 5,
+  "y_position": 656.0856323242188,
+  "label": "BODY"
+ },
+ {
+  "text": "government, and lays",
+  "font_size": 8.0,
+  "line_width": 87.26316833496094,
+  "line_height": 8.0,
+  "char_count": 20,
+  "page": 5,
+  "y_position": 667.0856323242188,
+  "label": "BODY"
+ },
+ {
+  "text": "the groundwork for",
+  "font_size": 8.0,
+  "line_width": 79.72000122070312,
+  "line_height": 8.0,
+  "char_count": 18,
+  "page": 5,
+  "y_position": 678.0856323242188,
+  "label": "BODY"
+ },
+ {
+  "text": "future programming",
+  "font_size": 8.0,
+  "line_width": 82.70877075195312,
+  "line_height": 8.0,
+  "char_count": 18,
+  "page": 5,
+  "y_position": 689.0856323242188,
+  "label": "BODY"
+ },
+ {
+  "text": "in this historically",
+  "font_size": 8.0,
+  "line_width": 71.16876983642578,
+  "line_height": 8.0,
+  "char_count": 20,
+  "page": 5,
+  "y_position": 700.0856323242188,
+  "label": "BODY"
+ },
+ {
+  "text": "marginalized region",
+  "font_size": 8.0,
+  "line_width": 80.98081970214844,
+  "line_height": 8.0,
+  "char_count": 19,
+  "page": 5,
+  "y_position": 711.0856323242188,
+  "label": "BODY"
+ },
+ {
+  "text": "of the country.",
+  "font_size": 8.0,
+  "line_width": 57.75281524658203,
+  "line_height": 8.0,
+  "char_count": 15,
+  "page": 5,
+  "y_position": 722.0856323242188,
+  "label": "BODY"
+ },
+ {
+  "text": "78 REPRESENTATIVES from ministries, civil society and the media",
+  "font_size": 9.0,
+  "line_width": 291.6841735839844,
+  "line_height": 10.0,
+  "char_count": 63,
+  "page": 5,
+  "y_position": 522.4480590820312,
+  "label": "BODY"
+ },
+ {
+  "text": "have crucial knowledge about the situation of women in south-east Tunisia,",
+  "font_size": 8.0,
+  "line_width": 300.5079345703125,
+  "line_height": 8.0,
+  "char_count": 74,
+  "page": 5,
+  "y_position": 535.0856323242188,
+  "label": "BODY"
+ },
+ {
+  "text": "including analyses on key barriers to employment and harmful gender",
+  "font_size": 8.0,
+  "line_width": 279.7847137451172,
+  "line_height": 8.0,
+  "char_count": 67,
+  "page": 5,
+  "y_position": 546.0856323242188,
+  "label": "BODY"
+ },
+ {
+  "text": "perceptions, and are therefore better equipped to gender mainstream their",
+  "font_size": 8.0,
+  "line_width": 300.1590881347656,
+  "line_height": 8.0,
+  "char_count": 73,
+  "page": 5,
+  "y_position": 557.0856323242188,
+  "label": "BODY"
+ },
+ {
+  "text": "work across ministries, in the media and as civil society groups.",
+  "font_size": 8.0,
+  "line_width": 250.50001525878906,
+  "line_height": 8.0,
+  "char_count": 65,
+  "page": 5,
+  "y_position": 568.0856323242188,
+  "label": "BODY"
+ },
+ {
+  "text": "22 FOCAL POINTS from the steering committee are better equipped",
+  "font_size": 9.0,
+  "line_width": 295.0043487548828,
+  "line_height": 10.0,
+  "char_count": 63,
+  "page": 5,
+  "y_position": 601.0470581054688,
+  "label": "BODY"
+ },
+ {
+  "text": "to implement the second phase of the NAP on UNSCR 1325.",
+  "font_size": 8.0,
+  "line_width": 237.40631103515625,
+  "line_height": 8.0,
+  "char_count": 55,
+  "page": 5,
+  "y_position": 613.6846313476562,
+  "label": "BODY"
+ },
+ {
+  "text": "62 SPECIALIZED UNITS FOR THE INVESTIGATION OF",
+  "font_size": 10.0,
+  "line_width": 275.6999816894531,
+  "line_height": 10.0,
+  "char_count": 45,
+  "page": 5,
+  "y_position": 693.3010864257812,
+  "label": "BODY"
+ },
+ {
+  "text": "CRIMES against women and girls have adequate equipment to better",
+  "font_size": 9.0,
+  "line_width": 285.3226776123047,
+  "line_height": 10.0,
+  "char_count": 64,
+  "page": 5,
+  "y_position": 704.3010864257812,
+  "label": "BODY"
+ },
+ {
+  "text": "support girls and women who report being subjected to violence.",
+  "font_size": 8.0,
+  "line_width": 264.3335876464844,
+  "line_height": 8.0,
+  "char_count": 63,
+  "page": 5,
+  "y_position": 716.9386596679688,
+  "label": "BODY"
+ },
+ {
+  "text": "43 CIVIL SERVANTS are better positioned to implement frameworks",
+  "font_size": 9.0,
+  "line_width": 295.32652282714844,
+  "line_height": 10.0,
+  "char_count": 63,
+  "page": 5,
+  "y_position": 647.174072265625,
+  "label": "BODY"
+ },
+ {
+  "text": "and tools for gender-responsive budgeting based on feminist economics.",
+  "font_size": 8.0,
+  "line_width": 290.2656555175781,
+  "line_height": 8.0,
+  "char_count": 70,
+  "page": 5,
+  "y_position": 659.8116455078125,
+  "label": "BODY"
+ } ,
+  {
+  "text": "7",
+  "font_size": 8.0,
+  "line_width": 4.87200927734375,
+  "line_height": 8.0,
+  "char_count": 1,
+  "page": 6,
+  "y_position": 788.5336303710938,
+  "label": "BODY"
+ },
+ {
+  "text": "STRATEGIC NOTE 2022-2025: TUNISIA",
+  "font_size": 8.0,
+  "line_width": 155.78961181640625,
+  "line_height": 8.0,
+  "char_count": 33,
+  "page": 6,
+  "y_position": 788.5336303710938,
+  "label": "BODY"
+ },
+ {
+  "text": "The UNCT and the Government of Tunisia have agreed",
+  "font_size": 9.077020645141602,
+  "line_width": 220.2913360595703,
+  "line_height": 9.0770263671875,
+  "char_count": 50,
+  "page": 6,
+  "y_position": 202.9163055419922,
+  "label": "BODY"
+ },
+ {
+  "text": "on a set of strategic development priorities. These are set",
+  "font_size": 9.0,
+  "line_width": 220.04644775390625,
+  "line_height": 9.0,
+  "char_count": 59,
+  "page": 6,
+  "y_position": 216.47320556640625,
+  "label": "BODY"
+ },
+ {
+  "text": "forth in the UNSDCF and are based on a careful analysis",
+  "font_size": 9.000649452209473,
+  "line_width": 219.77297973632812,
+  "line_height": 9.000656127929688,
+  "char_count": 55,
+  "page": 6,
+  "y_position": 229.97271728515625,
+  "label": "BODY"
+ },
+ {
+  "text": "of Tunisia’s current context, and a shared understanding",
+  "font_size": 9.0,
+  "line_width": 219.81777954101562,
+  "line_height": 9.0,
+  "char_count": 56,
+  "page": 6,
+  "y_position": 243.47320556640625,
+  "label": "BODY"
+ },
+ {
+  "text": "of key national priorities, opportunities, risks, and persist-",
+  "font_size": 9.0,
+  "line_width": 220.0050048828125,
+  "line_height": 9.0,
+  "char_count": 62,
+  "page": 6,
+  "y_position": 256.97320556640625,
+  "label": "BODY"
+ },
+ {
+  "text": "ing inequalities. UN Women Tunisia’s Strategic Note (SN)",
+  "font_size": 9.0,
+  "line_width": 219.71434783935547,
+  "line_height": 9.0,
+  "char_count": 56,
+  "page": 6,
+  "y_position": 270.47320556640625,
+  "label": "BODY"
+ },
+ {
+  "text": "pursues three priorities, listed below, contributing to the",
+  "font_size": 9.0,
+  "line_width": 219.6575927734375,
+  "line_height": 9.0,
+  "char_count": 59,
+  "page": 6,
+  "y_position": 283.97320556640625,
+  "label": "BODY"
+ },
+ {
+  "text": "achievement of the UNSDCF and national priorities. These",
+  "font_size": 8.952021598815918,
+  "line_width": 219.77069854736328,
+  "line_height": 8.9520263671875,
+  "char_count": 56,
+  "page": 6,
+  "y_position": 297.5086364746094,
+  "label": "BODY"
+ },
+ {
+  "text": "have been decided collectively with other UN Agencies and",
+  "font_size": 8.918279647827148,
+  "line_width": 219.58740997314453,
+  "line_height": 8.91827392578125,
+  "char_count": 57,
+  "page": 6,
+  "y_position": 311.0335693359375,
+  "label": "BODY"
+ },
+ {
+  "text": "partners, based on what UN Women is uniquely positioned",
+  "font_size": 8.909544944763184,
+  "line_width": 219.70724487304688,
+  "line_height": 8.9095458984375,
+  "char_count": 55,
+  "page": 6,
+  "y_position": 324.53997802734375,
+  "label": "BODY"
+ },
+ {
+  "text": "to contribute to. They are also aligned with UN Women’s",
+  "font_size": 9.0,
+  "line_width": 219.78543090820312,
+  "line_height": 9.0,
+  "char_count": 55,
+  "page": 6,
+  "y_position": 337.9731750488281,
+  "label": "BODY"
+ },
+ {
+  "text": "Strategic Plan 2022-2025 .",
+  "font_size": 9.0,
+  "line_width": 98.239501953125,
+  "line_height": 9.0,
+  "char_count": 26,
+  "page": 6,
+  "y_position": 351.4731750488281,
+  "label": "BODY"
+ },
+ {
+  "text": "TUNISIA’S STRATEGIC",
+  "font_size": 36.0,
+  "line_width": 416.40843963623047,
+  "line_height": 36.0,
+  "char_count": 19,
+  "page": 6,
+  "y_position": 85.03898620605469,
+  "label": "H1"
+ },
+ {
+  "text": "PRIORITIES",
+  "font_size": 36.0,
+  "line_width": 212.50798797607422,
+  "line_height": 36.0,
+  "char_count": 10,
+  "page": 6,
+  "y_position": 123.04057312011719,
+  "label": "H1"
+ },
+ {
+  "text": "7",
+  "font_size": 8.0,
+  "line_width": 4.87200927734375,
+  "line_height": 8.0,
+  "char_count": 1,
+  "page": 6,
+  "y_position": 788.5336303710938,
+  "label": "BODY"
+ },
+ {
+  "text": "STRATEGIC NOTE 2022-2025: TUNISIA",
+  "font_size": 8.0,
+  "line_width": 155.78958129882812,
+  "line_height": 8.0,
+  "char_count": 33,
+  "page": 6,
+  "y_position": 788.5336303710938,
+  "label": "BODY"
+ },
+ {
+  "text": "AS A GLOBAL CHAMPION",
+  "font_size": 14.0,
+  "line_width": 191.73004150390625,
+  "line_height": 14.0,
+  "char_count": 20,
+  "page": 6,
+  "y_position": 212.9228973388672,
+  "label": "BODY"
+ },
+ {
+  "text": "FOR WOMEN AND GIRLS,",
+  "font_size": 14.0,
+  "line_width": 189.23666381835938,
+  "line_height": 14.0,
+  "char_count": 20,
+  "page": 6,
+  "y_position": 232.92332458496094,
+  "label": "BODY"
+ },
+ {
+  "text": "UN WOMEN CONVENES AND",
+  "font_size": 14.0,
+  "line_width": 216.132080078125,
+  "line_height": 14.000015258789062,
+  "char_count": 21,
+  "page": 6,
+  "y_position": 252.9237518310547,
+  "label": "BODY"
+ },
+ {
+  "text": "INFLUENCES A RANGE OF",
+  "font_size": 14.0,
+  "line_width": 196.78399658203125,
+  "line_height": 14.0,
+  "char_count": 21,
+  "page": 6,
+  "y_position": 272.9241943359375,
+  "label": "BODY"
+ },
+ {
+  "text": "PARTNERS FOR A GREATER",
+  "font_size": 14.0,
+  "line_width": 208.69802856445312,
+  "line_height": 14.0,
+  "char_count": 22,
+  "page": 6,
+  "y_position": 292.92462158203125,
+  "label": "BODY"
+ },
+ {
+  "text": "AND LONG-LASTING IMPACT",
+  "font_size": 14.0,
+  "line_width": 210.25210571289062,
+  "line_height": 14.0,
+  "char_count": 23,
+  "page": 6,
+  "y_position": 312.925048828125,
+  "label": "BODY"
+ },
+ {
+  "text": "Photo: UN Women",
+  "font_size": 7.0,
+  "line_width": 61.65672302246094,
+  "line_height": 7.0,
+  "char_count": 15,
+  "page": 6,
+  "y_position": 413.86749267578125,
+  "label": "BODY"
+ },
+ {
+  "text": "9",
+  "font_size": 8.0,
+  "line_width": 5.248046875,
+  "line_height": 8.0,
+  "char_count": 1,
+  "page": 7,
+  "y_position": 788.5336303710938,
+  "label": "BODY"
+ },
+ {
+  "text": "8",
+  "font_size": 8.0,
+  "line_width": 5.040000915527344,
+  "line_height": 8.0,
+  "char_count": 1,
+  "page": 7,
+  "y_position": 788.5336303710938,
+  "label": "BODY"
+ },
+ {
+  "text": "STRATEGIC NOTE 2022-2025: TUNISIA",
+  "font_size": 8.0,
+  "line_width": 155.7935791015625,
+  "line_height": 8.0,
+  "char_count": 33,
+  "page": 7,
+  "y_position": 788.5336303710938,
+  "label": "BODY"
+ },
+ {
+  "text": "STRATEGIC NOTE 2022-2025: TUNISIA",
+  "font_size": 8.0,
+  "line_width": 155.78961181640625,
+  "line_height": 8.0,
+  "char_count": 33,
+  "page": 7,
+  "y_position": 788.5336303710938,
+  "label": "BODY"
+ },
+ {
+  "text": "COLLECTIVE",
+  "font_size": 9.0,
+  "line_width": 61.281005859375,
+  "line_height": 9.0,
+  "char_count": 10,
+  "page": 7,
+  "y_position": 269.8798828125,
+  "label": "BODY"
+ },
+ {
+  "text": "CONTRIBUTION",
+  "font_size": 9.0,
+  "line_width": 72.17997741699219,
+  "line_height": 9.0,
+  "char_count": 12,
+  "page": 7,
+  "y_position": 280.87969970703125,
+  "label": "BODY"
+ },
+ {
+  "text": "CHALLENGES",
+  "font_size": 9.0,
+  "line_width": 66.42899322509766,
+  "line_height": 9.0,
+  "char_count": 10,
+  "page": 7,
+  "y_position": 607.68408203125,
+  "label": "BODY"
+ },
+ {
+  "text": "FOR WOMEN",
+  "font_size": 9.0,
+  "line_width": 63.71099853515625,
+  "line_height": 9.0,
+  "char_count": 9,
+  "page": 7,
+  "y_position": 618.6838989257812,
+  "label": "BODY"
+ },
+ {
+  "text": "AND GIRLS",
+  "font_size": 9.0,
+  "line_width": 51.71220397949219,
+  "line_height": 9.0,
+  "char_count": 9,
+  "page": 7,
+  "y_position": 629.6837158203125,
+  "label": "BODY"
+ },
+ {
+  "text": "IMPACT",
+  "font_size": 9.0,
+  "line_width": 35.24220275878906,
+  "line_height": 9.0,
+  "char_count": 6,
+  "page": 7,
+  "y_position": 168.89540100097656,
+  "label": "BODY"
+ },
+ {
+  "text": "UN WOMEN",
+  "font_size": 9.0,
+  "line_width": 57.62879943847656,
+  "line_height": 9.0,
+  "char_count": 8,
+  "page": 7,
+  "y_position": 439.585693359375,
+  "label": "BODY"
+ },
+ {
+  "text": "SOLUTIONS*",
+  "font_size": 9.0,
+  "line_width": 58.69439697265625,
+  "line_height": 9.0,
+  "char_count": 10,
+  "page": 7,
+  "y_position": 450.5854797363281,
+  "label": "BODY"
+ },
+ {
+  "text": "Women in Tunisia contribute to and beneﬁt from good",
+  "font_size": 20.0,
+  "line_width": 560.3321838378906,
+  "line_height": 20.0,
+  "char_count": 51,
+  "page": 7,
+  "y_position": 143.47718811035156,
+  "label": "H2"
+ },
+ {
+  "text": "governance, an inclusive economy and sustainable peace",
+  "font_size": 20.0,
+  "line_width": 578.8100891113281,
+  "line_height": 20.0,
+  "char_count": 54,
+  "page": 7,
+  "y_position": 168.7552032470703,
+  "label": "H2"
+ },
+ {
+  "text": "*UN Women solutions are aligned to UN Women’s Strategic Plan 2022-2025.",
+  "font_size": 7.0,
+  "line_width": 235.11751556396484,
+  "line_height": 7.0,
+  "char_count": 71,
+  "page": 7,
+  "y_position": 722.1077880859375,
+  "label": "BODY"
+ },
+ {
+  "text": "(priority results)",
+  "font_size": 7.0,
+  "line_width": 50.95298767089844,
+  "line_height": 7.0,
+  "char_count": 18,
+  "page": 7,
+  "y_position": 296.656494140625,
+  "label": "BODY"
+ },
+ {
+  "text": "Large percentage of",
+  "font_size": 9.0,
+  "line_width": 94.7718505859375,
+  "line_height": 9.0,
+  "char_count": 19,
+  "page": 7,
+  "y_position": 589.8778686523438,
+  "label": "BODY"
+ },
+ {
+  "text": "women’s employment",
+  "font_size": 9.0,
+  "line_width": 101.99606323242188,
+  "line_height": 9.0,
+  "char_count": 18,
+  "page": 7,
+  "y_position": 601.8775634765625,
+  "label": "BODY"
+ },
+ {
+  "text": "remains informal and",
+  "font_size": 9.0,
+  "line_width": 97.95599365234375,
+  "line_height": 9.0,
+  "char_count": 20,
+  "page": 7,
+  "y_position": 613.8772583007812,
+  "label": "BODY"
+ },
+ {
+  "text": "outside of formal protection",
+  "font_size": 9.0,
+  "line_width": 130.54141235351562,
+  "line_height": 9.0,
+  "char_count": 28,
+  "page": 7,
+  "y_position": 625.876953125,
+  "label": "BODY"
+ },
+ {
+  "text": "services; likewise,",
+  "font_size": 9.0,
+  "line_width": 82.386962890625,
+  "line_height": 9.0,
+  "char_count": 19,
+  "page": 7,
+  "y_position": 637.8766479492188,
+  "label": "BODY"
+ },
+ {
+  "text": "unemployment remains",
+  "font_size": 9.0,
+  "line_width": 111.58920288085938,
+  "line_height": 9.0,
+  "char_count": 20,
+  "page": 7,
+  "y_position": 649.8763427734375,
+  "label": "BODY"
+ },
+ {
+  "text": "high for young women.",
+  "font_size": 9.0,
+  "line_width": 107.11178588867188,
+  "line_height": 9.0,
+  "char_count": 21,
+  "page": 7,
+  "y_position": 661.8760375976562,
+  "label": "BODY"
+ },
+ {
+  "text": "Limited",
+  "font_size": 9.0,
+  "line_width": 36.99267578125,
+  "line_height": 9.0,
+  "char_count": 7,
+  "page": 7,
+  "y_position": 596.638671875,
+  "label": "BODY"
+ },
+ {
+  "text": "data to",
+  "font_size": 9.0,
+  "line_width": 35.11798095703125,
+  "line_height": 9.0,
+  "char_count": 7,
+  "page": 7,
+  "y_position": 608.6383056640625,
+  "label": "BODY"
+ },
+ {
+  "text": "inform",
+  "font_size": 9.0,
+  "line_width": 32.33154296875,
+  "line_height": 9.0,
+  "char_count": 6,
+  "page": 7,
+  "y_position": 620.6380615234375,
+  "label": "BODY"
+ },
+ {
+  "text": "evidence-",
+  "font_size": 9.0,
+  "line_width": 44.29791259765625,
+  "line_height": 9.0,
+  "char_count": 9,
+  "page": 7,
+  "y_position": 632.6376953125,
+  "label": "BODY"
+ },
+ {
+  "text": "based",
+  "font_size": 9.0,
+  "line_width": 29.98345947265625,
+  "line_height": 9.0,
+  "char_count": 5,
+  "page": 7,
+  "y_position": 644.637451171875,
+  "label": "BODY"
+ },
+ {
+  "text": "policy.",
+  "font_size": 9.0,
+  "line_width": 31.90582275390625,
+  "line_height": 9.0,
+  "char_count": 7,
+  "page": 7,
+  "y_position": 656.6370849609375,
+  "label": "BODY"
+ },
+ {
+  "text": "Political instability,",
+  "font_size": 9.0,
+  "line_width": 87.69677734375,
+  "line_height": 9.0,
+  "char_count": 22,
+  "page": 7,
+  "y_position": 592.67138671875,
+  "label": "BODY"
+ },
+ {
+  "text": "including policy",
+  "font_size": 9.0,
+  "line_width": 74.61163330078125,
+  "line_height": 9.0,
+  "char_count": 16,
+  "page": 7,
+  "y_position": 604.671142578125,
+  "label": "BODY"
+ },
+ {
+  "text": "shifts and the",
+  "font_size": 9.0,
+  "line_width": 63.937744140625,
+  "line_height": 9.0,
+  "char_count": 14,
+  "page": 7,
+  "y_position": 616.6707763671875,
+  "label": "BODY"
+ },
+ {
+  "text": "rollback of electoral",
+  "font_size": 9.0,
+  "line_width": 93.10400390625,
+  "line_height": 9.0,
+  "char_count": 21,
+  "page": 7,
+  "y_position": 628.6705322265625,
+  "label": "BODY"
+ },
+ {
+  "text": "special measures to",
+  "font_size": 9.0,
+  "line_width": 91.9429931640625,
+  "line_height": 9.0,
+  "char_count": 19,
+  "page": 7,
+  "y_position": 640.670166015625,
+  "label": "BODY"
+ },
+ {
+  "text": "promote women’s",
+  "font_size": 9.0,
+  "line_width": 84.09613037109375,
+  "line_height": 9.0,
+  "char_count": 15,
+  "page": 7,
+  "y_position": 652.669921875,
+  "label": "BODY"
+ },
+ {
+  "text": "participation.",
+  "font_size": 9.0,
+  "line_width": 60.45831298828125,
+  "line_height": 9.0,
+  "char_count": 14,
+  "page": 7,
+  "y_position": 664.6695556640625,
+  "label": "BODY"
+ },
+ {
+  "text": "Political violence,",
+  "font_size": 9.0,
+  "line_width": 81.8944091796875,
+  "line_height": 9.0,
+  "char_count": 19,
+  "page": 7,
+  "y_position": 596.8212890625,
+  "label": "BODY"
+ },
+ {
+  "text": "both online",
+  "font_size": 9.0,
+  "line_width": 54.27886962890625,
+  "line_height": 9.0,
+  "char_count": 11,
+  "page": 7,
+  "y_position": 608.8209838867188,
+  "label": "BODY"
+ },
+ {
+  "text": "and offline,",
+  "font_size": 9.0,
+  "line_width": 53.46795654296875,
+  "line_height": 9.0,
+  "char_count": 12,
+  "page": 7,
+  "y_position": 620.8206787109375,
+  "label": "BODY"
+ },
+ {
+  "text": "discourages",
+  "font_size": 9.0,
+  "line_width": 57.04638671875,
+  "line_height": 9.0,
+  "char_count": 11,
+  "page": 7,
+  "y_position": 632.8203735351562,
+  "label": "BODY"
+ },
+ {
+  "text": "women from",
+  "font_size": 9.0,
+  "line_width": 59.8050537109375,
+  "line_height": 9.0,
+  "char_count": 10,
+  "page": 7,
+  "y_position": 644.820068359375,
+  "label": "BODY"
+ },
+ {
+  "text": "participating.",
+  "font_size": 9.0,
+  "line_width": 60.5753173828125,
+  "line_height": 9.0,
+  "char_count": 14,
+  "page": 7,
+  "y_position": 656.8197631835938,
+  "label": "BODY"
+ },
+ {
+  "text": "Equality",
+  "font_size": 9.0,
+  "line_width": 39.73504638671875,
+  "line_height": 9.0,
+  "char_count": 8,
+  "page": 7,
+  "y_position": 606.9219970703125,
+  "label": "BODY"
+ },
+ {
+  "text": "laws lack",
+  "font_size": 9.0,
+  "line_width": 43.42498779296875,
+  "line_height": 9.0,
+  "char_count": 9,
+  "page": 7,
+  "y_position": 618.921630859375,
+  "label": "BODY"
+ },
+ {
+  "text": "implemen-",
+  "font_size": 9.0,
+  "line_width": 48.40191650390625,
+  "line_height": 9.0,
+  "char_count": 9,
+  "page": 7,
+  "y_position": 630.92138671875,
+  "label": "BODY"
+ },
+ {
+  "text": "tation.",
+  "font_size": 9.0,
+  "line_width": 29.11322021484375,
+  "line_height": 9.0,
+  "char_count": 7,
+  "page": 7,
+  "y_position": 642.9210205078125,
+  "label": "BODY"
+ },
+ {
+  "text": "Improve the capacity of institutions and civil",
+  "font_size": 9.0,
+  "line_width": 200.58770751953125,
+  "line_height": 9.0,
+  "char_count": 46,
+  "page": 7,
+  "y_position": 347.29888916015625,
+  "label": "BODY"
+ },
+ {
+  "text": "society actors to support gender-responsive",
+  "font_size": 9.0,
+  "line_width": 203.8717041015625,
+  "line_height": 9.0,
+  "char_count": 43,
+  "page": 7,
+  "y_position": 359.298583984375,
+  "label": "BODY"
+ },
+ {
+  "text": "legal frameworks and mechanisms that",
+  "font_size": 9.0,
+  "line_width": 180.152099609375,
+  "line_height": 9.0,
+  "char_count": 36,
+  "page": 7,
+  "y_position": 371.29827880859375,
+  "label": "BODY"
+ },
+ {
+  "text": "guarantee the rule of law.",
+  "font_size": 9.0,
+  "line_width": 113.09246826171875,
+  "line_height": 9.0,
+  "char_count": 26,
+  "page": 7,
+  "y_position": 383.2979736328125,
+  "label": "BODY"
+ },
+ {
+  "text": "Strengthen the capacity of national authorities to",
+  "font_size": 9.0,
+  "line_width": 222.7650146484375,
+  "line_height": 9.0,
+  "char_count": 50,
+  "page": 7,
+  "y_position": 512.0699462890625,
+  "label": "BODY"
+ },
+ {
+  "text": "provide preventative and responsive protection",
+  "font_size": 9.0,
+  "line_width": 220.1805419921875,
+  "line_height": 9.0,
+  "char_count": 46,
+  "page": 7,
+  "y_position": 524.0697021484375,
+  "label": "BODY"
+ },
+ {
+  "text": "services to address violence against women,",
+  "font_size": 9.0,
+  "line_width": 205.71160888671875,
+  "line_height": 9.0,
+  "char_count": 43,
+  "page": 7,
+  "y_position": 536.0693359375,
+  "label": "BODY"
+ },
+ {
+  "text": "especially women in politics, both online and offline.",
+  "font_size": 9.0,
+  "line_width": 234.78778076171875,
+  "line_height": 9.0,
+  "char_count": 54,
+  "page": 7,
+  "y_position": 548.069091796875,
+  "label": "BODY"
+ },
+ {
+  "text": "Enhance the capacity of electoral",
+  "font_size": 9.0,
+  "line_width": 151.80596923828125,
+  "line_height": 9.0,
+  "char_count": 33,
+  "page": 7,
+  "y_position": 431.4542541503906,
+  "label": "BODY"
+ },
+ {
+  "text": "bodies, civil society, and women",
+  "font_size": 9.0,
+  "line_width": 146.18450927734375,
+  "line_height": 9.0,
+  "char_count": 32,
+  "page": 7,
+  "y_position": 443.4539489746094,
+  "label": "BODY"
+ },
+ {
+  "text": "candidates to promote inclusive and",
+  "font_size": 9.0,
+  "line_width": 167.50634765625,
+  "line_height": 9.0,
+  "char_count": 35,
+  "page": 7,
+  "y_position": 455.4536437988281,
+  "label": "BODY"
+ },
+ {
+  "text": "gender-sensitive electoral processes .",
+  "font_size": 9.0,
+  "line_width": 169.0362548828125,
+  "line_height": 9.0,
+  "char_count": 38,
+  "page": 7,
+  "y_position": 467.4533386230469,
+  "label": "BODY"
+ },
+ {
+  "text": "INCLUSIVE GOVERNANCE,",
+  "font_size": 12.0,
+  "line_width": 168.10430908203125,
+  "line_height": 12.0,
+  "char_count": 21,
+  "page": 7,
+  "y_position": 266.58154296875,
+  "label": "H3"
+ },
+ {
+  "text": "WOMEN’S POLITICAL",
+  "font_size": 12.0,
+  "line_width": 136.67987060546875,
+  "line_height": 12.0,
+  "char_count": 17,
+  "page": 7,
+  "y_position": 279.58111572265625,
+  "label": "H3"
+ },
+ {
+  "text": "PARTICIPATION AND LEADERSHIP",
+  "font_size": 12.0,
+  "line_width": 216.131591796875,
+  "line_height": 12.0,
+  "char_count": 28,
+  "page": 7,
+  "y_position": 292.5806884765625,
+  "label": "H3"
+ },
+ {
+  "text": "Strengthen the capacity of national institutions",
+  "font_size": 9.0,
+  "line_width": 212.50592041015625,
+  "line_height": 9.0,
+  "char_count": 48,
+  "page": 7,
+  "y_position": 351.5788879394531,
+  "label": "BODY"
+ },
+ {
+  "text": "to implement, monitor and evaluate Tunisia’s",
+  "font_size": 9.0,
+  "line_width": 207.63360595703125,
+  "line_height": 9.0,
+  "char_count": 44,
+  "page": 7,
+  "y_position": 363.5785827636719,
+  "label": "BODY"
+ },
+ {
+  "text": "National Action Plan (NAP) for UNSCR 1325.",
+  "font_size": 9.0,
+  "line_width": 199.79998779296875,
+  "line_height": 9.0,
+  "char_count": 42,
+  "page": 7,
+  "y_position": 375.5782775878906,
+  "label": "BODY"
+ },
+ {
+  "text": "Improve the capacity of civil society actors,",
+  "font_size": 9.0,
+  "line_width": 196.60858154296875,
+  "line_height": 9.0,
+  "char_count": 45,
+  "page": 7,
+  "y_position": 437.0356750488281,
+  "label": "BODY"
+ },
+ {
+  "text": "including men and boys, to advocate for women’s",
+  "font_size": 9.0,
+  "line_width": 226.52423095703125,
+  "line_height": 9.0,
+  "char_count": 47,
+  "page": 7,
+  "y_position": 449.0353698730469,
+  "label": "BODY"
+ },
+ {
+  "text": "leadership and inclusive peacebuilding processes .",
+  "font_size": 9.0,
+  "line_width": 227.72882080078125,
+  "line_height": 9.0,
+  "char_count": 50,
+  "page": 7,
+  "y_position": 461.0350646972656,
+  "label": "BODY"
+ },
+ {
+  "text": "Institutional",
+  "font_size": 9.0,
+  "line_width": 56.69989013671875,
+  "line_height": 9.0,
+  "char_count": 13,
+  "page": 7,
+  "y_position": 600.183837890625,
+  "label": "BODY"
+ },
+ {
+  "text": "support is weak",
+  "font_size": 9.0,
+  "line_width": 74.11669921875,
+  "line_height": 9.0,
+  "char_count": 15,
+  "page": 7,
+  "y_position": 612.18359375,
+  "label": "BODY"
+ },
+ {
+  "text": "despite formal",
+  "font_size": 9.0,
+  "line_width": 68.29547119140625,
+  "line_height": 9.0,
+  "char_count": 14,
+  "page": 7,
+  "y_position": 624.1832275390625,
+  "label": "BODY"
+ },
+ {
+  "text": "commitments to",
+  "font_size": 9.0,
+  "line_width": 76.904052734375,
+  "line_height": 9.0,
+  "char_count": 14,
+  "page": 7,
+  "y_position": 636.1829833984375,
+  "label": "BODY"
+ },
+ {
+  "text": "gender equality.",
+  "font_size": 9.0,
+  "line_width": 73.11590576171875,
+  "line_height": 9.0,
+  "char_count": 16,
+  "page": 7,
+  "y_position": 648.1826171875,
+  "label": "BODY"
+ },
+ {
+  "text": "Deep-seeded",
+  "font_size": 9.0,
+  "line_width": 63.18017578125,
+  "line_height": 9.0,
+  "char_count": 11,
+  "page": 7,
+  "y_position": 595.021484375,
+  "label": "BODY"
+ },
+ {
+  "text": "gender stereotypes",
+  "font_size": 9.0,
+  "line_width": 90.9532470703125,
+  "line_height": 9.0,
+  "char_count": 18,
+  "page": 7,
+  "y_position": 607.0211181640625,
+  "label": "BODY"
+ },
+ {
+  "text": "based on cultural",
+  "font_size": 9.0,
+  "line_width": 80.770263671875,
+  "line_height": 9.0,
+  "char_count": 17,
+  "page": 7,
+  "y_position": 619.0208740234375,
+  "label": "BODY"
+ },
+ {
+  "text": "norms are",
+  "font_size": 9.0,
+  "line_width": 47.927490234375,
+  "line_height": 9.0,
+  "char_count": 9,
+  "page": 7,
+  "y_position": 631.0205078125,
+  "label": "BODY"
+ },
+ {
+  "text": "inconsistent with",
+  "font_size": 9.0,
+  "line_width": 79.389404296875,
+  "line_height": 9.0,
+  "char_count": 17,
+  "page": 7,
+  "y_position": 643.020263671875,
+  "label": "BODY"
+ },
+ {
+  "text": "women’s rights.",
+  "font_size": 9.0,
+  "line_width": 73.6558837890625,
+  "line_height": 9.0,
+  "char_count": 15,
+  "page": 7,
+  "y_position": 655.0198974609375,
+  "label": "BODY"
+ },
+ {
+  "text": "WOMEN’S PARTICIPATION FOR INCLUSIVE",
+  "font_size": 12.0,
+  "line_width": 267.849365234375,
+  "line_height": 12.0,
+  "char_count": 35,
+  "page": 7,
+  "y_position": 274.96453857421875,
+  "label": "H3"
+ },
+ {
+  "text": "PEACEBUILDING AND RECONCILIATION",
+  "font_size": 12.0,
+  "line_width": 248.18231201171875,
+  "line_height": 12.0,
+  "char_count": 32,
+  "page": 7,
+  "y_position": 287.964111328125,
+  "label": "H3"
+ },
+ {
+  "text": "Enhance the capacity of national authorities to support",
+  "font_size": 9.0,
+  "line_width": 249.709228515625,
+  "line_height": 9.0,
+  "char_count": 55,
+  "page": 7,
+  "y_position": 510.65283203125,
+  "label": "BODY"
+ },
+ {
+  "text": "national reforms to prevent terrorism and violent",
+  "font_size": 9.0,
+  "line_width": 226.4520263671875,
+  "line_height": 9.0,
+  "char_count": 49,
+  "page": 7,
+  "y_position": 522.652587890625,
+  "label": "BODY"
+ },
+ {
+  "text": "extremism and promote gender-responsive rehabilitation",
+  "font_size": 9.0,
+  "line_width": 261.35650634765625,
+  "line_height": 9.0,
+  "char_count": 54,
+  "page": 7,
+  "y_position": 534.6522216796875,
+  "label": "BODY"
+ },
+ {
+  "text": "and reintegration for victims and survivors.",
+  "font_size": 9.0,
+  "line_width": 191.3768310546875,
+  "line_height": 9.0,
+  "char_count": 44,
+  "page": 7,
+  "y_position": 546.6519775390625,
+  "label": "BODY"
+ },
+ {
+  "text": "Enhance the capacity of institutions and civil society",
+  "font_size": 9.0,
+  "line_width": 237.11582946777344,
+  "line_height": 9.0,
+  "char_count": 54,
+  "page": 7,
+  "y_position": 345.880859375,
+  "label": "BODY"
+ },
+ {
+  "text": "actors to support effective public policies for",
+  "font_size": 9.0,
+  "line_width": 208.6129150390625,
+  "line_height": 9.0,
+  "char_count": 47,
+  "page": 7,
+  "y_position": 357.88055419921875,
+  "label": "BODY"
+ },
+ {
+  "text": "sustainable socio-economic development that places",
+  "font_size": 9.0,
+  "line_width": 244.10523986816406,
+  "line_height": 9.0,
+  "char_count": 50,
+  "page": 7,
+  "y_position": 369.8802490234375,
+  "label": "BODY"
+ },
+ {
+  "text": "women and the most vulnerable at the forefront.",
+  "font_size": 9.0,
+  "line_width": 216.75128173828125,
+  "line_height": 9.0,
+  "char_count": 47,
+  "page": 7,
+  "y_position": 381.87994384765625,
+  "label": "BODY"
+ },
+ {
+  "text": "Strengthen the capacity of health, education, and social",
+  "font_size": 9.0,
+  "line_width": 251.58676147460938,
+  "line_height": 9.0,
+  "char_count": 56,
+  "page": 7,
+  "y_position": 436.50634765625,
+  "label": "BODY"
+ },
+ {
+  "text": "protection sectors to support equitable access and",
+  "font_size": 9.0,
+  "line_width": 233.01907348632812,
+  "line_height": 9.0,
+  "char_count": 50,
+  "page": 7,
+  "y_position": 448.50604248046875,
+  "label": "BODY"
+ },
+ {
+  "text": "quality services that are gender responsive.",
+  "font_size": 9.0,
+  "line_width": 195.6933135986328,
+  "line_height": 9.0,
+  "char_count": 44,
+  "page": 7,
+  "y_position": 460.5057373046875,
+  "label": "BODY"
+ },
+ {
+  "text": "Improve the capacity of women, including rural women,",
+  "font_size": 9.0,
+  "line_width": 250.6618194580078,
+  "line_height": 9.0,
+  "char_count": 53,
+  "page": 7,
+  "y_position": 524.7738037109375,
+  "label": "BODY"
+ },
+ {
+  "text": "to build their skills and access the labour force .",
+  "font_size": 9.0,
+  "line_width": 217.47238159179688,
+  "line_height": 9.0,
+  "char_count": 51,
+  "page": 7,
+  "y_position": 536.7735595703125,
+  "label": "BODY"
+ },
+ {
+  "text": "Non-inclusive economic",
+  "font_size": 9.0,
+  "line_width": 110.83232116699219,
+  "line_height": 9.0,
+  "char_count": 22,
+  "page": 7,
+  "y_position": 596.2928466796875,
+  "label": "BODY"
+ },
+ {
+  "text": "system including deep",
+  "font_size": 9.0,
+  "line_width": 104.19308471679688,
+  "line_height": 9.0,
+  "char_count": 21,
+  "page": 7,
+  "y_position": 608.2926025390625,
+  "label": "BODY"
+ },
+ {
+  "text": "inequalities around",
+  "font_size": 9.0,
+  "line_width": 89.17658996582031,
+  "line_height": 9.0,
+  "char_count": 19,
+  "page": 7,
+  "y_position": 620.292236328125,
+  "label": "BODY"
+ },
+ {
+  "text": "inheritance, access to",
+  "font_size": 9.0,
+  "line_width": 99.99189758300781,
+  "line_height": 9.0,
+  "char_count": 22,
+  "page": 7,
+  "y_position": 632.2919921875,
+  "label": "BODY"
+ },
+ {
+  "text": "credit and protection",
+  "font_size": 9.0,
+  "line_width": 98.80110168457031,
+  "line_height": 9.0,
+  "char_count": 21,
+  "page": 7,
+  "y_position": 644.2916259765625,
+  "label": "BODY"
+ },
+ {
+  "text": "services.",
+  "font_size": 9.0,
+  "line_width": 38.945709228515625,
+  "line_height": 9.0,
+  "char_count": 9,
+  "page": 7,
+  "y_position": 656.2913818359375,
+  "label": "BODY"
+ },
+ {
+  "text": "WOMEN’S EQUAL ACCESS TO ECONOMIC",
+  "font_size": 12.0,
+  "line_width": 261.2989501953125,
+  "line_height": 12.0,
+  "char_count": 32,
+  "page": 7,
+  "y_position": 274.96453857421875,
+  "label": "H3"
+ },
+ {
+  "text": "OPPORTUNITIES AND DECENT WORK",
+  "font_size": 12.0,
+  "line_width": 234.32159423828125,
+  "line_height": 12.0,
+  "char_count": 29,
+  "page": 7,
+  "y_position": 287.964111328125,
+  "label": "H3"
+ }
+,
+  {
+  "text": "10",
+  "font_size": 8.0,
+  "line_width": 8.959999084472656,
+  "line_height": 8.0,
+  "char_count": 2,
+  "page": 8,
+  "y_position": 788.5336303710938,
+  "label": "BODY"
+ },
+ {
+  "text": "STRATEGIC NOTE 2022-2025: TUNISIA",
+  "font_size": 8.0,
+  "line_width": 155.78961181640625,
+  "line_height": 8.0,
+  "char_count": 33,
+  "page": 8,
+  "y_position": 788.5336303710938,
+  "label": "BODY"
+ },
+ {
+  "text": "UN WOMEN’S COMPARATIVE ADVANTAGE",
+  "font_size": 10.0,
+  "line_width": 217.96102142333984,
+  "line_height": 10.0,
+  "char_count": 32,
+  "page": 8,
+  "y_position": 84.85108184814453,
+  "label": "BODY"
+ },
+ {
+  "text": "UN Women’s comparative advantage in Tunisia is centred",
+  "font_size": 8.993897438049316,
+  "line_width": 219.6905517578125,
+  "line_height": 8.993904113769531,
+  "char_count": 54,
+  "page": 8,
+  "y_position": 111.23466491699219,
+  "label": "BODY"
+ },
+ {
+  "text": "around the expertise it brings to the UNCT on gender",
+  "font_size": 9.089554786682129,
+  "line_width": 220.17676544189453,
+  "line_height": 9.089561462402344,
+  "char_count": 52,
+  "page": 8,
+  "y_position": 124.66400909423828,
+  "label": "BODY"
+ },
+ {
+  "text": "equality and its agility to form and maintain partner-",
+  "font_size": 9.089554786682129,
+  "line_width": 220.05571746826172,
+  "line_height": 9.089553833007812,
+  "char_count": 54,
+  "page": 8,
+  "y_position": 138.1640167236328,
+  "label": "BODY"
+ },
+ {
+  "text": "ships across a range of women’s groups in the midst of a",
+  "font_size": 9.0,
+  "line_width": 219.78893280029297,
+  "line_height": 9.0,
+  "char_count": 56,
+  "page": 8,
+  "y_position": 151.73016357421875,
+  "label": "BODY"
+ },
+ {
+  "text": "changing socio-political context. UN Women Tunisia works",
+  "font_size": 8.917824745178223,
+  "line_width": 219.85321807861328,
+  "line_height": 8.917816162109375,
+  "char_count": 56,
+  "page": 8,
+  "y_position": 165.29086303710938,
+  "label": "BODY"
+ },
+ {
+  "text": "across diverse dimensions of civil society, academia, and",
+  "font_size": 9.0,
+  "line_width": 219.78272247314453,
+  "line_height": 9.0,
+  "char_count": 57,
+  "page": 8,
+  "y_position": 178.73016357421875,
+  "label": "BODY"
+ },
+ {
+  "text": "both local and national-level government. As it contin-",
+  "font_size": 9.089207649230957,
+  "line_width": 219.92593383789062,
+  "line_height": 9.089218139648438,
+  "char_count": 55,
+  "page": 8,
+  "y_position": 192.1642608642578,
+  "label": "BODY"
+ },
+ {
+  "text": "ues to build relationships of trust with women and lead-",
+  "font_size": 9.0,
+  "line_width": 220.0328598022461,
+  "line_height": 9.0,
+  "char_count": 56,
+  "page": 8,
+  "y_position": 205.73016357421875,
+  "label": "BODY"
+ },
+ {
+  "text": "ers across all regions of Tunisia, UN Women leverages its",
+  "font_size": 9.0,
+  "line_width": 219.85739135742188,
+  "line_height": 9.0,
+  "char_count": 57,
+  "page": 8,
+  "y_position": 219.23016357421875,
+  "label": "BODY"
+ },
+ {
+  "text": "convening role to facilitate women’s participation and",
+  "font_size": 9.083909034729004,
+  "line_width": 219.7428970336914,
+  "line_height": 9.083908081054688,
+  "char_count": 54,
+  "page": 8,
+  "y_position": 232.66818237304688,
+  "label": "BODY"
+ },
+ {
+  "text": "capacity building. For instance, UN Women’s role as a",
+  "font_size": 9.089554786682129,
+  "line_width": 219.66455841064453,
+  "line_height": 9.089553833007812,
+  "char_count": 53,
+  "page": 8,
+  "y_position": 246.1640167236328,
+  "label": "BODY"
+ },
+ {
+  "text": "convener has allowed civil society organizations (CSOs)",
+  "font_size": 9.050607681274414,
+  "line_width": 219.84757232666016,
+  "line_height": 9.05059814453125,
+  "char_count": 55,
+  "page": 8,
+  "y_position": 259.6927795410156,
+  "label": "BODY"
+ },
+ {
+  "text": "to collaborate to address economic violence, now explicitly",
+  "font_size": 8.926752090454102,
+  "line_width": 219.5304183959961,
+  "line_height": 8.9267578125,
+  "char_count": 59,
+  "page": 8,
+  "y_position": 273.2842712402344,
+  "label": "BODY"
+ },
+ {
+  "text": "recognized under Tunisian law. Its comparative advantage",
+  "font_size": 8.949155807495117,
+  "line_width": 219.46431732177734,
+  "line_height": 8.982666015625,
+  "char_count": 56,
+  "page": 8,
+  "y_position": 286.73419189453125,
+  "label": "BODY"
+ },
+ {
+  "text": "vis-à-vis UN partners lies in its complementary approach,",
+  "font_size": 9.0,
+  "line_width": 220.80416870117188,
+  "line_height": 9.033714294433594,
+  "char_count": 57,
+  "page": 8,
+  "y_position": 111.19644927978516,
+  "label": "BODY"
+ },
+ {
+  "text": "which avoids duplication and builds on complementary",
+  "font_size": 9.019379615783691,
+  "line_width": 219.5372314453125,
+  "line_height": 9.019386291503906,
+  "char_count": 52,
+  "page": 8,
+  "y_position": 124.7158432006836,
+  "label": "BODY"
+ },
+ {
+  "text": "strengths of each agency. For instance, UN Women’s role",
+  "font_size": 9.0,
+  "line_width": 219.725830078125,
+  "line_height": 9.0,
+  "char_count": 55,
+  "page": 8,
+  "y_position": 138.23016357421875,
+  "label": "BODY"
+ },
+ {
+  "text": "in supporting those left furthest behind ensures that",
+  "font_size": 9.089554786682129,
+  "line_width": 220.0457763671875,
+  "line_height": 9.089553833007812,
+  "char_count": 53,
+  "page": 8,
+  "y_position": 151.6640167236328,
+  "label": "BODY"
+ },
+ {
+  "text": "programming in Tunisia considers these groups, such as",
+  "font_size": 9.009594917297363,
+  "line_width": 219.94601440429688,
+  "line_height": 9.009597778320312,
+  "char_count": 54,
+  "page": 8,
+  "y_position": 165.2230682373047,
+  "label": "BODY"
+ },
+ {
+  "text": "rural women, women with disabilities and women in the",
+  "font_size": 9.0,
+  "line_width": 219.66659545898438,
+  "line_height": 9.0,
+  "char_count": 53,
+  "page": 8,
+  "y_position": 178.73016357421875,
+  "label": "BODY"
+ },
+ {
+  "text": "informal economy, with a special focus on the care econ-",
+  "font_size": 9.0,
+  "line_width": 219.95016479492188,
+  "line_height": 9.0,
+  "char_count": 56,
+  "page": 8,
+  "y_position": 192.23016357421875,
+  "label": "BODY"
+ },
+ {
+  "text": "omy. UN Women takes a leading role regarding economic",
+  "font_size": 9.0,
+  "line_width": 220.26235961914062,
+  "line_height": 9.0,
+  "char_count": 53,
+  "page": 8,
+  "y_position": 205.73016357421875,
+  "label": "BODY"
+ },
+ {
+  "text": "violence while supporting the service aspect on EVAW",
+  "font_size": 9.089207649230957,
+  "line_width": 219.79916381835938,
+  "line_height": 9.089218139648438,
+  "char_count": 52,
+  "page": 8,
+  "y_position": 219.1642608642578,
+  "label": "BODY"
+ },
+ {
+  "text": "under the leadership of the UN Population Fund (UNFPA).",
+  "font_size": 9.0,
+  "line_width": 219.19607543945312,
+  "line_height": 9.0,
+  "char_count": 55,
+  "page": 8,
+  "y_position": 232.73016357421875,
+  "label": "BODY"
+ },
+ {
+  "text": "10",
+  "font_size": 8.0,
+  "line_width": 8.959999084472656,
+  "line_height": 8.0,
+  "char_count": 2,
+  "page": 8,
+  "y_position": 788.5336303710938,
+  "label": "BODY"
+ },
+ {
+  "text": "STRATEGIC NOTE 2022-2025: TUNISIA",
+  "font_size": 8.0,
+  "line_width": 155.78961181640625,
+  "line_height": 8.0,
+  "char_count": 33,
+  "page": 8,
+  "y_position": 788.5336303710938,
+  "label": "BODY"
+ },
+ {
+  "text": "Photo: UN Women/Severine Sajous",
+  "font_size": 7.0,
+  "line_width": 117.11013793945312,
+  "line_height": 7.0,
+  "char_count": 31,
+  "page": 8,
+  "y_position": 367.09649658203125,
+  "label": "BODY"
+ },
+ {
+  "text": "11",
+  "font_size": 8.0,
+  "line_width": 6.3360595703125,
+  "line_height": 8.0,
+  "char_count": 2,
+  "page": 9,
+  "y_position": 788.5336303710938,
+  "label": "BODY"
+ },
+ {
+  "text": "STRATEGIC NOTE 2022-2025: TUNISIA",
+  "font_size": 8.0,
+  "line_width": 155.78961181640625,
+  "line_height": 8.0,
+  "char_count": 33,
+  "page": 9,
+  "y_position": 788.5336303710938,
+  "label": "BODY"
+ },
+ {
+  "text": "PRIORITY RESULT 1:",
+  "font_size": 17.0,
+  "line_width": 172.61459350585938,
+  "line_height": 17.0,
+  "char_count": 18,
+  "page": 9,
+  "y_position": 198.01754760742188,
+  "label": "H2"
+ },
+ {
+  "text": "Women’s equal access to economic opportunities and",
+  "font_size": 17.0,
+  "line_width": 439.5690460205078,
+  "line_height": 17.0,
+  "char_count": 50,
+  "page": 9,
+  "y_position": 218.01803588867188,
+  "label": "H3"
+ },
+ {
+  "text": "decent work",
+  "font_size": 17.0,
+  "line_width": 105.96102142333984,
+  "line_height": 17.0,
+  "char_count": 11,
+  "page": 9,
+  "y_position": 238.01852416992188,
+  "label": "H3"
+ },
+ {
+  "text": "This priority responds to key structural factors underly-",
+  "font_size": 9.076921463012695,
+  "line_width": 220.71315002441406,
+  "line_height": 9.076934814453125,
+  "char_count": 57,
+  "page": 9,
+  "y_position": 267.23638916015625,
+  "label": "BODY"
+ },
+ {
+  "text": "ing economic inequalities, including the lack of the right",
+  "font_size": 9.0,
+  "line_width": 219.94292449951172,
+  "line_height": 9.0,
+  "char_count": 58,
+  "page": 9,
+  "y_position": 280.793212890625,
+  "label": "BODY"
+ },
+ {
+  "text": "of inheritance, unpaid care work, and lack of access to",
+  "font_size": 9.081629753112793,
+  "line_width": 219.678466796875,
+  "line_height": 9.081634521484375,
+  "char_count": 55,
+  "page": 9,
+  "y_position": 294.23291015625,
+  "label": "BODY"
+ },
+ {
+  "text": "credit and land ownership. These factors perpetuate",
+  "font_size": 9.089554786682129,
+  "line_width": 219.65543365478516,
+  "line_height": 9.089569091796875,
+  "char_count": 51,
+  "page": 9,
+  "y_position": 307.72705078125,
+  "label": "BODY"
+ },
+ {
+  "text": "gender disparities and hinder women’s entrepreneurial",
+  "font_size": 9.040260314941406,
+  "line_width": 219.79745483398438,
+  "line_height": 9.040283203125,
+  "char_count": 53,
+  "page": 9,
+  "y_position": 321.2634582519531,
+  "label": "BODY"
+ },
+ {
+  "text": "and economic potential. UN Women will focus on bolster-",
+  "font_size": 9.0,
+  "line_width": 220.07791900634766,
+  "line_height": 9.0,
+  "char_count": 55,
+  "page": 9,
+  "y_position": 334.7931823730469,
+  "label": "BODY"
+ },
+ {
+  "text": "ing income security for the most vulnerable women in",
+  "font_size": 9.071615219116211,
+  "line_width": 219.74108123779297,
+  "line_height": 9.07159423828125,
+  "char_count": 52,
+  "page": 9,
+  "y_position": 348.24029541015625,
+  "label": "BODY"
+ },
+ {
+  "text": "Tunisia by supporting national efforts to address economic",
+  "font_size": 8.935770988464355,
+  "line_width": 220.9110565185547,
+  "line_height": 8.935791015625,
+  "char_count": 58,
+  "page": 9,
+  "y_position": 361.8406066894531,
+  "label": "BODY"
+ },
+ {
+  "text": "violence and evidence-based economic reforms that",
+  "font_size": 9.089554786682129,
+  "line_width": 219.7913055419922,
+  "line_height": 9.089569091796875,
+  "char_count": 49,
+  "page": 9,
+  "y_position": 375.2270202636719,
+  "label": "BODY"
+ },
+ {
+  "text": "increase women’s participation in the labour force. This",
+  "font_size": 9.028006553649902,
+  "line_width": 219.8984603881836,
+  "line_height": 9.02801513671875,
+  "char_count": 56,
+  "page": 9,
+  "y_position": 388.7724914550781,
+  "label": "BODY"
+ },
+ {
+  "text": "will include supporting women’s transition from the",
+  "font_size": 9.089554786682129,
+  "line_width": 219.38731384277344,
+  "line_height": 9.089569091796875,
+  "char_count": 51,
+  "page": 9,
+  "y_position": 402.2270202636719,
+  "label": "BODY"
+ },
+ {
+  "text": "informal to the formal sector. To accomplish this, UN",
+  "font_size": 9.089554786682129,
+  "line_width": 219.61325073242188,
+  "line_height": 9.089569091796875,
+  "char_count": 53,
+  "page": 9,
+  "y_position": 415.7270202636719,
+  "label": "BODY"
+ },
+ {
+  "text": "Women proposes a large-scale economic empowerment",
+  "font_size": 9.0,
+  "line_width": 220.1769027709961,
+  "line_height": 9.0,
+  "char_count": 49,
+  "page": 9,
+  "y_position": 429.2931823730469,
+  "label": "BODY"
+ },
+ {
+  "text": "programme tailored to high-priority groups, including",
+  "font_size": 9.089554786682129,
+  "line_width": 219.8453369140625,
+  "line_height": 9.089569091796875,
+  "char_count": 53,
+  "page": 9,
+  "y_position": 442.7270202636719,
+  "label": "BODY"
+ },
+ {
+  "text": "rural women, educated youth who are unemployed and",
+  "font_size": 9.010244369506836,
+  "line_width": 219.803466796875,
+  "line_height": 9.01025390625,
+  "char_count": 50,
+  "page": 9,
+  "y_position": 456.2856140136719,
+  "label": "BODY"
+ },
+ {
+  "text": "women with disabilities. The programme is structured",
+  "font_size": 9.069581031799316,
+  "line_width": 219.65452575683594,
+  "line_height": 9.069580078125,
+  "char_count": 52,
+  "page": 9,
+  "y_position": 469.7417907714844,
+  "label": "BODY"
+ },
+ {
+  "text": "around three pillars: policy reforms to counteract struc-",
+  "font_size": 9.049612998962402,
+  "line_width": 220.10865020751953,
+  "line_height": 9.04962158203125,
+  "char_count": 57,
+  "page": 9,
+  "y_position": 483.25653076171875,
+  "label": "BODY"
+ },
+ {
+  "text": "tural barriers; initiatives to address economic violence",
+  "font_size": 9.08336353302002,
+  "line_width": 219.59646606445312,
+  "line_height": 9.0833740234375,
+  "char_count": 56,
+  "page": 9,
+  "y_position": 496.7315979003906,
+  "label": "BODY"
+ },
+ {
+  "text": "and stereotypes; and building skills and facilitating access",
+  "font_size": 8.967992782592773,
+  "line_width": 219.72269439697266,
+  "line_height": 8.967987060546875,
+  "char_count": 60,
+  "page": 9,
+  "y_position": 510.3168640136719,
+  "label": "BODY"
+ },
+ {
+  "text": "to employment for women in rural and urban areas by",
+  "font_size": 9.062979698181152,
+  "line_width": 219.69992065429688,
+  "line_height": 9.06298828125,
+  "char_count": 51,
+  "page": 9,
+  "y_position": 523.7467041015625,
+  "label": "BODY"
+ },
+ {
+  "text": "addressing issues such as lack of safe transportation,",
+  "font_size": 9.089554786682129,
+  "line_width": 221.0397720336914,
+  "line_height": 9.08953857421875,
+  "char_count": 54,
+  "page": 9,
+  "y_position": 537.22705078125,
+  "label": "BODY"
+ },
+ {
+  "text": "low-quality childcare and unsafe workplaces. The latter",
+  "font_size": 9.03886604309082,
+  "line_width": 219.97383880615234,
+  "line_height": 9.038818359375,
+  "char_count": 55,
+  "page": 9,
+  "y_position": 550.7645263671875,
+  "label": "BODY"
+ },
+ {
+  "text": "component incorporates the strengthening of gender-re-",
+  "font_size": 9.0,
+  "line_width": 220.04999542236328,
+  "line_height": 9.0,
+  "char_count": 54,
+  "page": 9,
+  "y_position": 564.293212890625,
+  "label": "BODY"
+ },
+ {
+  "text": "sponsive budgeting.",
+  "font_size": 9.0,
+  "line_width": 79.54288482666016,
+  "line_height": 9.0,
+  "char_count": 19,
+  "page": 9,
+  "y_position": 577.793212890625,
+  "label": "BODY"
+ },
+ {
+  "text": "PARTNERS",
+  "font_size": 10.0,
+  "line_width": 55.82000732421875,
+  "line_height": 10.0,
+  "char_count": 8,
+  "page": 9,
+  "y_position": 266.25311279296875,
+  "label": "BODY"
+ },
+ {
+  "text": "A joint programme on rural women’s economic empower-",
+  "font_size": 9.0,
+  "line_width": 220.352294921875,
+  "line_height": 9.0,
+  "char_count": 52,
+  "page": 9,
+  "y_position": 286.962158203125,
+  "label": "BODY"
+ },
+ {
+  "text": "ment, currently under way, brings together the cross-cut-",
+  "font_size": 9.0,
+  "line_width": 220.0499267578125,
+  "line_height": 9.0,
+  "char_count": 57,
+  "page": 9,
+  "y_position": 300.462158203125,
+  "label": "BODY"
+ },
+ {
+  "text": "ting expertise of several UN partners, including the",
+  "font_size": 9.089554786682129,
+  "line_width": 219.51788330078125,
+  "line_height": 9.089569091796875,
+  "char_count": 52,
+  "page": 9,
+  "y_position": 313.89599609375,
+  "label": "BODY"
+ },
+ {
+  "text": "World Food Programme (WFP), the Food and Agriculture",
+  "font_size": 9.0,
+  "line_width": 219.71517944335938,
+  "line_height": 9.0,
+  "char_count": 52,
+  "page": 9,
+  "y_position": 327.4621887207031,
+  "label": "BODY"
+ },
+ {
+  "text": "Organization (FAO) and the International Fund for",
+  "font_size": 9.089554786682129,
+  "line_width": 220.04083251953125,
+  "line_height": 9.089569091796875,
+  "char_count": 49,
+  "page": 9,
+  "y_position": 340.8960266113281,
+  "label": "BODY"
+ },
+ {
+  "text": "Agricultural Development (IFAD). On the issue of youth",
+  "font_size": 9.051701545715332,
+  "line_width": 220.0635986328125,
+  "line_height": 9.05169677734375,
+  "char_count": 54,
+  "page": 9,
+  "y_position": 354.42401123046875,
+  "label": "BODY"
+ },
+ {
+  "text": "employment, UN Women is engaging the private sector",
+  "font_size": 9.018580436706543,
+  "line_width": 220.156982421875,
+  "line_height": 9.018585205078125,
+  "char_count": 51,
+  "page": 9,
+  "y_position": 367.9484558105469,
+  "label": "BODY"
+ },
+ {
+  "text": "both nationally and locally. Long-standing partnerships",
+  "font_size": 9.039264678955078,
+  "line_width": 219.85494995117188,
+  "line_height": 9.03924560546875,
+  "char_count": 55,
+  "page": 9,
+  "y_position": 381.4331970214844,
+  "label": "BODY"
+ },
+ {
+  "text": "with CSOs, women’s rights groups, and international part-",
+  "font_size": 8.98488712310791,
+  "line_width": 219.7904052734375,
+  "line_height": 8.98486328125,
+  "char_count": 57,
+  "page": 9,
+  "y_position": 394.9733581542969,
+  "label": "BODY"
+ },
+ {
+  "text": "ners such as the Government of Canada are the mainstay",
+  "font_size": 9.0,
+  "line_width": 219.80270385742188,
+  "line_height": 9.0,
+  "char_count": 54,
+  "page": 9,
+  "y_position": 408.4621887207031,
+  "label": "BODY"
+ },
+ {
+  "text": "for UN Women’s emerging work on economic violence and",
+  "font_size": 8.936575889587402,
+  "line_width": 219.64239501953125,
+  "line_height": 8.93658447265625,
+  "char_count": 53,
+  "page": 9,
+  "y_position": 422.009033203125,
+  "label": "BODY"
+ },
+ {
+  "text": "combating harmful social norms and stereotypes.",
+  "font_size": 9.0,
+  "line_width": 190.65606689453125,
+  "line_height": 9.0,
+  "char_count": 47,
+  "page": 9,
+  "y_position": 435.4621887207031,
+  "label": "BODY"
+ },
+ {
+  "text": "UN WOMEN TUNISIA’S",
+  "font_size": 36.0,
+  "line_width": 423.4644088745117,
+  "line_height": 36.0,
+  "char_count": 18,
+  "page": 9,
+  "y_position": 85.03898620605469,
+  "label": "H1"
+ },
+ {
+  "text": "STRATEGY",
+  "font_size": 36.0,
+  "line_width": 197.56798553466797,
+  "line_height": 36.0,
+  "char_count": 8,
+  "page": 9,
+  "y_position": 123.04057312011719,
+  "label": "H1"
+ },
+ {
+  "text": "11",
+  "font_size": 8.0,
+  "line_width": 6.3360595703125,
+  "line_height": 8.0,
+  "char_count": 2,
+  "page": 9,
+  "y_position": 788.5336303710938,
+  "label": "BODY"
+ },
+ {
+  "text": "UN WOMEN",
+  "font_size": 13.0,
+  "line_width": 84.082763671875,
+  "line_height": 13.0,
+  "char_count": 8,
+  "page": 9,
+  "y_position": 568.8107299804688,
+  "label": "BODY"
+ },
+ {
+  "text": "DRIVES RESULTS",
+  "font_size": 13.0,
+  "line_width": 119.21005249023438,
+  "line_height": 13.0,
+  "char_count": 14,
+  "page": 9,
+  "y_position": 587.8102416992188,
+  "label": "BODY"
+ },
+ {
+  "text": "ADVANCING",
+  "font_size": 13.0,
+  "line_width": 87.62005615234375,
+  "line_height": 13.0,
+  "char_count": 9,
+  "page": 9,
+  "y_position": 606.8096923828125,
+  "label": "BODY"
+ },
+ {
+  "text": "NORMATIVE",
+  "font_size": 13.0,
+  "line_width": 86.83999633789062,
+  "line_height": 13.0,
+  "char_count": 9,
+  "page": 9,
+  "y_position": 626.053466796875,
+  "label": "BODY"
+ },
+ {
+  "text": "STANDARDS,",
+  "font_size": 13.0,
+  "line_width": 91.76699829101562,
+  "line_height": 13.0,
+  "char_count": 10,
+  "page": 9,
+  "y_position": 644.8087158203125,
+  "label": "BODY"
+ },
+ {
+  "text": "COORDINATING",
+  "font_size": 13.0,
+  "line_width": 108.238037109375,
+  "line_height": 13.0,
+  "char_count": 12,
+  "page": 9,
+  "y_position": 664.052490234375,
+  "label": "BODY"
+ },
+ {
+  "text": "ACTION ACROSS THE",
+  "font_size": 13.0,
+  "line_width": 149.89004516601562,
+  "line_height": 13.0,
+  "char_count": 17,
+  "page": 9,
+  "y_position": 682.8077392578125,
+  "label": "BODY"
+ },
+ {
+  "text": "UNITED NATIONS,",
+  "font_size": 13.0,
+  "line_width": 125.24069213867188,
+  "line_height": 13.0,
+  "char_count": 15,
+  "page": 9,
+  "y_position": 701.8071899414062,
+  "label": "BODY"
+ },
+ {
+  "text": "AND OPERATING",
+  "font_size": 13.0,
+  "line_width": 115.77801513671875,
+  "line_height": 13.2442626953125,
+  "char_count": 13,
+  "page": 9,
+  "y_position": 720.8067016601562,
+  "label": "BODY"
+ },
+ {
+  "text": "ON THE GROUND",
+  "font_size": 13.0,
+  "line_width": 118.63796997070312,
+  "line_height": 13.0,
+  "char_count": 13,
+  "page": 9,
+  "y_position": 739.8062133789062,
+  "label": "BODY"
+ },
+ {
+  "text": "11",
+  "font_size": 8.0,
+  "line_width": 6.3360595703125,
+  "line_height": 8.0,
+  "char_count": 2,
+  "page": 9,
+  "y_position": 788.5336303710938,
+  "label": "BODY"
+ },
+ {
+  "text": "STRATEGIC NOTE 2022-2025: TUNISIA",
+  "font_size": 8.0,
+  "line_width": 155.78961181640625,
+  "line_height": 8.0,
+  "char_count": 33,
+  "page": 9,
+  "y_position": 788.5336303710938,
+  "label": "BODY"
+ },
+  {
+  "text": "12",
+  "font_size": 8.0,
+  "line_width": 8.071998596191406,
+  "line_height": 8.0,
+  "char_count": 2,
+  "page": 10,
+  "y_position": 788.5336303710938,
+  "label": "BODY"
+ },
+ {
+  "text": "STRATEGIC NOTE 2022-2025: TUNISIA",
+  "font_size": 8.0,
+  "line_width": 155.78961181640625,
+  "line_height": 8.0,
+  "char_count": 33,
+  "page": 10,
+  "y_position": 788.5336303710938,
+  "label": "BODY"
+ },
+ {
+  "text": "PRIORITY RESULT 2:",
+  "font_size": 17.0,
+  "line_width": 176.3035888671875,
+  "line_height": 17.0,
+  "char_count": 18,
+  "page": 10,
+  "y_position": 54.956573486328125,
+  "label": "H2"
+ },
+ {
+  "text": "Inclusive governance, women’s political participation",
+  "font_size": 17.0,
+  "line_width": 425.51688385009766,
+  "line_height": 17.0,
+  "char_count": 53,
+  "page": 10,
+  "y_position": 74.95706176757812,
+  "label": "H3"
+ },
+ {
+  "text": "and leadership",
+  "font_size": 17.0,
+  "line_width": 123.3673095703125,
+  "line_height": 17.0,
+  "char_count": 14,
+  "page": 10,
+  "y_position": 94.95755004882812,
+  "label": "H3"
+ },
+ {
+  "text": "UN Women’s primary objective for advancing inclusive",
+  "font_size": 9.063277244567871,
+  "line_width": 219.5015869140625,
+  "line_height": 9.063285827636719,
+  "char_count": 52,
+  "page": 10,
+  "y_position": 124.18543243408203,
+  "label": "BODY"
+ },
+ {
+  "text": "governance is to promote gender parity in decision making.",
+  "font_size": 8.919085502624512,
+  "line_width": 221.1952133178711,
+  "line_height": 8.919082641601562,
+  "char_count": 58,
+  "page": 10,
+  "y_position": 137.7919464111328,
+  "label": "BODY"
+ },
+ {
+  "text": "Tunisia, until 2022, had a strong legal framework for gender",
+  "font_size": 8.913483619689941,
+  "line_width": 220.84410095214844,
+  "line_height": 8.913482666015625,
+  "char_count": 60,
+  "page": 10,
+  "y_position": 151.29608154296875,
+  "label": "BODY"
+ },
+ {
+  "text": "equality, including temporary special measures to promote",
+  "font_size": 8.909544944763184,
+  "line_width": 219.5810317993164,
+  "line_height": 8.9095458984375,
+  "char_count": 57,
+  "page": 10,
+  "y_position": 164.79898071289062,
+  "label": "BODY"
+ },
+ {
+  "text": "women’s political participation. With those quotas in",
+  "font_size": 9.089554786682129,
+  "line_width": 219.4304962158203,
+  "line_height": 9.089553833007812,
+  "char_count": 53,
+  "page": 10,
+  "y_position": 178.16603088378906,
+  "label": "BODY"
+ },
+ {
+  "text": "place, the main focus of this programme was to improve",
+  "font_size": 9.0,
+  "line_width": 219.6693344116211,
+  "line_height": 9.0,
+  "char_count": 54,
+  "page": 10,
+  "y_position": 191.732177734375,
+  "label": "BODY"
+ },
+ {
+  "text": "implementation. However, given the recent legislative",
+  "font_size": 9.089554786682129,
+  "line_width": 219.5360565185547,
+  "line_height": 9.089553833007812,
+  "char_count": 53,
+  "page": 10,
+  "y_position": 205.16603088378906,
+  "label": "BODY"
+ },
+ {
+  "text": "changes, the focus now becomes two-fold: to support new",
+  "font_size": 8.927205085754395,
+  "line_width": 219.59778594970703,
+  "line_height": 8.927200317382812,
+  "char_count": 55,
+  "page": 10,
+  "y_position": 218.78594970703125,
+  "label": "BODY"
+ },
+ {
+  "text": "legislation with the target of parity and then to support",
+  "font_size": 9.007146835327148,
+  "line_width": 219.91563415527344,
+  "line_height": 9.00714111328125,
+  "char_count": 57,
+  "page": 10,
+  "y_position": 232.22689819335938,
+  "label": "BODY"
+ },
+ {
+  "text": "implementation through targeted technical support and",
+  "font_size": 9.0,
+  "line_width": 219.6521453857422,
+  "line_height": 9.0,
+  "char_count": 53,
+  "page": 10,
+  "y_position": 245.732177734375,
+  "label": "BODY"
+ },
+ {
+  "text": "capacity building of potential and elected women lead-",
+  "font_size": 9.051651954650879,
+  "line_width": 220.02225494384766,
+  "line_height": 9.0516357421875,
+  "char_count": 54,
+  "page": 10,
+  "y_position": 259.19403076171875,
+  "label": "BODY"
+ },
+ {
+  "text": "ers. Technical support will focus on enhancing represen-",
+  "font_size": 9.02536392211914,
+  "line_width": 220.02399444580078,
+  "line_height": 9.025360107421875,
+  "char_count": 56,
+  "page": 10,
+  "y_position": 272.71343994140625,
+  "label": "BODY"
+ },
+ {
+  "text": "tation in electoral and political processes, specifically on",
+  "font_size": 9.00154972076416,
+  "line_width": 219.59282684326172,
+  "line_height": 9.001556396484375,
+  "char_count": 60,
+  "page": 10,
+  "y_position": 286.23101806640625,
+  "label": "BODY"
+ },
+ {
+  "text": "candidate nomination and voter registration. It will also",
+  "font_size": 9.009445190429688,
+  "line_width": 219.6219253540039,
+  "line_height": 9.00946044921875,
+  "char_count": 57,
+  "page": 10,
+  "y_position": 299.7251892089844,
+  "label": "BODY"
+ },
+ {
+  "text": "aim to strengthen gender-responsive legislation, policies",
+  "font_size": 9.0,
+  "line_width": 219.92667388916016,
+  "line_height": 9.0,
+  "char_count": 57,
+  "page": 10,
+  "y_position": 313.232177734375,
+  "label": "BODY"
+ },
+ {
+  "text": "and specifically gender-responsive budgeting, which will",
+  "font_size": 9.0,
+  "line_width": 219.68372344970703,
+  "line_height": 9.0,
+  "char_count": 56,
+  "page": 10,
+  "y_position": 326.732177734375,
+  "label": "BODY"
+ },
+ {
+  "text": "improve access to services and keep institutions account-",
+  "font_size": 9.0,
+  "line_width": 219.9402084350586,
+  "line_height": 9.0,
+  "char_count": 57,
+  "page": 10,
+  "y_position": 340.232177734375,
+  "label": "BODY"
+ },
+ {
+  "text": "able. Through policy advocacy, based on a solid founda-",
+  "font_size": 9.057466506958008,
+  "line_width": 220.0853042602539,
+  "line_height": 9.057464599609375,
+  "char_count": 55,
+  "page": 10,
+  "y_position": 353.6897277832031,
+  "label": "BODY"
+ },
+ {
+  "text": "tion of gender-specific statistics, UN Women will leverage",
+  "font_size": 8.979626655578613,
+  "line_width": 219.52172088623047,
+  "line_height": 8.9796142578125,
+  "char_count": 58,
+  "page": 10,
+  "y_position": 367.2472229003906,
+  "label": "BODY"
+ },
+ {
+  "text": "partner support to collect that data and to build policy",
+  "font_size": 9.05826187133789,
+  "line_width": 219.98802947998047,
+  "line_height": 9.058258056640625,
+  "char_count": 56,
+  "page": 10,
+  "y_position": 380.68914794921875,
+  "label": "BODY"
+ },
+ {
+  "text": "according to that evidence. Finally, the capacity-building",
+  "font_size": 9.00154972076416,
+  "line_width": 219.80596923828125,
+  "line_height": 9.001541137695312,
+  "char_count": 58,
+  "page": 10,
+  "y_position": 124.23103332519531,
+  "label": "BODY"
+ },
+ {
+  "text": "efforts will first aim to expand the pool of potential new",
+  "font_size": 9.0,
+  "line_width": 219.78875732421875,
+  "line_height": 9.0,
+  "char_count": 58,
+  "page": 10,
+  "y_position": 137.732177734375,
+  "label": "BODY"
+ },
+ {
+  "text": "leaders to include diverse and capable women political",
+  "font_size": 9.044489860534668,
+  "line_width": 219.33966064453125,
+  "line_height": 9.04449462890625,
+  "char_count": 54,
+  "page": 10,
+  "y_position": 151.19931030273438,
+  "label": "BODY"
+ },
+ {
+  "text": "leaders, and then to strengthen their know-how around",
+  "font_size": 9.002299308776855,
+  "line_width": 219.4305419921875,
+  "line_height": 9.002304077148438,
+  "char_count": 53,
+  "page": 10,
+  "y_position": 164.73046875,
+  "label": "BODY"
+ },
+ {
+  "text": "running for election and addressing barriers – including",
+  "font_size": 9.012341499328613,
+  "line_width": 219.77108764648438,
+  "line_height": 9.012344360351562,
+  "char_count": 56,
+  "page": 10,
+  "y_position": 178.22305297851562,
+  "label": "BODY"
+ },
+ {
+  "text": "potential violence – that might hinder their participation.",
+  "font_size": 9.0,
+  "line_width": 219.20059204101562,
+  "line_height": 9.0,
+  "char_count": 59,
+  "page": 10,
+  "y_position": 191.732177734375,
+  "label": "BODY"
+ },
+ {
+  "text": "PARTNERS",
+  "font_size": 10.0,
+  "line_width": 55.82000732421875,
+  "line_height": 10.000015258789062,
+  "char_count": 8,
+  "page": 10,
+  "y_position": 216.3651123046875,
+  "label": "BODY"
+ },
+ {
+  "text": "To address women’s political empowerment, cooperation",
+  "font_size": 9.0,
+  "line_width": 220.38192749023438,
+  "line_height": 9.0,
+  "char_count": 53,
+  "page": 10,
+  "y_position": 237.07415771484375,
+  "label": "BODY"
+ },
+ {
+  "text": "with a range of partners is essential. This includes civil",
+  "font_size": 9.040558815002441,
+  "line_width": 219.4512939453125,
+  "line_height": 9.040557861328125,
+  "char_count": 59,
+  "page": 10,
+  "y_position": 250.544189453125,
+  "label": "BODY"
+ },
+ {
+  "text": "society and women’s rights groups linked to emerging",
+  "font_size": 9.087326049804688,
+  "line_width": 219.823974609375,
+  "line_height": 9.08734130859375,
+  "char_count": 52,
+  "page": 10,
+  "y_position": 264.0096435546875,
+  "label": "BODY"
+ },
+ {
+  "text": "leaders at the local and national level. To address poli-",
+  "font_size": 9.089554786682129,
+  "line_width": 219.86981201171875,
+  "line_height": 9.089569091796875,
+  "char_count": 57,
+  "page": 10,
+  "y_position": 277.50799560546875,
+  "label": "BODY"
+ },
+ {
+  "text": "cies and improve inclusion, UN Women will collaborate",
+  "font_size": 9.036625862121582,
+  "line_width": 219.65789794921875,
+  "line_height": 9.036651611328125,
+  "char_count": 53,
+  "page": 10,
+  "y_position": 291.0470886230469,
+  "label": "BODY"
+ },
+ {
+  "text": "with the media to ensure coherent advocacy. Improving",
+  "font_size": 9.01908016204834,
+  "line_width": 219.5731201171875,
+  "line_height": 9.019073486328125,
+  "char_count": 53,
+  "page": 10,
+  "y_position": 304.56005859375,
+  "label": "BODY"
+ },
+ {
+  "text": "gender-disaggregated statistics requires engaging criti-",
+  "font_size": 9.063277244567871,
+  "line_width": 220.14703369140625,
+  "line_height": 9.06329345703125,
+  "char_count": 56,
+  "page": 10,
+  "y_position": 318.02740478515625,
+  "label": "BODY"
+ },
+ {
+  "text": "cal partners such as the National Observatory on EVAW",
+  "font_size": 9.030747413635254,
+  "line_width": 219.9449462890625,
+  "line_height": 9.030731201171875,
+  "char_count": 53,
+  "page": 10,
+  "y_position": 331.5514831542969,
+  "label": "BODY"
+ },
+ {
+  "text": "and the National Institute of Statistics in addition to",
+  "font_size": 9.089554786682129,
+  "line_width": 219.52398681640625,
+  "line_height": 9.089569091796875,
+  "char_count": 55,
+  "page": 10,
+  "y_position": 345.0080261230469,
+  "label": "BODY"
+ },
+ {
+  "text": "the Ministry of Finance and the National School of",
+  "font_size": 9.089554786682129,
+  "line_width": 219.96759033203125,
+  "line_height": 9.089569091796875,
+  "char_count": 50,
+  "page": 10,
+  "y_position": 358.5080261230469,
+  "label": "BODY"
+ },
+ {
+  "text": "Administration.",
+  "font_size": 9.0,
+  "line_width": 60.61859130859375,
+  "line_height": 9.0,
+  "char_count": 15,
+  "page": 10,
+  "y_position": 372.0741882324219,
+  "label": "BODY"
+ },
+ {
+  "text": "PRIORITY RESULT 3:",
+  "font_size": 17.0,
+  "line_width": 176.3885955810547,
+  "line_height": 17.0,
+  "char_count": 18,
+  "page": 10,
+  "y_position": 418.9715576171875,
+  "label": "H2"
+ },
+ {
+  "text": "Women’s participation for inclusive peacebuilding and",
+  "font_size": 17.0,
+  "line_width": 439.4331512451172,
+  "line_height": 17.0,
+  "char_count": 53,
+  "page": 10,
+  "y_position": 438.9720458984375,
+  "label": "H3"
+ },
+ {
+  "text": "reconciliation",
+  "font_size": 17.0,
+  "line_width": 112.14900970458984,
+  "line_height": 17.0,
+  "char_count": 14,
+  "page": 10,
+  "y_position": 458.9725341796875,
+  "label": "H3"
+ },
+ {
+  "text": "Tunisia took a major step for gender equality when it",
+  "font_size": 9.089554786682129,
+  "line_width": 220.6991729736328,
+  "line_height": 9.089569091796875,
+  "char_count": 53,
+  "page": 10,
+  "y_position": 488.1810302734375,
+  "label": "BODY"
+ },
+ {
+  "text": "embarked on its first NAP to implement its commitment",
+  "font_size": 9.0,
+  "line_width": 220.00235748291016,
+  "line_height": 9.0,
+  "char_count": 53,
+  "page": 10,
+  "y_position": 501.7471923828125,
+  "label": "BODY"
+ },
+ {
+  "text": "to engage girls and women in inclusive peacebuilding. The",
+  "font_size": 8.944880485534668,
+  "line_width": 219.4210433959961,
+  "line_height": 8.94488525390625,
+  "char_count": 57,
+  "page": 10,
+  "y_position": 515.2879028320312,
+  "label": "BODY"
+ },
+ {
+  "text": "aim is to promote stability, contribute to the elimination",
+  "font_size": 9.0,
+  "line_width": 219.79349517822266,
+  "line_height": 9.0,
+  "char_count": 58,
+  "page": 10,
+  "y_position": 528.7471923828125,
+  "label": "BODY"
+ },
+ {
+  "text": "of all forms of violence and gender-based discrimination",
+  "font_size": 9.0,
+  "line_width": 219.71160888671875,
+  "line_height": 9.0,
+  "char_count": 56,
+  "page": 10,
+  "y_position": 542.2471923828125,
+  "label": "BODY"
+ },
+ {
+  "text": "and build resilience in the face of risks, conflicts, extrem-",
+  "font_size": 9.0024995803833,
+  "line_width": 220.08576202392578,
+  "line_height": 9.00250244140625,
+  "char_count": 61,
+  "page": 10,
+  "y_position": 555.745361328125,
+  "label": "BODY"
+ },
+ {
+  "text": "ism and terrorism, as outlined in UNSCR 1325. As the first",
+  "font_size": 9.0,
+  "line_width": 219.94923400878906,
+  "line_height": 9.0,
+  "char_count": 58,
+  "page": 10,
+  "y_position": 569.2471923828125,
+  "label": "BODY"
+ },
+ {
+  "text": "NAP concluded in 2022, UN Women has helped oversee",
+  "font_size": 9.026710510253906,
+  "line_width": 219.60626220703125,
+  "line_height": 9.02667236328125,
+  "char_count": 50,
+  "page": 10,
+  "y_position": 582.7274780273438,
+  "label": "BODY"
+ },
+ {
+  "text": "the evaluation of the first NAP to identify a more targeted",
+  "font_size": 8.988142013549805,
+  "line_width": 219.5271224975586,
+  "line_height": 8.9881591796875,
+  "char_count": 59,
+  "page": 10,
+  "y_position": 596.2559204101562,
+  "label": "BODY"
+ },
+ {
+  "text": "approach to support the engagement of women in peace",
+  "font_size": 9.0,
+  "line_width": 219.68732452392578,
+  "line_height": 9.0,
+  "char_count": 52,
+  "page": 10,
+  "y_position": 609.7471923828125,
+  "label": "BODY"
+ },
+ {
+  "text": "and security processes during the NAP’s second phase.",
+  "font_size": 9.0,
+  "line_width": 208.07282257080078,
+  "line_height": 9.0,
+  "char_count": 53,
+  "page": 10,
+  "y_position": 623.2471923828125,
+  "label": "BODY"
+ },
+ {
+  "text": "Consequently, UN Women will strengthen the NAP II’s",
+  "font_size": 9.089554786682129,
+  "line_width": 219.84072875976562,
+  "line_height": 9.08953857421875,
+  "char_count": 51,
+  "page": 10,
+  "y_position": 642.3510131835938,
+  "label": "BODY"
+ },
+ {
+  "text": "monitoring framework and engage key stakeholders for",
+  "font_size": 9.02197265625,
+  "line_width": 220.10018157958984,
+  "line_height": 9.02197265625,
+  "char_count": 52,
+  "page": 10,
+  "y_position": 655.9009399414062,
+  "label": "BODY"
+ },
+ {
+  "text": "their effective advocacy and participation. UN Women",
+  "font_size": 9.081679344177246,
+  "line_width": 219.74495697021484,
+  "line_height": 9.08172607421875,
+  "char_count": 52,
+  "page": 10,
+  "y_position": 669.3568115234375,
+  "label": "BODY"
+ },
+ {
+  "text": "will improve capacities of the institutions responsible",
+  "font_size": 9.089554786682129,
+  "line_width": 219.49195861816406,
+  "line_height": 9.08953857421875,
+  "char_count": 55,
+  "page": 10,
+  "y_position": 682.8510131835938,
+  "label": "BODY"
+ },
+ {
+  "text": "for monitoring the NAP and will engage CSOs to over-",
+  "font_size": 9.089554786682129,
+  "line_width": 219.98299407958984,
+  "line_height": 9.08953857421875,
+  "char_count": 52,
+  "page": 10,
+  "y_position": 696.3510131835938,
+  "label": "BODY"
+ },
+ {
+  "text": "see its development and implementation. UN Women",
+  "font_size": 9.089010238647461,
+  "line_width": 219.83013153076172,
+  "line_height": 9.0889892578125,
+  "char_count": 48,
+  "page": 10,
+  "y_position": 709.8514404296875,
+  "label": "BODY"
+ },
+ {
+  "text": "will continue to support the judiciary for a gender-sensi-",
+  "font_size": 9.008246421813965,
+  "line_width": 219.77626037597656,
+  "line_height": 9.00823974609375,
+  "char_count": 58,
+  "page": 10,
+  "y_position": 723.4110717773438,
+  "label": "BODY"
+ },
+ {
+  "text": "tive interpretation and application of the law to protect",
+  "font_size": 9.019329071044922,
+  "line_width": 220.00011444091797,
+  "line_height": 9.01934814453125,
+  "char_count": 57,
+  "page": 10,
+  "y_position": 736.9028930664062,
+  "label": "BODY"
+ },
+ {
+  "text": "women’s rights, particularly in the context of transitional",
+  "font_size": 9.0,
+  "line_width": 219.40928649902344,
+  "line_height": 9.0,
+  "char_count": 59,
+  "page": 10,
+  "y_position": 750.4171752929688,
+  "label": "BODY"
+ },
+ {
+  "text": "justice and cybercriminality. To address the recurring",
+  "font_size": 9.089554786682129,
+  "line_width": 219.78305053710938,
+  "line_height": 9.089569091796875,
+  "char_count": 54,
+  "page": 10,
+  "y_position": 488.1810302734375,
+  "label": "BODY"
+ },
+ {
+  "text": "violent extremism and terrorism that has increased since",
+  "font_size": 9.0,
+  "line_width": 219.43374633789062,
+  "line_height": 9.0,
+  "char_count": 56,
+  "page": 10,
+  "y_position": 501.7471923828125,
+  "label": "BODY"
+ },
+ {
+  "text": "2011, UN Women will also support national reform efforts",
+  "font_size": 9.0,
+  "line_width": 220.46304321289062,
+  "line_height": 9.0,
+  "char_count": 56,
+  "page": 10,
+  "y_position": 515.2471923828125,
+  "label": "BODY"
+ },
+ {
+  "text": "to address roots of vulnerability including prevention of",
+  "font_size": 9.01748275756836,
+  "line_width": 220.03375244140625,
+  "line_height": 9.01751708984375,
+  "char_count": 57,
+  "page": 10,
+  "y_position": 528.7342529296875,
+  "label": "BODY"
+ },
+ {
+  "text": "terrorism and violent extremism, and rehabilitation and",
+  "font_size": 9.002299308776855,
+  "line_width": 219.535888671875,
+  "line_height": 9.0023193359375,
+  "char_count": 55,
+  "page": 10,
+  "y_position": 542.2454833984375,
+  "label": "BODY"
+ },
+ {
+  "text": "reintegration for victims and survivors.",
+  "font_size": 9.0,
+  "line_width": 150.08322143554688,
+  "line_height": 9.0,
+  "char_count": 40,
+  "page": 10,
+  "y_position": 555.7471923828125,
+  "label": "BODY"
+ },
+ {
+  "text": "PARTNERS",
+  "font_size": 10.0,
+  "line_width": 55.82000732421875,
+  "line_height": 10.0,
+  "char_count": 8,
+  "page": 10,
+  "y_position": 580.3800659179688,
+  "label": "H3"
+ },
+ {
+  "text": "A range of partners is necessary to build bridges across",
+  "font_size": 9.049314498901367,
+  "line_width": 220.28778076171875,
+  "line_height": 9.04931640625,
+  "char_count": 56,
+  "page": 10,
+  "y_position": 601.0537719726562,
+  "label": "BODY"
+ },
+ {
+  "text": "institutions for inclusive peacebuilding. Thus, UN",
+  "font_size": 9.089554786682129,
+  "line_width": 219.7216796875,
+  "line_height": 9.08953857421875,
+  "char_count": 50,
+  "page": 10,
+  "y_position": 614.5240478515625,
+  "label": "BODY"
+ },
+ {
+  "text": "Women will work with government institutions includ-",
+  "font_size": 9.059701919555664,
+  "line_width": 220.11453247070312,
+  "line_height": 9.05975341796875,
+  "char_count": 52,
+  "page": 10,
+  "y_position": 628.0460815429688,
+  "label": "BODY"
+ },
+ {
+  "text": "ing the Ministry of Women, Family, and the Elderly, and",
+  "font_size": 9.033637046813965,
+  "line_width": 219.61236572265625,
+  "line_height": 9.03363037109375,
+  "char_count": 55,
+  "page": 10,
+  "y_position": 641.5653686523438,
+  "label": "BODY"
+ },
+ {
+  "text": "a broad range of CSOs and women’s groups. It will also",
+  "font_size": 9.052148818969727,
+  "line_width": 219.65765380859375,
+  "line_height": 9.0521240234375,
+  "char_count": 54,
+  "page": 10,
+  "y_position": 655.0516967773438,
+  "label": "BODY"
+ },
+ {
+  "text": "continue to support the NAP’s Steering Committee and",
+  "font_size": 9.03443431854248,
+  "line_width": 219.63507080078125,
+  "line_height": 9.034423828125,
+  "char_count": 52,
+  "page": 10,
+  "y_position": 668.5647583007812,
+  "label": "BODY"
+ },
+ {
+  "text": "work jointly with the Committee on the monitoring of",
+  "font_size": 9.071317672729492,
+  "line_width": 219.85369873046875,
+  "line_height": 9.0712890625,
+  "char_count": 52,
+  "page": 10,
+  "y_position": 682.0375366210938,
+  "label": "BODY"
+ },
+ {
+  "text": "the NAP. Coordination across UN and international part-",
+  "font_size": 9.017782211303711,
+  "line_width": 219.95452880859375,
+  "line_height": 9.01776123046875,
+  "char_count": 55,
+  "page": 10,
+  "y_position": 695.5770874023438,
+  "label": "BODY"
+ },
+ {
+  "text": "ners is facilitated by UN Women’s initiative with Canada",
+  "font_size": 9.0,
+  "line_width": 219.72134399414062,
+  "line_height": 9.0,
+  "char_count": 56,
+  "page": 10,
+  "y_position": 709.0902099609375,
+  "label": "BODY"
+ },
+ {
+  "text": "to establish the Gender Development Group (GDG). The",
+  "font_size": 9.010693550109863,
+  "line_width": 219.56103515625,
+  "line_height": 9.01068115234375,
+  "char_count": 52,
+  "page": 10,
+  "y_position": 722.5823364257812,
+  "label": "BODY"
+ },
+ {
+  "text": "GDG has chosen to focus on three primary issues, includ-",
+  "font_size": 9.0,
+  "line_width": 219.99700927734375,
+  "line_height": 9.0,
+  "char_count": 56,
+  "page": 10,
+  "y_position": 736.0902099609375,
+  "label": "BODY"
+ },
+ {
+  "text": "ing advancing inclusive peacebuilding around UNSCR 1325.",
+  "font_size": 8.941963195800781,
+  "line_width": 218.9949951171875,
+  "line_height": 8.94195556640625,
+  "char_count": 56,
+  "page": 10,
+  "y_position": 749.633056640625,
+  "label": "BODY"
+ },
+ {
+  "text": "13",
+  "font_size": 8.0,
+  "line_width": 8.112060546875,
+  "line_height": 10.2640380859375,
+  "char_count": 2,
+  "page": 11,
+  "y_position": 788.5336303710938,
+  "label": "BODY"
+ },
+ {
+  "text": "STRATEGIC NOTE 2022-2025: TUNISIA",
+  "font_size": 8.0,
+  "line_width": 155.78961181640625,
+  "line_height": 10.2640380859375,
+  "char_count": 33,
+  "page": 11,
+  "y_position": 788.5336303710938,
+  "label": "BODY"
+ },
+ {
+  "text": "BECOMING A FUNDING PARTNER",
+  "font_size": 10.0,
+  "line_width": 172.62399291992188,
+  "line_height": 10.000007629394531,
+  "char_count": 26,
+  "page": 11,
+  "y_position": 123.16309356689453,
+  "label": "H3"
+ },
+ {
+  "text": "Achieving the Sustainable Development Goals",
+  "font_size": 8.993947982788086,
+  "line_width": 178.4574203491211,
+  "line_height": 8.993942260742188,
+  "char_count": 43,
+  "page": 11,
+  "y_position": 143.8776397705078,
+  "label": "BODY"
+ },
+ {
+  "text": "by 2030 calls for transformative, collabora-",
+  "font_size": 9.089554786682129,
+  "line_width": 178.1516571044922,
+  "line_height": 9.089553833007812,
+  "char_count": 44,
+  "page": 11,
+  "y_position": 157.30702209472656,
+  "label": "BODY"
+ },
+ {
+  "text": "tive action. Strategic, innovative, and efficient",
+  "font_size": 9.0,
+  "line_width": 178.15328216552734,
+  "line_height": 9.0,
+  "char_count": 49,
+  "page": 11,
+  "y_position": 170.8731689453125,
+  "label": "BODY"
+ },
+ {
+  "text": "funding partnerships are essential to realize",
+  "font_size": 9.058310508728027,
+  "line_width": 177.85997772216797,
+  "line_height": 9.058319091796875,
+  "char_count": 45,
+  "page": 11,
+  "y_position": 184.33009338378906,
+  "label": "BODY"
+ },
+ {
+  "text": "UN Women’s vision of a gender-equal world,",
+  "font_size": 9.056025505065918,
+  "line_width": 179.0914764404297,
+  "line_height": 9.056015014648438,
+  "char_count": 42,
+  "page": 11,
+  "y_position": 197.831787109375,
+  "label": "BODY"
+ },
+ {
+  "text": "articulated in the SN.",
+  "font_size": 9.0,
+  "line_width": 80.79212188720703,
+  "line_height": 9.0,
+  "char_count": 22,
+  "page": 11,
+  "y_position": 211.3731689453125,
+  "label": "BODY"
+ },
+ {
+  "text": "HOW CAN FUNDING PARTNERS",
+  "font_size": 10.0,
+  "line_width": 166.8590087890625,
+  "line_height": 10.000015258789062,
+  "char_count": 24,
+  "page": 11,
+  "y_position": 230.33709716796875,
+  "label": "H3"
+ },
+ {
+  "text": "ENGAGE WITH UN WOMEN’S SN?",
+  "font_size": 10.0,
+  "line_width": 172.1280517578125,
+  "line_height": 10.000015258789062,
+  "char_count": 26,
+  "page": 11,
+  "y_position": 242.33709716796875,
+  "label": "H3"
+ },
+ {
+  "text": "Partners may provide SN direct funding , which",
+  "font_size": 8.977972984313965,
+  "line_width": 177.79185485839844,
+  "line_height": 9.0115966796875,
+  "char_count": 46,
+  "page": 11,
+  "y_position": 263.0288391113281,
+  "label": "BODY"
+ },
+ {
+  "text": "is softly earmarked by geography (regional or",
+  "font_size": 9.017382621765137,
+  "line_width": 178.30711364746094,
+  "line_height": 9.01739501953125,
+  "char_count": 45,
+  "page": 11,
+  "y_position": 276.5333557128906,
+  "label": "BODY"
+ },
+ {
+  "text": "lytic; they enable UN Women to choose the",
+  "font_size": 9.089554786682129,
+  "line_width": 177.61744689941406,
+  "line_height": 9.089569091796875,
+  "char_count": 41,
+  "page": 11,
+  "y_position": 303.48004150390625,
+  "label": "BODY"
+ },
+ {
+  "text": "highest-impact use of the funds in the country",
+  "font_size": 8.97862434387207,
+  "line_width": 177.8524932861328,
+  "line_height": 8.9786376953125,
+  "char_count": 46,
+  "page": 11,
+  "y_position": 317.0619812011719,
+  "label": "BODY"
+ },
+ {
+  "text": "in which it operates. SN funding is also predict-",
+  "font_size": 9.0,
+  "line_width": 178.1667022705078,
+  "line_height": 9.033721923828125,
+  "char_count": 49,
+  "page": 11,
+  "y_position": 330.512451171875,
+  "label": "BODY"
+ },
+ {
+  "text": "able , as commitments are often made for the",
+  "font_size": 9.0,
+  "line_width": 177.78521728515625,
+  "line_height": 9.033721923828125,
+  "char_count": 44,
+  "page": 11,
+  "y_position": 344.012451171875,
+  "label": "BODY"
+ },
+ {
+  "text": "full SN time span, better enabling transforma-",
+  "font_size": 9.0,
+  "line_width": 178.12084197998047,
+  "line_height": 9.0,
+  "char_count": 46,
+  "page": 11,
+  "y_position": 357.5461730957031,
+  "label": "BODY"
+ },
+ {
+  "text": "tive results for women and girls.",
+  "font_size": 9.0,
+  "line_width": 122.49542999267578,
+  "line_height": 9.0,
+  "char_count": 33,
+  "page": 11,
+  "y_position": 371.0461730957031,
+  "label": "BODY"
+ },
+ {
+  "text": "Importantly, SN direct funds strengthen",
+  "font_size": 9.089554786682129,
+  "line_width": 177.89289093017578,
+  "line_height": 9.089569091796875,
+  "char_count": 39,
+  "page": 11,
+  "y_position": 392.9840393066406,
+  "label": "BODY"
+ },
+ {
+  "text": "UN Women’s ability to respond to emerging",
+  "font_size": 9.073698043823242,
+  "line_width": 177.90296936035156,
+  "line_height": 9.073699951171875,
+  "char_count": 41,
+  "page": 11,
+  "y_position": 406.4957580566406,
+  "label": "BODY"
+ },
+ {
+  "text": "needs in response to unforeseen contextual",
+  "font_size": 9.07989501953125,
+  "line_width": 177.99034881591797,
+  "line_height": 9.07989501953125,
+  "char_count": 42,
+  "page": 11,
+  "y_position": 419.9911804199219,
+  "label": "BODY"
+ },
+ {
+  "text": "changes, including humanitarian needs (e.g.,",
+  "font_size": 9.045236587524414,
+  "line_width": 179.1568603515625,
+  "line_height": 9.04522705078125,
+  "char_count": 44,
+  "page": 11,
+  "y_position": 433.51678466796875,
+  "label": "BODY"
+ },
+ {
+  "text": "to prioritize the safety of women and girls in",
+  "font_size": 9.03199291229248,
+  "line_width": 177.82958221435547,
+  "line_height": 9.031982421875,
+  "char_count": 46,
+  "page": 11,
+  "y_position": 447.0265808105469,
+  "label": "BODY"
+ },
+ {
+  "text": "a crisis or in response to the adverse effects of",
+  "font_size": 9.0,
+  "line_width": 178.2450942993164,
+  "line_height": 9.0,
+  "char_count": 49,
+  "page": 11,
+  "y_position": 460.5502014160156,
+  "label": "BODY"
+ },
+ {
+  "text": "natural disasters).",
+  "font_size": 9.0,
+  "line_width": 69.00212097167969,
+  "line_height": 9.0,
+  "char_count": 19,
+  "page": 11,
+  "y_position": 474.0502014160156,
+  "label": "BODY"
+ },
+ {
+  "text": "Furthermore, these funds can be reallocated",
+  "font_size": 9.044291496276855,
+  "line_width": 177.7587890625,
+  "line_height": 9.044288635253906,
+  "char_count": 43,
+  "page": 11,
+  "y_position": 122.53044891357422,
+  "label": "BODY"
+ },
+ {
+  "text": "when emerging evidence suggests a new",
+  "font_size": 9.089554786682129,
+  "line_width": 177.70001220703125,
+  "line_height": 9.089553833007812,
+  "char_count": 37,
+  "page": 11,
+  "y_position": 135.9970245361328,
+  "label": "BODY"
+ },
+ {
+  "text": "approach is needed to produce the desired",
+  "font_size": 9.089554786682129,
+  "line_width": 177.96896362304688,
+  "line_height": 9.089553833007812,
+  "char_count": 41,
+  "page": 11,
+  "y_position": 149.4970245361328,
+  "label": "BODY"
+ },
+ {
+  "text": "result more efficiently or effectively. They can",
+  "font_size": 9.017831802368164,
+  "line_width": 178.02310180664062,
+  "line_height": 9.017822265625,
+  "char_count": 48,
+  "page": 11,
+  "y_position": 163.0500030517578,
+  "label": "BODY"
+ },
+ {
+  "text": "be used for diverse types of costs and can",
+  "font_size": 9.089554786682129,
+  "line_width": 177.83859252929688,
+  "line_height": 9.089553833007812,
+  "char_count": 42,
+  "page": 11,
+  "y_position": 176.4970245361328,
+  "label": "BODY"
+ },
+ {
+  "text": "therefore draw funds to areas that are often",
+  "font_size": 9.054434776306152,
+  "line_width": 177.78240966796875,
+  "line_height": 9.054428100585938,
+  "char_count": 44,
+  "page": 11,
+  "y_position": 190.02296447753906,
+  "label": "BODY"
+ },
+ {
+  "text": "unfunded—yet crucial—such as advocacy for",
+  "font_size": 9.007146835327148,
+  "line_width": 178.40023803710938,
+  "line_height": 9.00714111328125,
+  "char_count": 41,
+  "page": 11,
+  "y_position": 203.55789184570312,
+  "label": "BODY"
+ },
+ {
+  "text": "behavioural change, UN coordination, etc.,",
+  "font_size": 9.089554786682129,
+  "line_width": 179.23410034179688,
+  "line_height": 9.089553833007812,
+  "char_count": 42,
+  "page": 11,
+  "y_position": 216.9970245361328,
+  "label": "BODY"
+ },
+ {
+  "text": "supporting the organization’s effectiveness.",
+  "font_size": 9.0,
+  "line_width": 167.41983032226562,
+  "line_height": 9.0,
+  "char_count": 44,
+  "page": 11,
+  "y_position": 230.56317138671875,
+  "label": "BODY"
+ },
+ {
+  "text": "Funding partners may also provide project",
+  "font_size": 9.089554786682129,
+  "line_width": 177.91485595703125,
+  "line_height": 9.123611450195312,
+  "char_count": 41,
+  "page": 11,
+  "y_position": 252.4669952392578,
+  "label": "BODY"
+ },
+ {
+  "text": "funding , which is tightly earmarked for a",
+  "font_size": 9.089554786682129,
+  "line_width": 177.62380981445312,
+  "line_height": 9.12359619140625,
+  "char_count": 42,
+  "page": 11,
+  "y_position": 265.9670104980469,
+  "label": "BODY"
+ },
+ {
+  "text": "specific project or initiative in the SN. These",
+  "font_size": 9.08564281463623,
+  "line_width": 177.87213134765625,
+  "line_height": 9.08563232421875,
+  "char_count": 47,
+  "page": 11,
+  "y_position": 279.5039367675781,
+  "label": "BODY"
+ },
+ {
+  "text": "funds are not flexible. Reporting on the use of",
+  "font_size": 9.0,
+  "line_width": 178.092041015625,
+  "line_height": 9.0,
+  "char_count": 47,
+  "page": 11,
+  "y_position": 293.06719970703125,
+  "label": "BODY"
+ },
+ {
+  "text": "such funds is done against the specific project",
+  "font_size": 9.0,
+  "line_width": 178.31973266601562,
+  "line_height": 9.0,
+  "char_count": 47,
+  "page": 11,
+  "y_position": 306.56719970703125,
+  "label": "BODY"
+ },
+ {
+  "text": "but not against the full SN.",
+  "font_size": 9.0,
+  "line_width": 102.71713256835938,
+  "line_height": 9.0,
+  "char_count": 28,
+  "page": 11,
+  "y_position": 320.06719970703125,
+  "label": "BODY"
+ },
+ {
+  "text": "SN funding represents an ambitious, targeted,",
+  "font_size": 9.0,
+  "line_width": 179.49081420898438,
+  "line_height": 9.0,
+  "char_count": 45,
+  "page": 11,
+  "y_position": 342.0712890625,
+  "label": "BODY"
+ },
+ {
+  "text": "and smart investment in gender equality and",
+  "font_size": 9.0,
+  "line_width": 177.95431518554688,
+  "line_height": 9.0,
+  "char_count": 43,
+  "page": 11,
+  "y_position": 355.5712890625,
+  "label": "BODY"
+ },
+ {
+  "text": "women’s empowerment.",
+  "font_size": 9.0,
+  "line_width": 96.604248046875,
+  "line_height": 9.0,
+  "char_count": 20,
+  "page": 11,
+  "y_position": 369.0712890625,
+  "label": "BODY"
+ },
+ {
+  "text": "To learn more about UN Women Tunisia’s fund-",
+  "font_size": 9.0,
+  "line_width": 178.87222290039062,
+  "line_height": 9.0,
+  "char_count": 44,
+  "page": 11,
+  "y_position": 391.05517578125,
+  "label": "BODY"
+ },
+ {
+  "text": "ing partners landscape visit our Transparency",
+  "font_size": 9.051005363464355,
+  "line_width": 177.82797241210938,
+  "line_height": 9.051025390625,
+  "char_count": 45,
+  "page": 11,
+  "y_position": 404.5172119140625,
+  "label": "BODY"
+ },
+ {
+  "text": "Portal .",
+  "font_size": 9.0,
+  "line_width": 25.037994384765625,
+  "line_height": 9.0,
+  "char_count": 8,
+  "page": 11,
+  "y_position": 418.05499267578125,
+  "label": "BODY"
+ },
+ {
+  "text": "Photo: UN Women/Severine Sajous",
+  "font_size": 7.0,
+  "line_width": 9.0999755859375,
+  "line_height": 117.1031494140625,
+  "char_count": 31,
+  "page": 13,
+  "y_position": 353.76300048828125,
+  "label": "BODY"
+ },
+ {
+  "text": "16",
+  "font_size": 8.0,
+  "line_width": 8.416015625,
+  "line_height": 10.2640380859375,
+  "char_count": 2,
+  "page": 14,
+  "y_position": 787.0197143554688,
+  "label": "BODY"
+ },
+ {
+  "text": "STRATEGIC NOTE 2022-2025: TUNISIA",
+  "font_size": 8.0,
+  "line_width": 155.79800415039062,
+  "line_height": 10.2640380859375,
+  "char_count": 33,
+  "page": 14,
+  "y_position": 787.0197143554688,
+  "label": "BODY"
+ },
+ {
+  "text": "UN WOMEN IS THE UN ORGANIZATION",
+  "font_size": 20.0,
+  "line_width": 423.9219665527344,
+  "line_height": 25.660003662109375,
+  "char_count": 31,
+  "page": 14,
+  "y_position": 80.87899780273438,
+  "label": "BODY"
+ },
+ {
+  "text": "DEDICATED TO GENDER EQUALITY",
+  "font_size": 20.0,
+  "line_width": 405.3000793457031,
+  "line_height": 25.660003662109375,
+  "char_count": 28,
+  "page": 14,
+  "y_position": 108.87899780273438,
+  "label": "BODY"
+ },
+ {
+  "text": "AND THE EMPOWERMENT OF WOMEN. A",
+  "font_size": 20.0,
+  "line_width": 423.0769958496094,
+  "line_height": 25.660003662109375,
+  "char_count": 31,
+  "page": 14,
+  "y_position": 136.87899780273438,
+  "label": "BODY"
+ },
+ {
+  "text": "GLOBAL CHAMPION FOR WOMEN AND",
+  "font_size": 20.0,
+  "line_width": 423.3199768066406,
+  "line_height": 25.660003662109375,
+  "char_count": 29,
+  "page": 14,
+  "y_position": 164.87899780273438,
+  "label": "BODY"
+ },
+ {
+  "text": "GIRLS, UN WOMEN WAS ESTABLISHED TO",
+  "font_size": 20.0,
+  "line_width": 457.5360107421875,
+  "line_height": 25.660003662109375,
+  "char_count": 34,
+  "page": 14,
+  "y_position": 192.87899780273438,
+  "label": "BODY"
+ },
+ {
+  "text": "ACCELERATE PROGRESS ON MEETING",
+  "font_size": 20.0,
+  "line_width": 438.8580017089844,
+  "line_height": 25.660003662109375,
+  "char_count": 30,
+  "page": 14,
+  "y_position": 220.87899780273438,
+  "label": "BODY"
+ },
+ {
+  "text": "THEIR NEEDS WORLDWIDE.",
+  "font_size": 20.0,
+  "line_width": 307.46002197265625,
+  "line_height": 25.660003662109375,
+  "char_count": 22,
+  "page": 14,
+  "y_position": 248.87899780273438,
+  "label": "BODY"
+ },
+ {
+  "text": "UN Women supports UN Member States as they set global",
+  "font_size": 12.5,
+  "line_width": 395.89996337890625,
+  "line_height": 15.4749755859375,
+  "char_count": 53,
+  "page": 14,
+  "y_position": 301.614013671875,
+  "label": "BODY"
+ },
+ {
+  "text": "standards for achieving gender equality, and works with",
+  "font_size": 12.5,
+  "line_width": 380.7737731933594,
+  "line_height": 15.4749755859375,
+  "char_count": 55,
+  "page": 14,
+  "y_position": 318.614013671875,
+  "label": "BODY"
+ },
+ {
+  "text": "governments and civil society to design laws, policies,",
+  "font_size": 12.5,
+  "line_width": 368.25006103515625,
+  "line_height": 15.4749755859375,
+  "char_count": 55,
+  "page": 14,
+  "y_position": 335.614013671875,
+  "label": "BODY"
+ },
+ {
+  "text": "programmes and services needed to ensure that the standards",
+  "font_size": 12.5,
+  "line_width": 425.0749206542969,
+  "line_height": 15.4749755859375,
+  "char_count": 59,
+  "page": 14,
+  "y_position": 352.614013671875,
+  "label": "BODY"
+ },
+ {
+  "text": "are effectively implemented and truly benefit women and girls",
+  "font_size": 12.5,
+  "line_width": 423.3625183105469,
+  "line_height": 15.4749755859375,
+  "char_count": 61,
+  "page": 14,
+  "y_position": 369.614013671875,
+  "label": "BODY"
+ },
+ {
+  "text": "worldwide. It works globally to make the vision of the Sustainable",
+  "font_size": 12.5,
+  "line_width": 446.8887939453125,
+  "line_height": 15.4749755859375,
+  "char_count": 66,
+  "page": 14,
+  "y_position": 386.614013671875,
+  "label": "BODY"
+ },
+ {
+  "text": "Development Goals a reality for women and girls and stands",
+  "font_size": 12.5,
+  "line_width": 409.1500549316406,
+  "line_height": 15.4749755859375,
+  "char_count": 58,
+  "page": 14,
+  "y_position": 403.614013671875,
+  "label": "BODY"
+ },
+ {
+  "text": "behind women’s equal participation in all aspects of life, focusing",
+  "font_size": 12.5,
+  "line_width": 443.96258544921875,
+  "line_height": 15.4749755859375,
+  "char_count": 67,
+  "page": 14,
+  "y_position": 420.614013671875,
+  "label": "BODY"
+ },
+ {
+  "text": "on four strategic priorities: Women lead, participate in and benefit",
+  "font_size": 12.5,
+  "line_width": 450.9749755859375,
+  "line_height": 15.4749755859375,
+  "char_count": 68,
+  "page": 14,
+  "y_position": 437.614013671875,
+  "label": "BODY"
+ },
+ {
+  "text": "equally from governance systems; Women have income security,",
+  "font_size": 12.5,
+  "line_width": 436.0625915527344,
+  "line_height": 15.4749755859375,
+  "char_count": 60,
+  "page": 14,
+  "y_position": 454.614013671875,
+  "label": "BODY"
+ },
+ {
+  "text": "decent work and economic autonomy; All women and girls live a",
+  "font_size": 12.5,
+  "line_width": 437.71258544921875,
+  "line_height": 15.4749755859375,
+  "char_count": 61,
+  "page": 14,
+  "y_position": 471.614013671875,
+  "label": "BODY"
+ },
+ {
+  "text": "life free from all forms of violence; Women and girls contribute",
+  "font_size": 12.5,
+  "line_width": 427.3262939453125,
+  "line_height": 15.4749755859375,
+  "char_count": 64,
+  "page": 14,
+  "y_position": 488.614013671875,
+  "label": "BODY"
+ },
+ {
+  "text": "to and have greater influence in building sustainable peace and",
+  "font_size": 12.5,
+  "line_width": 429.7999572753906,
+  "line_height": 15.4749755859375,
+  "char_count": 63,
+  "page": 14,
+  "y_position": 505.614013671875,
+  "label": "BODY"
+ },
+ {
+  "text": "resilience, and benefit equally from the prevention of natural",
+  "font_size": 12.5,
+  "line_width": 411.6875305175781,
+  "line_height": 15.4749755859375,
+  "char_count": 62,
+  "page": 14,
+  "y_position": 522.614013671875,
+  "label": "BODY"
+ },
+ {
+  "text": "disasters and conflicts and humanitarian action. UN Women also",
+  "font_size": 12.5,
+  "line_width": 436.4488525390625,
+  "line_height": 15.4749755859375,
+  "char_count": 62,
+  "page": 14,
+  "y_position": 539.614013671875,
+  "label": "BODY"
+ },
+ {
+  "text": "coordinates and promotes the UN system’s work in advancing",
+  "font_size": 12.5,
+  "line_width": 419.0250244140625,
+  "line_height": 15.4749755859375,
+  "char_count": 58,
+  "page": 14,
+  "y_position": 556.614013671875,
+  "label": "BODY"
+ },
+ {
+  "text": "gender equality.",
+  "font_size": 12.5,
+  "line_width": 108.00003051757812,
+  "line_height": 15.4749755859375,
+  "char_count": 16,
+  "page": 14,
+  "y_position": 573.614013671875,
+  "label": "BODY"
+ },
+ {
+  "text": "UN WOMEN TUNISIA",
+  "font_size": 9.0,
+  "line_width": 95.95700073242188,
+  "line_height": 11.5469970703125,
+  "char_count": 16,
+  "page": 14,
+  "y_position": 669.905029296875,
+  "label": "BODY"
+ },
+ {
+  "text": "UN Women Tunisia and Libya Cluster Office",
+  "font_size": 9.0,
+  "line_width": 201.54327392578125,
+  "line_height": 11.82598876953125,
+  "char_count": 41,
+  "page": 14,
+  "y_position": 693.7239990234375,
+  "label": "BODY"
+ },
+ {
+  "text": "Maison Bleue -Rue de Lac Windermere, Les",
+  "font_size": 9.0,
+  "line_width": 196.22442626953125,
+  "line_height": 11.1419677734375,
+  "char_count": 40,
+  "page": 14,
+  "y_position": 704.7310180664062,
+  "label": "BODY"
+ },
+ {
+  "text": "Berges du Lac I – 1053 Tunis – Tunisie",
+  "font_size": 9.0,
+  "line_width": 169.23440551757812,
+  "line_height": 11.1419677734375,
+  "char_count": 38,
+  "page": 14,
+  "y_position": 715.531005859375,
+  "label": "BODY"
+ },
+ {
+  "text": "P.O. Box 1053",
+  "font_size": 9.0,
+  "line_width": 59.6519775390625,
+  "line_height": 11.1419677734375,
+  "char_count": 13,
+  "page": 14,
+  "y_position": 726.3310546875,
+  "label": "BODY"
+ },
+ {
+  "text": "Tel: +216 36 011 680",
+  "font_size": 9.0,
+  "line_width": 87.64114379882812,
+  "line_height": 11.1419677734375,
+  "char_count": 20,
+  "page": 14,
+  "y_position": 742.8001098632812,
+  "label": "BODY"
+ }
+
+  
+]
