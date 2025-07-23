@@ -1,27 +1,27 @@
 import argparse
-import os
-import random
 import json
+import os
+import glob
+import random
 import re
+
 import fitz                # PyMuPDF
 from faker import Faker
 from reportlab.platypus import (
-    SimpleDocTemplate, Paragraph, Spacer,
-    PageBreak, ListFlowable, ListItem
+    SimpleDocTemplate, Paragraph,
+    PageBreak
 )
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.pagesizes import A4
-from reportlab.lib.units import inch
 from reportlab.lib.enums import TA_CENTER, TA_LEFT
 from statistics import mean, stdev
 
 # ─── Setup ───────────────────────────────────────────────────────────────────────
-fake = Faker(); Faker.seed(42)
-OUT_DIR    = "data/synthetic"
+fake = Faker()
+Faker.seed(42)
+OUT_DIR = "data/synthetic"
 os.makedirs(OUT_DIR, exist_ok=True)
 
-DOC_TYPES  = ["Report","Analysis","Study","Review","Proposal","Manual","Briefing"]
-DOC_SCOPES = ["Annual","Quarterly","Monthly","Internal","Confidential","Draft","External"]
 FONTS      = ["Helvetica","Courier","Times-Roman"]
 MIN_PAGES, MAX_PAGES = 10, 15
 
@@ -58,14 +58,19 @@ def make_style(name, parent, family, size, alignment,
     )
 
 # ─── Feature Extraction ─────────────────────────────────────────────────────────
-def extract_features(item, mean_fs, std_fs):
+FEATURE_KEYS = [
+    "text", "font_size", "line_width", "line_height", "char_count",
+    "page", "y_position", "label", "is_all_caps", "is_title_case",
+    "starts_with_number", "contains_colon", "contains_year",
+    "word_count", "avg_word_len", "named_entity_ratio", "pdf_path"
+]
+
+def extract_features(item, mean_fs, std_fs, pdf_path):
     txt = item["text"]
     raw_size = item["font_size"]
-    rel_fs = (raw_size - mean_fs) / std_fs if std_fs != 0 else 0.0
     return {
         "text": txt,
         "font_size": raw_size,
-        "relative_font_size": rel_fs,
         "line_width": item.get("line_width"),
         "line_height": item.get("line_height"),
         "char_count": len(txt),
@@ -79,12 +84,13 @@ def extract_features(item, mean_fs, std_fs):
         "contains_year": bool(re.search(r'\b19\d{2}\b|\b20\d{2}\b', txt)),
         "word_count": len(txt.split()),
         "avg_word_len": sum(len(w) for w in txt.split()) / max(len(txt.split()), 1),
-        "named_entity_ratio": 0.0
+        "named_entity_ratio": 0.0,
+        "pdf_path": pdf_path
     }
 
 def extract_layout_features(pdf_path, records):
     doc = fitz.open(pdf_path)
-    unmatched = records.copy()
+    unmatched = list(records)
     for pnum in range(len(doc)):
         page = doc.load_page(pnum)
         blocks = page.get_text("blocks")
@@ -113,40 +119,23 @@ def generate_document(doc_id):
     family = random.choice(FONTS)
     title_st = make_style("Title", base["h1"], family, random.randint(22,28), TA_CENTER, bold=True, space_after=18)
     h1_st    = make_style("H1",    base["h1"], family, 18, TA_LEFT, bold=True, space_after=12)
-    h2_st    = make_style("H2",    base["h2"], family, 14, TA_LEFT, bold=True, space_after=10)
-    h3_st    = make_style("H3",    base["h3"], family, 12, TA_LEFT, bold=True, space_after=8)
     p_st     = make_style("Body",  base["BodyText"], family, 11, TA_LEFT, leading_factor=1.4, space_after=8)
 
     story, records = [], []
-
-    # Title metadata (not kept) -- skip label collection
     story.append(PageBreak())
 
-    # Main pages
     pages = random.randint(MIN_PAGES, MAX_PAGES)
     for i in range(pages):
         # H1
         h1_txt = f"Section {i+1}: {fake.catch_phrase()}"
         story.append(Paragraph(h1_txt, h1_st))
-        records.append({"text":h1_txt, "label":"H1", "font_size":h1_st.fontSize})
+        records.append({"text": h1_txt, "label": "H1", "font_size": h1_st.fontSize})
 
-        # BODY paragraphs
+        # Body paragraphs
         for _ in range(random.randint(2,4)):
             p_txt = fake.paragraph(nb_sentences=random.randint(5,10))
             story.append(Paragraph(p_txt, p_st))
-            records.append({"text":p_txt, "label":"BODY", "font_size":p_st.fontSize})
-
-        # optional H2
-        if random.random() > 0.5:
-            h2_txt = fake.bs().title()
-            story.append(Paragraph(h2_txt, h2_st))
-            records.append({"text":h2_txt, "label":"H2", "font_size":h2_st.fontSize})
-
-            # optional H3 under H2
-            if random.random() > 0.5:
-                h3_txt = fake.catch_phrase()
-                story.append(Paragraph(h3_txt, h3_st))
-                records.append({"text":h3_txt, "label":"H3", "font_size":h3_st.fontSize})
+            records.append({"text": p_txt, "label": "BODY", "font_size": p_st.fontSize})
 
         if i < pages - 1:
             story.append(PageBreak())
@@ -155,28 +144,41 @@ def generate_document(doc_id):
     pdf_path = os.path.join(OUT_DIR, f"doc_{doc_id}.pdf")
     SimpleDocTemplate(pdf_path, pagesize=A4).build(story)
 
-    # Extract layout
+    # Extract, feature-engineer, and write JSON
     recs = extract_layout_features(pdf_path, records)
+    sizes = [r["font_size"] for r in recs]
+    m, s = mean(sizes), stdev(sizes) if len(sizes) > 1 else 0
+    features = [extract_features(r, m, s, pdf_path) for r in recs]
 
-    # Compute stats for relative font size
-    font_sizes = [r["font_size"] for r in recs]
-    mean_fs = mean(font_sizes)
-    std_fs = stdev(font_sizes) if len(font_sizes) > 1 else 0
-
-    # Write per-file JSON
-    json_path = pdf_path.replace('.pdf', '.labels.json')
+    json_path = os.path.join(OUT_DIR, f"doc_{doc_id}.labels.json")
     with open(json_path, 'w', encoding='utf-8') as f:
-        json.dump([extract_features(r, mean_fs, std_fs) for r in recs], f, ensure_ascii=False, indent=2)
+        json.dump(features, f, ensure_ascii=False, indent=2)
     print(f"Wrote {json_path}")
-
     return True
 
-# ─── Main ───────────────────────────────────────────────────────────────────────
+# ─── Combine JSONs ───────────────────────────────────────────────────────────────
+def combine_jsons(json_dir, output_path):
+    all_records = []
+    for filepath in glob.glob(os.path.join(json_dir, '*.labels.json')):
+        with open(filepath, 'r', encoding='utf-8') as f:
+            all_records.extend(json.load(f))
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump(all_records, f, ensure_ascii=False, indent=2)
+    print(f"Combined {len(all_records)} records into {output_path}")
+
+# ─── MAIN ────────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
-    p = argparse.ArgumentParser()
-    p.add_argument("--num", type=int, default=60, help="Number of docs to generate")
-    args = p.parse_args()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--num", type=int, default=60, help="Number of docs to generate")
+    parser.add_argument("--combine", action="store_true",
+                        help="After generation, combine all .labels.json into one file")
+    parser.add_argument("--output-json", default=os.path.join(OUT_DIR, "synthetic_combined.json"),
+                        help="Path for combined JSON")
+    args = parser.parse_args()
 
     for i in range(args.num):
         generate_document(i)
-    print(f"Generated {args.num} PDFs with individual JSON labels.")
+    print(f"Generated {args.num} PDFs and JSONs")
+
+    if args.combine:
+        combine_jsons(OUT_DIR, args.output_json)
