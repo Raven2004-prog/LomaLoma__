@@ -116,6 +116,6 @@ def rebuild_features_from_labeled_json(input_json: str, output_file: str):
 
 
 if __name__ == "__main__":
-    input_path = "output/PPT3.json.json"
-    output_path = "label_ppt3_upd.json"
+    input_path = "output/kush.json"
+    output_path = "kush_upd.json"
     rebuild_features_from_labeled_json(input_path, output_path)
