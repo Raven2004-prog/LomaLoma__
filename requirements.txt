@@ -1,0 +1,4 @@
+reportlab==3.6.12
+PyMuPDF==1.23.22
+scikit-learn==1.4.1.post1
+sklearn-crfsuite==0.3.6
