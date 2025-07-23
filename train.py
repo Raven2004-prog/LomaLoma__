@@ -1,41 +1,49 @@
+# train.py
 import os
 import json
 import pickle
-from glob import glob
-
-from utils.pdf_util import extract_lines_from_pdf
-from utils.feature_utils import document_to_feature_sequence
-
 from sklearn_crfsuite import CRF
 from sklearn_crfsuite import metrics
 from sklearn.model_selection import train_test_split
 
-DATA_DIR = "data/synthetic"
+DATASET_PATH = "dataset.jsonl"
 
 
-def load_dataset():
-    pdf_files = sorted(glob(os.path.join(DATA_DIR, "*.pdf")))
+def load_dataset(jsonl_path="dataset.jsonl"):
     X, y = [], []
-    for pdf_file in pdf_files:
-        label_file = pdf_file.replace(".pdf", ".labels.json")
-        if not os.path.exists(label_file):
-            continue
+    with open(jsonl_path, "r", encoding="utf-8") as f:
+        for line_num, line in enumerate(f, 1):
+            try:
+                items = json.loads(line)
 
-        lines = extract_lines_from_pdf(pdf_file)
-        features = document_to_feature_sequence(lines)
+                if not isinstance(items, list):
+                    print(f"⚠️ Skipping line {line_num}: not a list")
+                    continue
 
-        with open(label_file, 'r', encoding='utf-8') as f:
-            labels_data = json.load(f)
-            labels = [entry["label"] for entry in labels_data]
+                # Synthetic format
+                if "features" in items[0]:
+                    x_seq = [item["features"] for item in items]
+                    y_seq = [item["label"].upper() for item in items]
 
-        if len(features) != len(labels):
-            print(f"Warning: Mismatch in {pdf_file}")
-            continue
+                # Manual format
+                else:
+                    feature_keys = set(items[0].keys()) - {"text", "label"}
+                    x_seq = [{k: item[k] for k in feature_keys} for item in items]
+                    y_seq = [item["label"].upper() for item in items]
 
-        X.append(features)
-        y.append(labels)
+                if len(x_seq) != len(y_seq):
+                    print(f"⚠️ Skipping line {line_num}: X and Y length mismatch")
+                    continue
+
+                X.append(x_seq)
+                y.append(y_seq)
+
+            except Exception as e:
+                print(f"⚠️ Skipping line {line_num} due to error: {e}")
 
     return X, y
+
+
 
 
 
@@ -52,7 +60,7 @@ def train_crf(X_train, y_train):
 
 
 if __name__ == "__main__":
-    print("Loading data...")
+    print("Loading dataset...")
     X, y = load_dataset()
 
     print("Splitting data...")
@@ -61,7 +69,7 @@ if __name__ == "__main__":
     print("Training CRF model...")
     crf = train_crf(X_train, y_train)
 
-    print("Evaluating...")
+    print("Evaluating model...")
     y_pred = crf.predict(X_test)
     print(metrics.flat_classification_report(y_test, y_pred))
 
