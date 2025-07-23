@@ -1,0 +1,482 @@
+[
+  {
+    "text": "Introduction",
+    "font_size": 65.0,
+    "line_width": 357.6922912597656,
+    "line_height": 72.6171875,
+    "char_count": 12,
+    "page": 0,
+    "y_position": 74.12646484375,
+    "label":"H1"
+  },
+  {
+    "text": "Executive Summary ​",
+    "font_size": 58.5,
+    "line_width": 480.39862060546875,
+    "line_height": 72.6171875,
+    "char_count": 19,
+    "page": 0,
+    "y_position": 147.8878173828125,
+    "label":"H1"
+  },
+  {
+    "text": "Overview​",
+    "font_size": 65.0,
+    "line_width": 307.1075439453125,
+    "line_height": 72.6171875,
+    "char_count": 9,
+    "page": 1,
+    "y_position": 74.12646484375,
+    "label":"H1"
+  },
+  {
+    "text": "Getting Started",
+    "font_size": 58.0,
+    "line_width": 435.0098876953125,
+    "line_height": 64.796875,
+    "char_count": 15,
+    "page": 1,
+    "y_position": 245.807861328125,
+    "label":"H1"
+  },
+  {
+    "text": "Installation Guide​",
+    "font_size": 52.0,
+    "line_width": 416.2325439453125,
+    "line_height": 58.09375,
+    "char_count": 19,
+    "page": 1,
+    "y_position": 399.008544921875,
+    "label":"H1"
+  },
+  {
+    "text": "Quickstart",
+    "font_size": 62.0,
+    "line_width": 296.2613830566406,
+    "line_height": 69.265625,
+    "char_count": 10,
+    "page": 1,
+    "y_position": 536.864013671875,
+    "label":"H1"
+  },
+  {
+    "text": "About Us",
+    "font_size": 43.0,
+    "line_width": 203.02212524414062,
+    "line_height": 48.0390625,
+    "char_count": 8,
+    "page": 2,
+    "y_position": 73.40673828125,
+    "label":"H1"
+  },
+  {
+    "text": "Our Mission",
+    "font_size": 47.0,
+    "line_width": 284.6019287109375,
+    "line_height": 52.5078125,
+    "char_count": 11,
+    "page": 2,
+    "y_position": 130.4002685546875,
+    "label":"H1"
+  },
+  {
+    "text": "Vision & Values",
+    "font_size": 42.0,
+    "line_width": 301.9640808105469,
+    "line_height": 46.921875,
+    "char_count": 15,
+    "page": 2,
+    "y_position": 192.388916015625,
+    "label":"H1"
+  },
+  {
+    "text": "Company History​",
+    "font_size": 51.0,
+    "line_width": 405.2942199707031,
+    "line_height": 56.9765625,
+    "char_count": 16,
+    "page": 2,
+    "y_position": 303.763916015625,
+    "label":"H1"
+  },
+  {
+    "text": "Meet the Team",
+    "font_size": 55.0,
+    "line_width": 393.2267761230469,
+    "line_height": 61.4453125,
+    "char_count": 13,
+    "page": 3,
+    "y_position": 73.79931640625,
+    "label":"H1"
+  },
+  {
+    "text": "Services Offered",
+    "font_size": 43.0,
+    "line_width": 331.3805236816406,
+    "line_height": 48.0390625,
+    "char_count": 16,
+    "page": 3,
+    "y_position": 218.869384765625,
+    "label":"H1"
+  },
+  {
+    "text": "Product Features",
+    "font_size": 49.0,
+    "line_width": 389.44219970703125,
+    "line_height": 54.7421875,
+    "char_count": 16,
+    "page": 3,
+    "y_position": 389.65380859375,
+    "label":"H1"
+  },
+  {
+    "text": "Use Cases",
+    "font_size": 53.0,
+    "line_width": 282.8258056640625,
+    "line_height": 59.2109375,
+    "char_count": 9,
+    "page": 4,
+    "y_position": 73.73388671875,
+    "label":"H1"
+  },
+  {
+    "text": "Customer",
+    "font_size": 47.0,
+    "line_width": 216.75234985351562,
+    "line_height": 52.5078125,
+    "char_count": 8,
+    "page": 4,
+    "y_position": 213.710693359375,
+    "label":"H1"
+  },
+  {
+    "text": "Testimonials",
+    "font_size": 47.0,
+    "line_width": 271.61395263671875,
+    "line_height": 52.5078125,
+    "char_count": 12,
+    "page": 4,
+    "y_position": 275.86279296875,
+    "label":"H1"
+  },
+  {
+    "text": "Pricing Plans​",
+    "font_size": 42.0,
+    "line_width": 277.7648620605469,
+    "line_height": 46.921875,
+    "char_count": 14,
+    "page": 5,
+    "y_position": 73.3740234375,
+    "label":"H1"
+  },
+  {
+    "text": "Frequently Asked",
+    "font_size": 45.0,
+    "line_width": 362.688232421875,
+    "line_height": 50.2734375,
+    "char_count": 16,
+    "page": 5,
+    "y_position": 184.552734375,
+    "label":"H1"
+  },
+  {
+    "text": "Questions",
+    "font_size": 45.0,
+    "line_width": 215.119873046875,
+    "line_height": 50.2734375,
+    "char_count": 9,
+    "page": 5,
+    "y_position": 244.06005859375,
+    "label":"H1"
+  },
+  {
+    "text": "Support & Resources",
+    "font_size": 42.0,
+    "line_width": 441.089111328125,
+    "line_height": 46.921875,
+    "char_count": 19,
+    "page": 5,
+    "y_position": 414.5498046875,
+    "label":"H1"
+  },
+  {
+    "text": "Contact Information",
+    "font_size": 35.0,
+    "line_width": 315.0915222167969,
+    "line_height": 39.1015625,
+    "char_count": 19,
+    "page": 5,
+    "y_position": 469.861328125,
+    "label":"H1"
+  },
+  {
+    "text": "Terms of Service​",
+    "font_size": 46.0,
+    "line_width": 380.0827941894531,
+    "line_height": 51.390625,
+    "char_count": 17,
+    "page": 5,
+    "y_position": 562.7880859375,
+    "label":"H1"
+  },
+  {
+    "text": "Privacy Policy",
+    "font_size": 42.0,
+    "line_width": 273.0685729980469,
+    "line_height": 46.921875,
+    "char_count": 14,
+    "page": 6,
+    "y_position": 73.3740234375,
+    "label":"H1"
+  },
+  {
+    "text": "Legal Disclaimer",
+    "font_size": 48.0,
+    "line_width": 394.859619140625,
+    "line_height": 53.625,
+    "char_count": 16,
+    "page": 6,
+    "y_position": 184.65087890625,
+    "label":"H1"
+  },
+  {
+    "text": "Release Notes",
+    "font_size": 53.0,
+    "line_width": 362.3140869140625,
+    "line_height": 59.2109375,
+    "char_count": 13,
+    "page": 6,
+    "y_position": 248.2890625,
+    "label":"H1"
+  },
+  {
+    "text": "System",
+    "font_size": 57.0,
+    "line_width": 205.88311767578125,
+    "line_height": 63.6796875,
+    "char_count": 6,
+    "page": 6,
+    "y_position": 388.59326171875,
+    "label":"H1"
+  },
+  {
+    "text": "Requirements",
+    "font_size": 57.0,
+    "line_width": 370.67657470703125,
+    "line_height": 63.6796875,
+    "char_count": 12,
+    "page": 6,
+    "y_position": 463.96923828125,
+    "label":"H1"
+  },
+  {
+    "text": "Technical",
+    "font_size": 53.0,
+    "line_width": 255.24240112304688,
+    "line_height": 59.2109375,
+    "char_count": 9,
+    "page": 7,
+    "y_position": 73.73388671875,
+    "label":"H1"
+  },
+  {
+    "text": "Specifications",
+    "font_size": 53.0,
+    "line_width": 374.00970458984375,
+    "line_height": 59.2109375,
+    "char_count": 14,
+    "page": 7,
+    "y_position": 143.8203125,
+    "label":"H1"
+  },
+  {
+    "text": "Architecture Overview",
+    "font_size": 43.0,
+    "line_width": 468.388671875,
+    "line_height": 48.0390625,
+    "char_count": 21,
+    "page": 7,
+    "y_position": 353.7529296875,
+    "label":"H1"
+  },
+  {
+    "text": "Design Principles​",
+    "font_size": 58.0,
+    "line_width": 464.1778564453125,
+    "line_height": 64.796875,
+    "char_count": 18,
+    "page": 7,
+    "y_position": 481.19287109375,
+    "label":"H1"
+  },
+  {
+    "text": "Data Model​",
+    "font_size": 58.0,
+    "line_width": 312.7027282714844,
+    "line_height": 64.796875,
+    "char_count": 11,
+    "page": 8,
+    "y_position": 227.29443359375,
+    "label":"H1"
+  },
+  {
+    "text": "API Reference​",
+    "font_size": 58.0,
+    "line_width": 393.296875,
+    "line_height": 64.796875,
+    "char_count": 14,
+    "page": 8,
+    "y_position": 380.69140625,
+    "label":"H1"
+  },
+  {
+    "text": "SDK",
+    "font_size": 50.0,
+    "line_width": 119.44992065429688,
+    "line_height": 55.859375,
+    "char_count": 3,
+    "page": 9,
+    "y_position": 73.6357421875,
+    "label":"H1"
+  },
+  {
+    "text": "Documentation",
+    "font_size": 50.0,
+    "line_width": 377.7347717285156,
+    "line_height": 55.859375,
+    "char_count": 13,
+    "page": 9,
+    "y_position": 139.7548828125,
+    "label":"H1"
+  },
+  {
+    "text": "Integration Guide",
+    "font_size": 43.0,
+    "line_width": 341.81475830078125,
+    "line_height": 48.0390625,
+    "char_count": 17,
+    "page": 9,
+    "y_position": 271.76513671875,
+    "label":"H1"
+  },
+  {
+    "text": "Authentication &",
+    "font_size": 46.0,
+    "line_width": 380.7343444824219,
+    "line_height": 51.390625,
+    "char_count": 16,
+    "page": 10,
+    "y_position": 73.5048828125,
+    "label":"H1"
+  },
+  {
+    "text": "Authorization",
+    "font_size": 46.0,
+    "line_width": 309.1574401855469,
+    "line_height": 51.390625,
+    "char_count": 13,
+    "page": 10,
+    "y_position": 134.33497619628906,
+    "label":"H1"
+  },
+  {
+    "text": "Error Handling​",
+    "font_size": 43.0,
+    "line_width": 289.16131591796875,
+    "line_height": 48.0390625,
+    "char_count": 15,
+    "page": 10,
+    "y_position": 308.79150390625,
+    "label":"H1"
+  },
+  {
+    "text": "Performance Tuning",
+    "font_size": 43.0,
+    "line_width": 426.8409118652344,
+    "line_height": 48.0390625,
+    "char_count": 18,
+    "page": 11,
+    "y_position": 73.40673828125,
+    "label":"H1"
+  },
+  {
+    "text": "Security Best Practices",
+    "font_size": 43.0,
+    "line_width": 454.0076904296875,
+    "line_height": 48.0390625,
+    "char_count": 23,
+    "page": 11,
+    "y_position": 187.13232421875,
+    "label":"H1"
+  },
+  {
+    "text": "Troubleshooting",
+    "font_size": 49.0,
+    "line_width": 363.1736755371094,
+    "line_height": 54.7421875,
+    "char_count": 15,
+    "page": 12,
+    "y_position": 73.60302734375,
+    "label":"H1"
+  },
+  {
+    "text": "Migration Guide",
+    "font_size": 49.0,
+    "line_width": 386.52349853515625,
+    "line_height": 54.7421875,
+    "char_count": 15,
+    "page": 12,
+    "y_position": 203.19677734375,
+    "label":"H1"
+  },
+  {
+    "text": "Upgrade Instructions",
+    "font_size": 42.0,
+    "line_width": 399.2121276855469,
+    "line_height": 46.921875,
+    "char_count": 20,
+    "page": 13,
+    "y_position": 73.3740234375,
+    "label":"H1"
+  },
+  {
+    "text": "Backup & Restore",
+    "font_size": 49.0,
+    "line_width": 435.6631774902344,
+    "line_height": 54.7421875,
+    "char_count": 16,
+    "page": 13,
+    "y_position": 129.14306640625,
+    "label":"H1"
+  },
+  {
+    "text": "Monitoring & Alerts",
+    "font_size": 41.0,
+    "line_width": 391.6966247558594,
+    "line_height": 45.8046875,
+    "char_count": 19,
+    "page": 14,
+    "y_position": 73.34130859375,
+    "label":"H1"
+  },
+  {
+    "text": "Logging & Auditing",
+    "font_size": 36.0,
+    "line_width": 312.24627685546875,
+    "line_height": 40.21875,
+    "char_count": 18,
+    "page": 14,
+    "y_position": 127.396484375,
+    "label":"H1"
+  },
+  {
+    "text": "Deployment Strategies",
+    "font_size": 36.0,
+    "line_width": 390.0951232910156,
+    "line_height": 40.21875,
+    "char_count": 21,
+    "page": 14,
+    "y_position": 175.001953125,
+    "label":"H1"
+  }
+]

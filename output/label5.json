@@ -1,0 +1,232 @@
+[
+  {
+    "text": "Continuous Deployment",
+    "font_size": 30.0,
+    "line_width": 328.5255432128906,
+    "line_height": 33.515625,
+    "char_count": 21,
+    "page": 0,
+    "y_position": 350.682861328125,
+    "label":"H2"
+  },
+  {
+    "text": "Testing & QA",
+    "font_size": 35.0,
+    "line_width": 228.75521850585938,
+    "line_height": 39.1015625,
+    "char_count": 12,
+    "page": 0,
+    "y_position": 390.51806640625,
+    "label":"H2"
+  },
+  {
+    "text": "User Interface Guide​",
+    "font_size": 33.0,
+    "line_width": 331.95526123046875,
+    "line_height": 36.8671875,
+    "char_count": 21,
+    "page": 0,
+    "y_position": 529.3033447265625,
+    "label":"H2"
+  },
+  {
+    "text": "​",
+    "font_size": 35.0,
+    "line_width": 9.730003356933594,
+    "line_height": 39.1015625,
+    "char_count": 1,
+    "page": 0,
+    "y_position": 616.6463623046875,
+    "label":"H2"
+  },
+  {
+    "text": "Command ‑ Line Tools",
+    "font_size": 32.0,
+    "line_width": 332.76947021484375,
+    "line_height": 35.75,
+    "char_count": 20,
+    "page": 1,
+    "y_position": 457.8616943359375,
+    "label":"H2"
+  },
+  {
+    "text": "Configuration Options",
+    "font_size": 25.0,
+    "line_width": 248.721435546875,
+    "line_height": 27.9296875,
+    "char_count": 21,
+    "page": 1,
+    "y_position": 542.2655029296875,
+    "label":"H2"
+  },
+  {
+    "text": "Environment Variables",
+    "font_size": 32.0,
+    "line_width": 353.8269348144531,
+    "line_height": 35.75,
+    "char_count": 21,
+    "page": 1,
+    "y_position": 641.673583984375,
+    "label":"H2"
+  },
+  {
+    "text": "Workflow Automation",
+    "font_size": 27.0,
+    "line_width": 308.4874572753906,
+    "line_height": 30.1640625,
+    "char_count": 19,
+    "page": 2,
+    "y_position": 464.31005859375,
+    "label":"H2"
+  },
+  {
+    "text": "Plugin Ecosystem",
+    "font_size": 33.0,
+    "line_width": 320.93377685546875,
+    "line_height": 36.8671875,
+    "char_count": 16,
+    "page": 2,
+    "y_position": 535.915283203125,
+    "label":"H2"
+  },
+  {
+    "text": "Localization &",
+    "font_size": 34.0,
+    "line_width": 239.88848876953125,
+    "line_height": 37.984375,
+    "char_count": 14,
+    "page": 3,
+    "y_position": 291.30615234375,
+    "label":"H2"
+  },
+  {
+    "text": "Internationalization",
+    "font_size": 34.0,
+    "line_width": 321.0940246582031,
+    "line_height": 37.984375,
+    "char_count": 20,
+    "page": 3,
+    "y_position": 336.267578125,
+    "label":"H2"
+  },
+  {
+    "text": "Accessibility",
+    "font_size": 34.0,
+    "line_width": 194.58798217773438,
+    "line_height": 37.984375,
+    "char_count": 13,
+    "page": 3,
+    "y_position": 426.18994140625,
+    "label":"H2"
+  },
+  {
+    "text": "Mobile Support",
+    "font_size": 31.0,
+    "line_width": 234.17218017578125,
+    "line_height": 34.6328125,
+    "char_count": 14,
+    "page": 3,
+    "y_position": 516.01416015625,
+    "label":"H2"
+  },
+  {
+    "text": "Browser Compatibility​",
+    "font_size": 32.0,
+    "line_width": 318.2423400878906,
+    "line_height": 35.75,
+    "char_count": 22,
+    "page": 3,
+    "y_position": 598.03466796875,
+    "label":"H2"
+  },
+  {
+    "text": "Performance Benchmarks",
+    "font_size": 31.0,
+    "line_width": 392.8002014160156,
+    "line_height": 34.6328125,
+    "char_count": 22,
+    "page": 4,
+    "y_position": 267.4052734375,
+    "label":"H2"
+  },
+  {
+    "text": "Scalability",
+    "font_size": 31.0,
+    "line_width": 148.16099548339844,
+    "line_height": 34.6328125,
+    "char_count": 11,
+    "page": 4,
+    "y_position": 308.399169921875,
+    "label":"H2"
+  },
+  {
+    "text": "High Availability",
+    "font_size": 24.0,
+    "line_width": 192.4844970703125,
+    "line_height": 26.8125,
+    "char_count": 17,
+    "page": 4,
+    "y_position": 349.1640625,
+    "label":"H2"
+  },
+  {
+    "text": "Disaster Recovery​",
+    "font_size": 24.0,
+    "line_width": 216.1329345703125,
+    "line_height": 26.8125,
+    "char_count": 18,
+    "page": 4,
+    "y_position": 444.3759765625,
+    "label":"H2"
+  },
+  {
+    "text": "Database Design",
+    "font_size": 28.0,
+    "line_width": 222.55291748046875,
+    "line_height": 31.28125,
+    "char_count": 15,
+    "page": 4,
+    "y_position": 507.9814453125,
+    "label":"H2"
+  },
+  {
+    "text": "Data Migration",
+    "font_size": 29.0,
+    "line_width": 209.40765380859375,
+    "line_height": 32.3984375,
+    "char_count": 14,
+    "page": 4,
+    "y_position": 582.06787109375,
+    "label":"H2"
+  },
+  {
+    "text": "Data Security",
+    "font_size": 34.0,
+    "line_width": 226.74154663085938,
+    "line_height": 37.984375,
+    "char_count": 13,
+    "page": 5,
+    "y_position": 264.8583984375,
+    "label":"H2"
+  },
+  {
+    "text": "Analytics & Reporting",
+    "font_size": 31.0,
+    "line_width": 304.9425964355469,
+    "line_height": 34.6328125,
+    "char_count": 21,
+    "page": 5,
+    "y_position": 354.6826171875,
+    "label":"H2"
+  },
+  {
+    "text": "Machine Learning Integration​",
+    "font_size": 31.0,
+    "line_width": 440.88348388671875,
+    "line_height": 34.6328125,
+    "char_count": 29,
+    "page": 5,
+    "y_position": 477.66455078125,
+    "label":"H2"
+  }
+]

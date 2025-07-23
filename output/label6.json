@@ -1,0 +1,221 @@
+[
+  {
+    "text": "CDN Integration",
+    "font_size": 45.0,
+    "line_width": 335.156494140625,
+    "line_height": 50.2734375,
+    "char_count": 15,
+    "page": 0,
+    "y_position": 73.47216796875,
+    "label":"H1"
+  },
+  {
+    "text": "Compliance &",
+    "font_size": 57.0,
+    "line_width": 370.67657470703125,
+    "line_height": 63.6796875,
+    "char_count": 12,
+    "page": 0,
+    "y_position": 192.879638671875,
+    "label":"H1"
+  },
+  {
+    "text": "Governance",
+    "font_size": 57.0,
+    "line_width": 326.36798095703125,
+    "line_height": 63.6796875,
+    "char_count": 10,
+    "page": 0,
+    "y_position": 268.2557373046875,
+    "label":"H1"
+  },
+  {
+    "text": "Risk Management",
+    "font_size": 53.0,
+    "line_width": 441.80242919921875,
+    "line_height": 59.2109375,
+    "char_count": 15,
+    "page": 1,
+    "y_position": 73.73388671875,
+    "label":"H1"
+  },
+  {
+    "text": "Audit Trails",
+    "font_size": 56.0,
+    "line_width": 320.4625244140625,
+    "line_height": 62.5625,
+    "char_count": 12,
+    "page": 1,
+    "y_position": 143.9185791015625,
+    "label":"H1"
+  },
+  {
+    "text": "Sustainability",
+    "font_size": 59.0,
+    "line_width": 399.9375915527344,
+    "line_height": 65.9140625,
+    "char_count": 14,
+    "page": 2,
+    "y_position": 73.93017578125,
+    "label":"H1"
+  },
+  {
+    "text": "Roadmap & Future",
+    "font_size": 51.0,
+    "line_width": 445.063232421875,
+    "line_height": 56.9765625,
+    "char_count": 16,
+    "page": 2,
+    "y_position": 151.6893310546875,
+    "label":"H1"
+  },
+  {
+    "text": "Plans",
+    "font_size": 51.0,
+    "line_width": 141.75271606445312,
+    "line_height": 56.9765625,
+    "char_count": 5,
+    "page": 2,
+    "y_position": 219.131103515625,
+    "label":"H1"
+  },
+  {
+    "text": "Feedback &",
+    "font_size": 59.0,
+    "line_width": 347.541748046875,
+    "line_height": 65.9140625,
+    "char_count": 10,
+    "page": 2,
+    "y_position": 286.8345947265625,
+    "label":"H1"
+  },
+  {
+    "text": "Roadmap​",
+    "font_size": 59.0,
+    "line_width": 285.1794128417969,
+    "line_height": 65.9140625,
+    "char_count": 8,
+    "page": 2,
+    "y_position": 364.85546875,
+    "label":"H1"
+  },
+  {
+    "text": "Community &",
+    "font_size": 53.0,
+    "line_width": 359.1832275390625,
+    "line_height": 59.2109375,
+    "char_count": 11,
+    "page": 3,
+    "y_position": 73.73388671875,
+    "label":"H1"
+  },
+  {
+    "text": "Forums",
+    "font_size": 53.0,
+    "line_width": 209.05593872070312,
+    "line_height": 59.2109375,
+    "char_count": 6,
+    "page": 3,
+    "y_position": 143.8203125,
+    "label":"H1"
+  },
+  {
+    "text": "Developer Portal",
+    "font_size": 47.0,
+    "line_width": 363.0751647949219,
+    "line_height": 52.5078125,
+    "char_count": 16,
+    "page": 3,
+    "y_position": 213.710693359375,
+    "label":"H1"
+  },
+  {
+    "text": "Contributor",
+    "font_size": 58.0,
+    "line_width": 335.0176086425781,
+    "line_height": 64.796875,
+    "char_count": 11,
+    "page": 3,
+    "y_position": 276.22265625,
+    "label":"H1"
+  },
+  {
+    "text": "Guidelines",
+    "font_size": 58.0,
+    "line_width": 312.6177673339844,
+    "line_height": 64.796875,
+    "char_count": 10,
+    "page": 3,
+    "y_position": 352.92138671875,
+    "label":"H1"
+  },
+  {
+    "text": "​",
+    "font_size": 58.0,
+    "line_width": 16.124000549316406,
+    "line_height": 64.796875,
+    "char_count": 1,
+    "page": 3,
+    "y_position": 429.61962890625
+  },
+  {
+    "text": "​",
+    "font_size": 47.0,
+    "line_width": 13.066001892089844,
+    "line_height": 52.5078125,
+    "char_count": 1,
+    "page": 3,
+    "y_position": 582.65673828125,
+    "label":"body"
+  },
+  {
+    "text": "Block chain Use",
+    "font_size": 53.0,
+    "line_width": 379.92022705078125,
+    "line_height": 59.2109375,
+    "char_count": 15,
+    "page": 4,
+    "y_position": 73.73388671875,
+    "label":"H1"
+  },
+  {
+    "text": "Cases ​",
+    "font_size": 56.0,
+    "line_width": 166.60691833496094,
+    "line_height": 65.9140625,
+    "char_count": 7,
+    "page": 4,
+    "y_position": 138.388671875,
+    "label":"H1"
+  },
+  {
+    "text": "Internet of Things (IoT)",
+    "font_size": 42.0,
+    "line_width": 468.938720703125,
+    "line_height": 46.921875,
+    "char_count": 24,
+    "page": 4,
+    "y_position": 291.56787109375,
+    "label":"H1"
+  },
+  {
+    "text": "​",
+    "font_size": 56.0,
+    "line_width": 15.568000793457031,
+    "line_height": 62.5625,
+    "char_count": 1,
+    "page": 5,
+    "y_position": 385.91552734375,
+    "label":"body"
+  },
+  {
+    "text": "​",
+    "font_size": 53.0,
+    "line_width": 14.734001159667969,
+    "line_height": 59.2109375,
+    "char_count": 1,
+    "page": 5,
+    "y_position": 533.9248046875,
+    "label":"body"
+  }
+]
