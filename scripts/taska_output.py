@@ -34,7 +34,7 @@ def generate_flat_outline(lines, labels, pdf_path):
 
 
 if __name__ == "__main__":
-    input_dir = "input"
+    input_dir = r"C:\Users\lenovo\Desktop\loma_final\LomaLoma__\input"
     output_dir = "output"
     os.makedirs(output_dir, exist_ok=True)
 
