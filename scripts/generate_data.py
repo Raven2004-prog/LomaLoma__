@@ -10,9 +10,10 @@ from reportlab.platypus import (
     PageBreak, ListFlowable, ListItem
 )
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
-from reportlab.lib.pagesizes import A4
-from reportlab.lib.units import inch
-from reportlab.lib.enums import TA_CENTER, TA_LEFT
+from reportlab.lib.pagesizes import A4, letter, legal
+from reportlab.lib.units import inch, cm
+from reportlab.lib.enums import TA_CENTER, TA_LEFT, TA_RIGHT, TA_JUSTIFY
+from reportlab.lib import colors
 
 # --- Basic Setup ---
 fake = Faker()
@@ -22,9 +23,10 @@ Faker.seed(42)
 OUT_DIR = "data/processed/"
 os.makedirs(OUT_DIR, exist_ok=True)
 
-DOC_TYPES = ["Report", "Analysis", "Study", "Review", "Proposal", "Manual", "Briefing"]
-FONTS = ["Helvetica", "Courier", "Times-Roman"]
-MIN_PAGES, MAX_PAGES = 8, 20
+DOC_TYPES = ["Report", "Analysis", "Study", "Review", "Proposal", "Manual", "Briefing", 
+             "Memo", "Guideline", "Assessment", "Plan", "Summary"]
+FONTS = ["Helvetica", "Courier", "Times-Roman", "Helvetica-Bold", "Courier-Bold", "Times-Bold"]
+MIN_PAGES, MAX_PAGES = 5, 25
 BODY_FONT_SIZE = 11
 
 # --- Style & Font Helpers ---
@@ -45,17 +47,27 @@ def make_font_name(base, bold=False, italic=False):
     if italic: return "Helvetica-Oblique"
     return "Helvetica"
 
-def make_style(name, parent, family, size, alignment, bold=False, italic=False, space_after=12, left_indent=0):
-    return ParagraphStyle(
+# FIXED: Added space_before parameter
+def make_style(name, parent, family, size, alignment, bold=False, italic=False, 
+               space_after=12, space_before=0, left_indent=0, right_indent=0, text_color=None,
+               bulletIndent=0, first_line_indent=0):
+    style = ParagraphStyle(
         name=name,
         parent=parent,
         fontName=make_font_name(family, bold, italic),
         fontSize=size,
         leading=size * 1.2,
         spaceAfter=space_after,
+        spaceBefore=space_before,  # Added spaceBefore parameter
         leftIndent=left_indent,
-        alignment=alignment
+        rightIndent=right_indent,
+        alignment=alignment,
+        firstLineIndent=first_line_indent,
+        bulletIndent=bulletIndent
     )
+    if text_color:
+        style.textColor = text_color
+    return style
 
 # --- Post-Processing to Add Contextual Features ---
 def add_contextual_features(records):
@@ -124,20 +136,27 @@ def extract_and_merge_layout_features(pdf_path):
         # Determine label based on style properties
         font_size = line_data["font_size"]
         is_bold = "bold" in line_data["font_name"].lower()
-        is_italic = "italic" in line_data["font_name"].lower()
+        is_italic = "italic" in line_data["font_name"].lower() or "oblique" in line_data["font_name"].lower()
         is_centered = line_data["is_centered"]
         
-        # Label determination logic
-        if line_data["page"] == 0 and font_size > 20 and is_centered:
-            label = "TITLE"
-        elif font_size > 16 and is_bold and not is_centered:
+        # Improved label determination logic
+        label = "BODY"  # Default label
+        
+        # Title detection (first page, centered, large font)
+        if line_data["page"] == 0 and is_centered and font_size > 20:
             label = "H1"
-        elif 14 <= font_size <= 16 and is_bold and not is_centered:
-            label = "H2"
-        elif 12 <= font_size < 14 and is_bold and is_italic and not is_centered:
-            label = "H3"
-        else:
-            label = "BODY"
+        # Header detection
+        elif is_bold and not is_centered:
+            if font_size >= 18:
+                label = "H1"
+            elif 16 <= font_size < 18:
+                label = "H2"
+            elif 12 <= font_size < 16:
+                label = "H3"
+        # Numbered/bulleted list detection
+        elif re.match(r'^(\d+\.|•|[-*+])\s', line_data["text"].strip()):
+            label = "BODY"  # Keep as body but mark as list item
+            is_list_item = True
         
         # Add layout features
         bbox = line_data["bbox"]
@@ -178,52 +197,198 @@ def generate_document(doc_id):
     print(f"Generating document {doc_id}...")
     base_styles = getSampleStyleSheet()
     family = random.choice(FONTS)
-
-    title_st = make_style("Title", base_styles["h1"], family, 24, TA_CENTER, bold=True, space_after=20)
-    h1_st = make_style("H1", base_styles["h1"], family, 18, TA_LEFT, bold=True, space_after=14)
-    h2_st = make_style("H2", base_styles["h2"], family, 14, TA_LEFT, bold=True, left_indent=inch*0.25)
-    h3_st = make_style("H3", base_styles["h3"], family, 12, TA_LEFT, bold=True, italic=True, left_indent=inch*0.5)
-    body_st = make_style("Body", base_styles["BodyText"], family, BODY_FONT_SIZE, TA_LEFT)
-    list_st = make_style("List", base_styles["BodyText"], family, BODY_FONT_SIZE, TA_LEFT, left_indent=inch*0.25)
+    
+    # Page size variation
+    page_size = random.choice([A4, letter, legal])
+    
+    # Create diverse styles
+    title_st = make_style("Title", base_styles["h1"], family, random.randint(22, 28), 
+                         TA_CENTER, bold=True, space_after=20)
+    
+    h1_st = make_style("H1", base_styles["h1"], family, random.randint(16, 20), 
+                      TA_LEFT, bold=True, space_after=12)
+    
+    h2_st = make_style("H2", base_styles["h2"], family, random.randint(14, 16), 
+                      TA_LEFT, bold=True, space_after=10, 
+                      left_indent=random.choice([0, 0.2*inch, 0.4*inch]))
+    
+    h3_st = make_style("H3", base_styles["h3"], family, random.randint(12, 14), 
+                      TA_LEFT, bold=True, italic=random.choice([True, False]), 
+                      space_after=8, left_indent=random.choice([0.4*inch, 0.6*inch]))
+    
+    body_st = make_style("Body", base_styles["BodyText"], family, BODY_FONT_SIZE, 
+                        random.choice([TA_LEFT, TA_JUSTIFY]), space_after=8)
+    
+    list_st = make_style("List", base_styles["BodyText"], family, BODY_FONT_SIZE, 
+                        TA_LEFT, left_indent=0.5*inch, bulletIndent=0.25*inch)
+    
+    # Special styles for diversity
+    quote_st = make_style("Quote", base_styles["BodyText"], family, BODY_FONT_SIZE, 
+                         TA_JUSTIFY, italic=True, left_indent=0.5*inch, 
+                         right_indent=0.5*inch, space_after=10)
+    
+    note_st = make_style("Note", base_styles["Italic"], family, BODY_FONT_SIZE-1, 
+                        TA_LEFT, italic=True, text_color=colors.grey)
+    
+    important_st = make_style("Important", base_styles["BodyText"], family, BODY_FONT_SIZE, 
+                             TA_LEFT, bold=True, text_color=colors.darkred)
     
     story = []
 
-    # Title
+    # Title Page
     title_txt = f"{random.choice(DOC_TYPES)}: {fake.bs().title()}"
     story.append(Paragraph(title_txt, title_st))
+    
+    # Random subtitle
+    if random.random() > 0.3:
+        subtitle_st = make_style("Subtitle", base_styles["h2"], family, 16, 
+                               TA_CENTER, italic=True, space_after=30)
+        story.append(Paragraph(fake.catch_phrase(), subtitle_st))
+    
+    # Author/date line
+    if random.random() > 0.2:
+        author_st = make_style("Author", base_styles["BodyText"], family, 12, 
+                             TA_CENTER, space_after=40)
+        story.append(Paragraph(f"Prepared by: {fake.name()}", author_st))
+        story.append(Paragraph(f"Date: {fake.date_this_year()}", author_st))
+    
     story.append(PageBreak())
+
+    # Table of Contents (randomly included)
+    if random.random() > 0.6:
+        toc_st = make_style("TOC", base_styles["h2"], family, 14, TA_CENTER, bold=True)
+        story.append(Paragraph("Table of Contents", toc_st))
+        story.append(Spacer(1, 0.2*inch))
+        
+        for i in range(random.randint(4, 8)):
+            story.append(Paragraph(f"Section {i+1}: {fake.bs().title()}", body_st))
+        
+        story.append(PageBreak())
 
     # Main Content
     num_pages = random.randint(MIN_PAGES, MAX_PAGES)
-    for i in range(num_pages):
-        h1_txt = f"Section {i + 1}: {fake.catch_phrase()}"
-        story.append(Paragraph(h1_txt, h1_st))
-
-        for _ in range(random.randint(2, 3)):
-            p_txt = fake.paragraph(nb_sentences=random.randint(4, 8))
-            story.append(Paragraph(p_txt, body_st))
+    for page_num in range(num_pages):
+        # Page header (optional)
+        if random.random() > 0.7:
+            header_st = make_style("Header", base_styles["BodyText"], family, 9, 
+                                 TA_RIGHT, space_after=0)
+            story.append(Paragraph(f"{title_txt} | Page {page_num+1}", header_st))
+            story.append(Spacer(1, 0.1*inch))
         
+        # Section header
+        if page_num > 0 or random.random() > 0.2:  # 80% chance of section header
+            h1_txt = f"Section {page_num + 1}: {fake.catch_phrase().title()}"
+            story.append(Paragraph(h1_txt, h1_st))
+        
+        # Paragraphs with varied structure
+        num_paragraphs = random.randint(1, 5)
+        for para_num in range(num_paragraphs):
+            # Random paragraph type
+            p_type = random.choices(
+                ["normal", "list", "quote", "note", "important"],
+                weights=[6, 2, 1, 1, 1],
+                k=1
+            )[0]
+            
+            if p_type == "normal":
+                # Standard paragraph
+                p_txt = fake.paragraph(nb_sentences=random.randint(2, 8))
+                story.append(Paragraph(p_txt, body_st))
+                
+            elif p_type == "list":
+                # Bullet point list
+                list_type = random.choice(["bullet", "number"])
+                num_items = random.randint(3, 7)
+                items = []
+                
+                for _ in range(num_items):
+                    item = fake.sentence(nb_words=random.randint(4, 12))
+                    items.append(item)
+                
+                if list_type == "bullet":
+                    story.append(ListFlowable(
+                        [Paragraph(item, list_st) for item in items],
+                        bulletType='bullet',
+                        start='bulletchar'
+                    ))
+                else:
+                    story.append(ListFlowable(
+                        [Paragraph(item, list_st) for item in items],
+                        bulletType='1',
+                        start=1
+                    ))
+                
+            elif p_type == "quote":
+                # Block quote
+                quote_txt = fake.paragraph(nb_sentences=random.randint(1, 3))
+                story.append(Paragraph(quote_txt, quote_st))
+                
+            elif p_type == "note":
+                # Side note
+                note_txt = f"NOTE: {fake.sentence(nb_words=random.randint(8, 15))}"
+                story.append(Paragraph(note_txt, note_st))
+                
+            elif p_type == "important":
+                # Important notice
+                imp_txt = f"IMPORTANT: {fake.sentence(nb_words=random.randint(6, 12))}"
+                story.append(Paragraph(imp_txt, important_st))
+        
+        # Subsection (randomly included)
         if random.random() > 0.4:
-            h2_txt = fake.catch_phrase()
+            h2_txt = fake.bs().title()
             story.append(Paragraph(h2_txt, h2_st))
-
-            if random.random() > 0.5:
-                for j in range(random.randint(1, 2)):
-                    h3_txt = f"Subsection {i+1}.{j+1} - {fake.bs()}"
+            
+            # Subsection content
+            for _ in range(random.randint(1, 3)):
+                if random.random() > 0.6:  # 40% chance of H3
+                    h3_txt = f"{fake.bs().title()}:"
                     story.append(Paragraph(h3_txt, h3_st))
+                
+                # Mixed content under subsection
+                content_type = random.choices(
+                    ["paragraph", "list", "mixed"],
+                    weights=[5, 3, 2],
+                    k=1
+                )[0]
+                
+                if content_type == "paragraph":
+                    p_txt = fake.paragraph(nb_sentences=random.randint(2, 5))
+                    story.append(Paragraph(p_txt, body_st))
+                elif content_type == "list":
+                    num_items = random.randint(2, 5)
+                    items = [fake.sentence(nb_words=6) for _ in range(num_items)]
+                    story.append(ListFlowable(
+                        [Paragraph(item, list_st) for item in items],
+                        bulletType='bullet'
+                    ))
+                else:  # mixed
                     p_txt = fake.paragraph(nb_sentences=2)
                     story.append(Paragraph(p_txt, body_st))
-            else:
-                list_paragraphs = [Paragraph(fake.sentence(nb_words=8), list_st) for _ in range(random.randint(3, 5))]
-                list_items = [ListItem(p) for p in list_paragraphs]
-                story.append(ListFlowable(list_items, bulletType='bullet', start='bulletchar'))
-
-        if i < num_pages - 1:
+                    num_items = random.randint(2, 4)
+                    items = [fake.sentence(nb_words=8) for _ in range(num_items)]
+                    story.append(ListFlowable(
+                        [Paragraph(item, list_st) for item in items],
+                        bulletType='bullet'
+                    ))
+        
+        # Page footer (optional)
+        if random.random() > 0.6:
+            story.append(Spacer(1, 0.3*inch))
+            # FIXED: Changed space_before to space_before in make_style call
+            footer_st = make_style("Footer", base_styles["BodyText"], family, 8, 
+                                 TA_CENTER, space_before=0.2*inch)
+            story.append(Paragraph(f"Confidential - {fake.company()}", footer_st))
+        
+        if page_num < num_pages - 1:
             story.append(PageBreak())
 
     # --- PDF and JSON Creation ---
     pdf_path = os.path.join(OUT_DIR, f"doc_{doc_id}.pdf")
-    doc = SimpleDocTemplate(pdf_path, pagesize=A4)
+    doc = SimpleDocTemplate(pdf_path, pagesize=page_size, 
+                           leftMargin=random.choice([0.75*inch, 1*inch, 1.25*inch]),
+                           rightMargin=random.choice([0.75*inch, 1*inch, 1.25*inch]),
+                           topMargin=random.choice([0.5*inch, 0.75*inch, 1*inch]),
+                           bottomMargin=random.choice([0.5*inch, 0.75*inch, 1*inch]))
     doc.build(story)
     print(f"  -> Saved PDF: {pdf_path}")
 
